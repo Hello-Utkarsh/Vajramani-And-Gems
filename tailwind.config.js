@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      dancin: ['Dancing Script', 'cursive'],
+      rubik: ['Dancing Script', 'cursive']
+    },
     extend: {},
   },
   plugins: [],
