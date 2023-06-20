@@ -13,7 +13,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <img className='w-[20%] ml-[27%]' src="src\assets\gemstone2.png" alt="" />
+        <img className='w-[20%] ml-[27%]' src={"src/assets/gemstone2.png"} alt="" />
       </div>
 
     </div>
