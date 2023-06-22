@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div className='w-[100vw] bg-black'>
       <Navbar/>
       <Home/>
       <Contact/>
