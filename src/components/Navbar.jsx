@@ -4,7 +4,7 @@ const Navbar = () => {
 
     // DROPDOWN LOGIC
     const dropdown = async () => {
-        let target_dropdown = Array.from(event.target.children).forEach(element => {
+        Array.from(event.target.children).forEach(element => {
             if (element.style.display == "" || element.style.display == "none") {
                 element.style.display = "grid"
             }
@@ -42,69 +42,64 @@ const Navbar = () => {
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center'>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Calcite
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-16 mt-3 absolute w-[28vh] dropdown-content'>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
+                        <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-10 mt-3 absolute w-fit dropdown-content'>
+                            <li className='text-center p-1'>Iceland Spar</li>
+                            <li className='text-center p-1'>Marble</li>
+                            <li className='text-center p-1'>Onyx Marble</li>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown flex-col' onClick={dropdown}>
                         Chalcedony
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-16 mt-3 absolute w-[28vh] dropdown-content'>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
+                            <li className='text-center p-1'>Black</li>
+                            <li className='text-center p-1'>Carnelian</li>
+                            <li className='text-center p-1'>Chrysocolla</li>
+                            <li className='text-center p-1'>Chrysoprase</li>
+                            <li className='text-center p-1'>Sard</li>
+                            <li className='text-center p-1'>Agate</li>
+                            <li className='text-center p-1'>Bloodstone</li>
+                            <li className='text-center p-1'>Dentritic Agate</li>
+                            <li className='text-center p-1'>Milky</li>
+                            <li className='text-center p-1'>Moss Agate</li>
+                            <li className='text-center p-1'>Onyx</li>
+                            <li className='text-center p-1'>Sardonyx</li>
+                            <li className='text-center p-1'>Fire Agate</li>
                         </div>
+
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Corundum
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-16 mt-3 absolute w-[28vh] dropdown-content'>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content'>
+                            <li className='text-center p-1'>Yellow Sapphire</li>
+                            <li className='text-center p-1'>Ruby</li>
+                            <li className='text-center p-1'>Sapphire</li>
+                            <li className='text-center p-1'>Star Ruby</li>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Quartz
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-16 mt-3 absolute w-[28vh] dropdown-content'>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
+                            <li className='text-center p-1'>Prasiolite</li>
+                            <li className='text-center p-1'>Amethyst</li>
+                            <li className='text-center p-1'>Ametrine</li>
+                            <li className='text-center p-1'>Citrine</li>
+                            <li className='text-center p-1'>Rock Crystal</li>
+                            <li className='text-center p-1'>Rose</li>
+                            <li className='text-center p-1'>Smoky</li>
+                            <li className='text-center p-1'>Hawk's Eye</li>
+                            <li className='text-center p-1'>Aventurine</li>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Tourmaline
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-16 mt-3 absolute w-[28vh] dropdown-content'>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
+                        <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-2 mt-3 absolute w-fit dropdown-content'>
+                            <li className='text-center p-1'>Rubelite</li>
+                            <li className='text-center p-1'>Bi-Coloured</li>
+                            <li className='text-center p-1'>Watermelon</li>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         More
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-16 mt-3 absolute w-[28vh] dropdown-content'>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                            <li className='text-center'>hello</li>
-                        </div>
                     </ul>
                 </nav>
             </div>
