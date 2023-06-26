@@ -2,7 +2,7 @@ const gemstone = {
     "Iceland Spar": {
         "name": "Iceland Spar",
 
-        "description": "Iceland spar is a crystal of calcite (calcium carbonate). Calcite is a fairly common mineral and comes in a spectacular range of colors caused by the impurities it contains.Iceland spar is rather unique among the calcites. It contains no impurities, so it’s nearly colorless and transparent to both visible and ultraviolet light",
+        "description": "Iceland spar is a crystal of calcite (calcium carbonate). Calcite is a fairly common mineral and comes in a spectacular range of colors caused by the impurities it contains. Iceland spar is rather unique among the calcites. It contains no impurities, so it’s nearly colorless and transparent to both visible and ultraviolet light",
 
         "healing_factor": "Iceland Spar is thought to aid in detox. It is believed to be beneficial for eyes, organs of elimination, dissolving calcification, skeleton, joints, intestinal conditions, skin, blood clotting, tissue healing, immune system, ulcers, and warts. It is also thought to reduce the tension that causes migraines."
     },

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='bg-black text-[#C07F00] w-[100%] p-4'>
+    <div className='bg-black text-[#C07F00] w-[100%] p-4 pb-6'>
       <div className='flex justify-between p-2 flex-wrap'>
 
         {/* contacts */}

@@ -14,15 +14,21 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' index element = {
+          <Route path='/' index element={
             <div className='bg-black'>
-            <Navbar />
-            <Home />
-            <Contact />
-          </div>
-          }/>
-          <Route path='/Iceland Spar' element = {<GemStone data={GemStone_Data}/>}/>
-          
+              <Navbar />
+              <Home />
+              <Contact />
+            </div>
+          } />
+          <Route path='/Iceland Spar' element={
+            <div className='bg-black'>
+              <Navbar />
+              <GemStone data={GemStone_Data['Iceland Spar']} />
+              <Contact />
+            </div>
+          } />
+
         </Routes>
       </BrowserRouter>
     </>

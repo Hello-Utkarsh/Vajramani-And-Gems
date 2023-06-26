@@ -35,7 +35,9 @@ const Navbar = () => {
                 <span className="material-symbols-outlined text-[#4C3D3D] ml-7 cursor-pointer" style={{ fontSize: "26px" }}>
                     menu
                 </span>
-                <h2 className='cursor-pointer font-dancin text-5xl m-auto text-[#4C3D3D] font-medium '>Vajramani And Gems</h2>
+                <Link to='/' className="m-auto">
+                    <h2 className='cursor-pointer font-dancin text-5xl m-auto text-[#4C3D3D] font-medium '>Vajramani And Gems</h2>
+                </Link>
             </div>
             <div className='flex bg-[#C07F00] text-[#4C3D3D] item-center justify-center text-lg px-6 pb-3'>
 
