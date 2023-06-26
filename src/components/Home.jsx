@@ -6,7 +6,7 @@ const Home = () => {
     // 4C3D3D
     <div className='bg-black text-[#C07F00]'>
 
-      <div className='bg-black text-[#C07F00] w-[100%] flex py-8 items-center h-[48vh]'>
+      <div className='bg-black text-[#C07F00] flex py-8 items-center h-[48vh]'>
 
         <div className='ml-[8%] text-5xl w-[30%]'>
           <h1 className='font-rubik'>
