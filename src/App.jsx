@@ -9,6 +9,7 @@ import GemStone from './components/GemStone'
 
 function App() {
   const GemStone_Data = gemstone
+  const h = "Iceland Spar"
 
   return (
     <>
@@ -21,10 +22,10 @@ function App() {
               <Contact />
             </div>
           } />
-          <Route path='/Iceland Spar' element={
+          <Route path={`/${h}`} element={
             <div className='bg-black'>
               <Navbar />
-              <GemStone data={GemStone_Data['Iceland Spar']} />
+              <GemStone data={GemStone_Data.Calcite} />
               <Contact />
             </div>
           } />

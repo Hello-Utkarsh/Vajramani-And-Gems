@@ -9,7 +9,11 @@ export default {
       dancin: ['Dancing Script', 'cursive'],
       rubik: ['Dancing Script', 'cursive']
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'iceland-spar': "url('/src/assets/Iceland_Spar.png')"
+      }
+    },
   },
   plugins: [],
 }
