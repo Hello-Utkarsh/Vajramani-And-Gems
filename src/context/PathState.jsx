@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { PathContext } from './PathContext';
 
 const PathState = (props) => {
-    const [path, setPath] = useState("hello");
+    const [path, setPath] = useState("");
     return (
         <div>
             <PathContext.Provider value={{ path, setPath }}>

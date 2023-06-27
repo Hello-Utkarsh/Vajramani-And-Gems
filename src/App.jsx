@@ -9,36 +9,33 @@ import GemStone from './components/GemStone'
 // import Gem_Path from './context/PathState'
 import PathState from './context/PathState'
 import { PathContext } from './context/PathContext'
+import NoPage from './components/NoPage'
 
 function App() {
-  const context = useContext(PathContext)
-  const { path, setPath } = context;
-  console.log(path)
+
   const GemStone_Data = gemstone
-  const h = "Iceland Spar"
 
   return (
-    <>
-        <BrowserRouter>
-          <Routes>
-            <Route path='/' index element={
-              <div className='bg-black'>
-                <Navbar />
-                <Home />
-                <Contact />
-              </div>
-            } />
-            <Route path={`/${h}`} element={
-              <div className='bg-black'>
-                <Navbar />
-                <GemStone data={GemStone_Data} />
-                <Contact />
-              </div>
-            } />
+    <div className='bg-black'>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' index element={<Home />} />
+          <Route path={'IceLand Spar'} element={<GemStone data={GemStone_Data['Iceland Spar']} />} />
+          <Route path={'Marble'} element={<GemStone data={GemStone_Data['Marble']} />} />
+          <Route path={'Onyx Marble'} element={<GemStone data={GemStone_Data['Onyx Marble']} />} />
+          <Route path={'Black'} element={<GemStone data={GemStone_Data['Black Chalcedony']} />} />
+          <Route path={'Carnelian'} element={<GemStone data={GemStone_Data['Carnelian Chalcedony']} />} />
+          <Route path={'Chrysocolla'} element={<GemStone data={GemStone_Data['Chrysocolla Chalcedony']} />} />
+          <Route path={'Chrysocolla'} element={<GemStone data={GemStone_Data['Chrysoprase Chalcedony']} />} />
+          <Route path={'Sard'} element={<GemStone data={GemStone_Data['Sard Chalcedony']} />} />
+          <Route path="*" element={<NoPage />} />
 
-          </Routes>
-        </BrowserRouter>
-    </>
+        </Routes>
+        <Contact />
+
+      </BrowserRouter>
+    </div>
   )
 }
 

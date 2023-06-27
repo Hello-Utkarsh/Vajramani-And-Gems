@@ -1,31 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { PathContext } from '../context/PathContext'
 
 const Navbar = () => {
 
-    useEffect(()=>{
-        Array.from(document.getElementsByTagName('li')).forEach((element)=>{
-            element.addEventListener('click', ()=>{
-                setPath(event.target.innerHTML)
-                console.log(path)
-            })
-        })
-        console.log(path)
-    }, [])
-
-    const context = useContext(PathContext)
-  const { path, setPath } = context;
-
-    
-
-    const setpath = ()=>{
-        console.log(event.target.innerHTML)
-    }
-    
     // DROPDOWN LOGIC
     const dropdown = async () => {
-        
+
         Array.from(event.target.children).forEach(element => {
             if (element.style.display == "" || element.style.display == "none") {
                 element.style.display = "grid"
@@ -69,26 +50,56 @@ const Navbar = () => {
                             <Link to='/Iceland Spar'>
                                 <li className='text-center p-1'>Iceland Spar</li>
                             </Link>
-                            <li className='text-center p-1' onClick={setpath}>Marble</li>
-                            <li className='text-center p-1'>Onyx Marble</li>
+                            <Link to='/Marble'>
+                                <li className='text-center p-1'>Marble</li>
+                            </Link>
+                            <Link to="/Onyx Marble">
+                                <li className='text-center p-1'>Onyx Marble</li>
+                            </Link>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown flex-col' onClick={dropdown}>
                         Chalcedony
                         <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
-                            <li className='text-center p-1'>Black</li>
-                            <li className='text-center p-1'>Carnelian</li>
-                            <li className='text-center p-1'>Chrysocolla</li>
-                            <li className='text-center p-1'>Chrysoprase</li>
-                            <li className='text-center p-1'>Sard</li>
-                            <li className='text-center p-1'>Agate</li>
-                            <li className='text-center p-1'>Bloodstone</li>
-                            <li className='text-center p-1'>Dentritic Agate</li>
-                            <li className='text-center p-1'>Milky</li>
-                            <li className='text-center p-1'>Moss Agate</li>
-                            <li className='text-center p-1'>Onyx</li>
-                            <li className='text-center p-1'>Sardonyx</li>
-                            <li className='text-center p-1'>Fire Agate</li>
+                            <Link to="/Black">
+                                <li className='text-center p-1'>Black</li>
+                            </Link>
+                            <Link to="/Carnelian">
+                                <li className='text-center p-1'>Carnelian</li>
+                            </Link>
+                            <Link to="/Chrysocolla">
+                                <li className='text-center p-1'>Chrysocolla</li>
+                            </Link>
+                            <Link to="/Chrysoprase">
+                                <li className='text-center p-1'>Chrysoprase</li>
+                            </Link>
+                            <Link to="/Sard">
+                                <li className='text-center p-1'>Sard</li>
+                            </Link>
+                            <Link to="/Agate">
+                                <li className='text-center p-1'>Agate</li>
+                            </Link>
+                            <Link to="/Bloodstone">
+                                <li className='text-center p-1'>Bloodstone</li>
+                            </Link>
+                            <Link to="/Dentritic Agate">
+                                <li className='text-center p-1'>Dentritic Agate</li>
+                            </Link>
+                            <Link to="/Milky">
+                                <li className='text-center p-1'>Milky</li>
+                            </Link>
+                            <Link to="/Moss Agate">
+                                <li className='text-center p-1'>Moss Agate</li>
+                            </Link>
+                            <Link to="/Onyx Marble">
+                                <li className='text-center p-1'>Onyx</li>
+                            </Link>
+                            <Link to="/Onyx Marble">
+                                <li className='text-center p-1'>Sardonyx</li>
+                            </Link>
+                            <Link to="/Onyx Marble">
+                                <li className='text-center p-1'>Fire Agate</li>
+                            </Link>
                         </div>
 
                     </ul>
@@ -126,9 +137,9 @@ const Navbar = () => {
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         More
                     </ul>
-                </nav>
-            </div>
-        </div>
+                </nav >
+            </div >
+        </div >
     )
 }
 
