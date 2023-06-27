@@ -1,10 +1,31 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { PathContext } from '../context/PathContext'
 
 const Navbar = () => {
 
+    useEffect(()=>{
+        Array.from(document.getElementsByTagName('li')).forEach((element)=>{
+            element.addEventListener('click', ()=>{
+                setPath(event.target.innerHTML)
+                console.log(path)
+            })
+        })
+        console.log(path)
+    }, [])
+
+    const context = useContext(PathContext)
+  const { path, setPath } = context;
+
+    
+
+    const setpath = ()=>{
+        console.log(event.target.innerHTML)
+    }
+    
     // DROPDOWN LOGIC
     const dropdown = async () => {
+        
         Array.from(event.target.children).forEach(element => {
             if (element.style.display == "" || element.style.display == "none") {
                 element.style.display = "grid"
@@ -48,7 +69,7 @@ const Navbar = () => {
                             <Link to='/Iceland Spar'>
                                 <li className='text-center p-1'>Iceland Spar</li>
                             </Link>
-                            <li className='text-center p-1'>Marble</li>
+                            <li className='text-center p-1' onClick={setpath}>Marble</li>
                             <li className='text-center p-1'>Onyx Marble</li>
                         </div>
                     </ul>

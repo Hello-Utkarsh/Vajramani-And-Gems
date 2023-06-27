@@ -18,7 +18,11 @@ const GemStone = (props) => {
       </div>
       <div className='my-5 flex flex-col w-[98vw] items-center justify-around'>
         <h1 className='text-4xl font-semibold m-auto'>Discover more of Calcite</h1>
-        <div className='flex justify-around w-[100%] my-10'>
+        <div className='grid grid-cols-4 gap-10 justify-around w-[100%] my-10'>
+          <Gemcard data = {extra_data}/>
+          <Gemcard data = {extra_data}/>
+          <Gemcard data = {extra_data}/>
+          <Gemcard data = {extra_data}/>
           <Gemcard data = {extra_data}/>
           <Gemcard data = {extra_data}/>
           <Gemcard data = {extra_data}/>
