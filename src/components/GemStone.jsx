@@ -17,7 +17,7 @@ const GemStone = (props) => {
           <h3 className='text-xl my-3 font-semibold'>Healing Factors:</h3>
           <p className='my-3'>{data.healing_factor}</p>
         </div>
-        <img src={"src/assets/Iceland_Spar.png"} className='w-[25%]' alt="" />
+        <img src={data.img} className='w-[25%]' alt="" />
       </div>
       <div className='my-5 flex flex-col w-[98vw] items-center justify-around'>
         <h1 className='text-4xl font-semibold m-auto'>Discover more of Calcite</h1>

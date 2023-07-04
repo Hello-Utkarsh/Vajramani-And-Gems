@@ -82,19 +82,19 @@ const Navbar = () => {
                             <Link to="/Bloodstone">
                                 <li className='text-center p-1'>Bloodstone</li>
                             </Link>
-                            <Link to="/Dentritic Agate">
-                                <li className='text-center p-1'>Dentritic Agate</li>
+                            <Link to="/Dendritic Agate">
+                                <li className='text-center p-1'>Dendritic Agate</li>
                             </Link>
-                            <Link to="/Milky">
-                                <li className='text-center p-1'>Milky</li>
+                            <Link to="/Blue">
+                                <li className='text-center p-1'>Blue</li>
                             </Link>
                             <Link to="/Moss Agate">
                                 <li className='text-center p-1'>Moss Agate</li>
                             </Link>
-                            <Link to="/Onyx Marble">
+                            <Link to="/Onyx">
                                 <li className='text-center p-1'>Onyx</li>
                             </Link>
-                            <Link to="/Onyx Marble">
+                            <Link to="/Sardonyx">
                                 <li className='text-center p-1'>Sardonyx</li>
                             </Link>
                             <Link to="/Onyx Marble">
