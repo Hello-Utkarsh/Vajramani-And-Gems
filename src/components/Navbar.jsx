@@ -97,19 +97,27 @@ const Navbar = () => {
                             <Link to="/Sardonyx">
                                 <li className='text-center p-1'>Sardonyx</li>
                             </Link>
-                            <Link to="/Onyx Marble">
+                            <Link to="/Fire Agate">
                                 <li className='text-center p-1'>Fire Agate</li>
                             </Link>
                         </div>
-
+                        {/* Yellow Sapphires */}
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Corundum
                         <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content'>
-                            <li className='text-center p-1'>Yellow Sapphire</li>
-                            <li className='text-center p-1'>Ruby</li>
-                            <li className='text-center p-1'>Sapphire</li>
-                            <li className='text-center p-1'>Star Ruby</li>
+                            <Link to="/Yellow Sapphires">
+                                <li className='text-center p-1'>Yellow Sapphire</li>
+                            </Link>
+                            <Link to="/Ruby">
+                                <li className='text-center p-1'>Ruby</li>
+                            </Link>
+                            <Link to="/Sapphire">
+                                <li className='text-center p-1'>Sapphire</li>
+                            </Link>
+                            <Link to="/Fire Agate">
+                                <li className='text-center p-1'>Star Ruby</li>
+                            </Link>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>

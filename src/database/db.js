@@ -145,42 +145,42 @@ const gemstone = {
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Onyx": {
-        "name": "Onyx",
+    "Fire agate": {
+        "name": "Fire agate",
 
-        "description": "Onyx is a banded variety of chalcedony. It is formed of bands of chalcedony in alternating colors, and is cryptocrystalline, consisting of fine intergrowths of the silica minerals quartz and moganite. Its bands are parallel to one another, as opposed to the more chaotic banding that often occurs in agates. The colors of its bands range from black to almost every color. When chalcedony has curved color banding, it’s called agate. When agate’s bands are flat and have white, black, or dark brown shades, that’s onyx.",
+        "description": "Fire agate is a unique and rare gemstone known for its distinctive appearance and properties. The name Fire Agate comes from its appearance, which looks like an almost glowing internal fire. If you look closely at the Fire Agate stone, you’ll see that the bands are filled with colorful inclusions, giving it its fiery appearance. This phenomenon occurs due to a layer of clear Agate present over a hydrothermally deposited iron oxide layer. Fire agate typically has a brownish-red base color with flashes of iridescent orange, red, yellow, green, and deep brown crystal. It is a brown agate that reflects bright flashes of iridescent yellow, red, orange and green from hemispherical surfaces within the stone.",
 
-        "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-
-    "Onyx": {
-        "name": "Onyx",
-
-        "description": "Onyx is a banded variety of chalcedony. It is formed of bands of chalcedony in alternating colors, and is cryptocrystalline, consisting of fine intergrowths of the silica minerals quartz and moganite. Its bands are parallel to one another, as opposed to the more chaotic banding that often occurs in agates. The colors of its bands range from black to almost every color. When chalcedony has curved color banding, it’s called agate. When agate’s bands are flat and have white, black, or dark brown shades, that’s onyx.",
-
-        "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
+        "healing_factor": "Fire agate is believed to have healing properties that can help with digestive health by regulating the digestive system and reducing inflammation. It is also beneficial in the treatment of poor circulation, lethargy or lack of energy, or depression. It enhances mental function by improving concentration, perception, and analytical abilities. Fire Agate is useful in treating the endocrine system, the colon, and increasing metabolism. It boosts energy levels, encourages positive thinking, and improves communication skills. Additionally, fire agate is thought to help protect the wearer from harm and negative energy.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Onyx": {
-        "name": "Onyx",
+    "Yellow sapphires": {
+        "name": "Yellow sapphires",
 
-        "description": "Onyx is a banded variety of chalcedony. It is formed of bands of chalcedony in alternating colors, and is cryptocrystalline, consisting of fine intergrowths of the silica minerals quartz and moganite. Its bands are parallel to one another, as opposed to the more chaotic banding that often occurs in agates. The colors of its bands range from black to almost every color. When chalcedony has curved color banding, it’s called agate. When agate’s bands are flat and have white, black, or dark brown shades, that’s onyx.",
+        "description": "Yellow sapphires can range in color from greenish yellow to orangish-yellow and everything in between. The preferred yellow sapphire color is a medium, vibrant, canary yellow. These medium bright stones are still less expensive than a comparable blue or pink sapphire. The main causes of yellow coloration in sapphires is the trace element iron. Increased iron concentrations will produce higher color saturation, leading to a richer hue. Yellow sapphires can also be color-enhanced naturally by low-level radiation within the earth or by lab-induced irradiation.",
 
-        "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
+        "healing_factor": "Yellow sapphire is known for restoring balance in the spleen, and has been useful in treatments of the digestive system, gall bladder, and liver. It is beneficial in treating blood disorders and alleviates excessive bleeding; it strengthens the veins and improves their elasticity. Yellow sapphire can be very beneficial in the treatment of jaundice by protecting the liver. It can also help with throat infections, as well as with conditions that affect the lungs. It can boost blood circulation and help with disorders affecting the pancreas as well. Yellow sapphire is an excellent stone that will help in relaxing you and calming you down. It will focus your mind and get rid of any tension in your head.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Onyx": {
-        "name": "Onyx",
+    "Ruby": {
+        "name": "Ruby",
 
-        "description": "Onyx is a banded variety of chalcedony. It is formed of bands of chalcedony in alternating colors, and is cryptocrystalline, consisting of fine intergrowths of the silica minerals quartz and moganite. Its bands are parallel to one another, as opposed to the more chaotic banding that often occurs in agates. The colors of its bands range from black to almost every color. When chalcedony has curved color banding, it’s called agate. When agate’s bands are flat and have white, black, or dark brown shades, that’s onyx.",
+        "description": "Rubies are gem corundums with a dominant red color. The color can range from orangy red to purplish red or brownish red. The most desirable color range is a pure vibrant red to a slightly purplish red. The red color of ruby is produced by the presence of chromium in the gem. A small trace of chromium will produce a pink color1. Rubies tend to grow in a roughly hexagonal shape. Typically, the surface of a ruby is flat rather than having the spiky protrusions seen in other crystalline formations. The type of host rock in which a ruby grows may impact its overall shape, with some raw rubies appearing blocky and others adopting a more tapered shape2.",
 
-        "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
+        "healing_factor": "Ruby is believed to stimulate the root chakra, promoting energy, vitality, and a zest for life. It is also associated with passion, love, and romance. Ruby stones are thought to have a positive effect on the circulatory system and promote detoxification. Ruby is ideal for any blood or circulatory system disorders in terms of physical healing. It cleanses the blood while also stimulating the lymphatic system.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Sapphire": {
+        "name": "Sapphire",
+
+        "description": "Sapphire is a gemstone that belongs to the mineral species corundum. It is generally known as a blue gemstone, but it can come in a wide range of colors and quality variations. The color of sapphire depends on the trace elements in the mineral, such as iron, titanium, and chromium. Sapphires that are not blue are called fancy sapphires, and they may be any color except red, which is a ruby. Some rare and valuable sapphire colors are pinkish orange, called padparadscha, and violet",
+
+        "healing_factor": "Sapphire is a stone that has physical and emotional healing properties. It can improve bone strength and density, detoxify the body, reduce infections, fevers, inflammation, bleeding, and blood-related problems, and heal burns and eye issues. It can also calm the mind, balance the emotions, boost courage and self-esteem, and promote tranquility and restful sleep. ",
 
         "img": "src/assets/Iceland_Spar.png"
     },
