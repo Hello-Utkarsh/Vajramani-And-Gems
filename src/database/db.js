@@ -185,22 +185,133 @@ const gemstone = {
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Onyx": {
-        "name": "Onyx",
+    "Star Ruby": {
+        "name": "Star Ruby",
 
-        "description": "Onyx is a banded variety of chalcedony. It is formed of bands of chalcedony in alternating colors, and is cryptocrystalline, consisting of fine intergrowths of the silica minerals quartz and moganite. Its bands are parallel to one another, as opposed to the more chaotic banding that often occurs in agates. The colors of its bands range from black to almost every color. When chalcedony has curved color banding, it’s called agate. When agate’s bands are flat and have white, black, or dark brown shades, that’s onyx.",
+        "description": "Star Ruby is a rare variety of ruby that exhibits asterism; a six-rayed star that shimmers over the surface of the stone when it is moved. The star effect is owed to aligned needle-like rutile inclusions. High-quality Star Rubies display a strong, clear six-rayed star effect on the stone’s surface, with the star appearing to move as the stone is rotated. Each Star Ruby is so unique in appearance that matching pair is nearly impossible. Special features that appear in gems like a star are known as phenomena. These effects include asterism, chatoyancy, iridescence, adularescence, aventurescence, labradorescence, and play-of-color.",
 
-        "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
+        "healing_factor": "Star Ruby is a Root Chakra stone that is a powerful stone for manifestation and tantric work through the aura and ascending Chakras. It is said to have stronger healing and magical energies than a normal Ruby. Star Ruby is a wonderful amplifier of one’s fortitude and inner resources, and is often used by Light Workers and healers to integrate high-frequency energy into the body. It is an excellent healing stone for the base chakra. It can be used to treat inadequate circulation or energy flow in the feet and legs.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Onyx": {
-        "name": "Onyx",
+    "Prasiolite": {
+        "name": "Prasiolite",
 
-        "description": "Onyx is a banded variety of chalcedony. It is formed of bands of chalcedony in alternating colors, and is cryptocrystalline, consisting of fine intergrowths of the silica minerals quartz and moganite. Its bands are parallel to one another, as opposed to the more chaotic banding that often occurs in agates. The colors of its bands range from black to almost every color. When chalcedony has curved color banding, it’s called agate. When agate’s bands are flat and have white, black, or dark brown shades, that’s onyx.",
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
 
-        "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Amethyst": {
+        "name": "Amethyst",
+
+        "description": "Amethyst is the purple variety of the quartz mineral species. It’s the gem that’s most commonly associated with the color purple, even though there are other purple gems such as sapphire and tanzanite. Its purple color can be cool and bluish, or a reddish purple that’s sometimes referred to as “raspberry”. Amethyst crystals grow primarily on the inner surface of an amethyst geode in nature. The shades can vary from light violet to deep, rich purple. This eye-catching hue is what sets amethyst apart from other types of quartz and makes it a prized addition to any crystal collection.",
+
+        "healing_factor": "Amethyst quartz is a powerful and protective stone that has a wide range of benefits. It relieves an individual from stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear and anxiety. This precious stone has outstanding healing and cleansing powers. It helps with addiction and cravings, alleviates insomnia and nightmares, boosts the immune system. It also enhances blood circulation and helps with digestive issues.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Ametrine": {
+        "name": "Ametrine",
+
+        "description": "Ametrine is a quartz that has alternating violet and yellow segments in the crystal. When such a crystal is cut perpendicular to its c-axis, the slabs have a pinwheel-like appearance. It is a transparent, bicolored Quartz with the Contrasting Colors of both Amethyst & Citrine in the same gem giving it an intriguing appearance. Fine ametrine shows medium dark to moderately strong orange, and vivid to strong purple or violetish purple.",
+
+        "healing_factor": "Ametrine is believed to have several healing properties. It is said to strengthen the immune system using the power of its energy enhancement. Ametrine healing properties affect your mental ailments just as much as your physical ones. It helps improve mental capabilities and alleviate stress. Ametrine are a type of quartz crystal that helps to enhance mental and spiritual clarity. At the same time they help to unite masculine and feminine energies. They have a strong healing energy that releases negativity from within the aura. Their energy also aids weight loss, as well as helping you to release your addictions.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Prasiolite": {
+        "name": "Prasiolite",
+
+        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+
+        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
 
         "img": "src/assets/Iceland_Spar.png"
     },

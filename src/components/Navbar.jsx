@@ -115,7 +115,7 @@ const Navbar = () => {
                             <Link to="/Sapphire">
                                 <li className='text-center p-1'>Sapphire</li>
                             </Link>
-                            <Link to="/Fire Agate">
+                            <Link to="/StarRuby">
                                 <li className='text-center p-1'>Star Ruby</li>
                             </Link>
                         </div>
@@ -123,15 +123,33 @@ const Navbar = () => {
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Quartz
                         <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
-                            <li className='text-center p-1'>Prasiolite</li>
-                            <li className='text-center p-1'>Amethyst</li>
-                            <li className='text-center p-1'>Ametrine</li>
-                            <li className='text-center p-1'>Citrine</li>
-                            <li className='text-center p-1'>Rock Crystal</li>
-                            <li className='text-center p-1'>Rose</li>
-                            <li className='text-center p-1'>Smoky</li>
-                            <li className='text-center p-1'>Hawk's Eye</li>
-                            <li className='text-center p-1'>Aventurine</li>
+                            <Link to="/Prasiolite">
+                                <li className='text-center p-1'>Prasiolite</li>
+                            </Link>
+                            <Link to="/Amethyst">
+                                <li className='text-center p-1'>Amethyst</li>
+                            </Link>
+                            <Link to="/Ametrine">
+                                <li className='text-center p-1'>Ametrine</li>
+                            </Link>
+                            <Link to="/Citrine">
+                                <li className='text-center p-1'>Citrine</li>
+                            </Link>
+                            <Link to="/StarRuby">
+                                <li className='text-center p-1'>Rock Crystal</li>
+                            </Link>
+                            <Link to="/StarRuby">
+                                <li className='text-center p-1'>Rose</li>
+                            </Link>
+                            <Link to="/StarRuby">
+                                <li className='text-center p-1'>Smoky</li>
+                            </Link>
+                            <Link to="/StarRuby">
+                                <li className='text-center p-1'>Hawk's Eye</li>
+                            </Link>
+                            <Link to="/StarRuby">
+                                <li className='text-center p-1'>Aventurine</li>
+                            </Link>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
