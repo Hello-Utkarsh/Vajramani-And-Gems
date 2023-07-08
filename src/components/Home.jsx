@@ -3,7 +3,6 @@ import React from 'react'
 const Home = () => {
 
   return (
-    // 4C3D3D
     <div className='bg-black text-[#C07F00]'>
 
       <div className='bg-black text-[#C07F00] flex py-8 items-center h-[48vh]'>

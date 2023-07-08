@@ -6,10 +6,10 @@ import Contact from './components/Contact'
 import gemstone from './database/db'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import GemStone from './components/GemStone'
-// import Gem_Path from './context/PathState'
 import PathState from './context/PathState'
 import { PathContext } from './context/PathContext'
 import NoPage from './components/NoPage'
+import More from './components/More'
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' index element={<Home />} />
+          <Route path={'More'} element={<More/>} />
           <Route path={'IceLandSpar'} element={<GemStone data={GemStone_Data['Iceland Spar']} />} />
           <Route path={'Marble'} element={<GemStone data={GemStone_Data['Marble']} />} />
           <Route path={'OnyxMarble'} element={<GemStone data={GemStone_Data['Onyx Marble']} />} />
@@ -44,12 +45,12 @@ function App() {
           <Route path={'Ametrine'} element={<GemStone data={GemStone_Data['Ametrine']} />} />
           <Route path={'Citrine'} element={<GemStone data={GemStone_Data['Citrine']} />} />
           <Route path={'Rose'} element={<GemStone data={GemStone_Data['Rose']} />} />
+
           <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
           <Route path={'Smoky'} element={<GemStone data={GemStone_Data['Smoky']} />} />
+
           <Route path={'Hawkeye'} element={<GemStone data={GemStone_Data["Hawk's eye"]} />} />
           <Route path={'Aventurine'} element={<GemStone data={GemStone_Data['Aventurine']} />} />
-          <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
-          <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
           <Route path="*" element={<NoPage />} />
 
         </Routes>

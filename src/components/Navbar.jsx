@@ -160,9 +160,11 @@ const Navbar = () => {
                             <li className='text-center p-1'>Watermelon</li>
                         </div>
                     </ul> */}
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
-                        More
-                    </ul>
+                    <Link to="/More">
+                        <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                            More
+                        </ul>
+                    </Link>
                 </nav >
             </div >
         </div >
