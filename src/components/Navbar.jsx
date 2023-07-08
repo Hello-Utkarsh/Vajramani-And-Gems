@@ -47,13 +47,13 @@ const Navbar = () => {
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Calcite
                         <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-10 mt-3 absolute w-fit dropdown-content'>
-                            <Link to='/Iceland Spar'>
+                            <Link to='/IcelandSpar'>
                                 <li className='text-center p-1'>Iceland Spar</li>
                             </Link>
                             <Link to='/Marble'>
                                 <li className='text-center p-1'>Marble</li>
                             </Link>
-                            <Link to="/Onyx Marble">
+                            <Link to="/OnyxMarble">
                                 <li className='text-center p-1'>Onyx Marble</li>
                             </Link>
                         </div>
@@ -82,13 +82,13 @@ const Navbar = () => {
                             <Link to="/Bloodstone">
                                 <li className='text-center p-1'>Bloodstone</li>
                             </Link>
-                            <Link to="/Dendritic Agate">
+                            <Link to="/DendriticAgate">
                                 <li className='text-center p-1'>Dendritic Agate</li>
                             </Link>
                             <Link to="/Blue">
                                 <li className='text-center p-1'>Blue</li>
                             </Link>
-                            <Link to="/Moss Agate">
+                            <Link to="/MossAgate">
                                 <li className='text-center p-1'>Moss Agate</li>
                             </Link>
                             <Link to="/Onyx">
@@ -97,7 +97,7 @@ const Navbar = () => {
                             <Link to="/Sardonyx">
                                 <li className='text-center p-1'>Sardonyx</li>
                             </Link>
-                            <Link to="/Fire Agate">
+                            <Link to="/FireAgate">
                                 <li className='text-center p-1'>Fire Agate</li>
                             </Link>
                         </div>
@@ -135,31 +135,31 @@ const Navbar = () => {
                             <Link to="/Citrine">
                                 <li className='text-center p-1'>Citrine</li>
                             </Link>
-                            <Link to="/StarRuby">
+                            <Link to="/RockCrystal">
                                 <li className='text-center p-1'>Rock Crystal</li>
                             </Link>
-                            <Link to="/StarRuby">
+                            <Link to="/Rose">
                                 <li className='text-center p-1'>Rose</li>
                             </Link>
-                            <Link to="/StarRuby">
+                            <Link to="/Smoky">
                                 <li className='text-center p-1'>Smoky</li>
                             </Link>
-                            <Link to="/StarRuby">
+                            <Link to="/Hawkeye">
                                 <li className='text-center p-1'>Hawk's Eye</li>
                             </Link>
-                            <Link to="/StarRuby">
+                            <Link to="/Aventurine">
                                 <li className='text-center p-1'>Aventurine</li>
                             </Link>
                         </div>
                     </ul>
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                    {/* <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Tourmaline
                         <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-2 mt-3 absolute w-fit dropdown-content'>
                             <li className='text-center p-1'>Rubelite</li>
                             <li className='text-center p-1'>Bi-Coloured</li>
                             <li className='text-center p-1'>Watermelon</li>
                         </div>
-                    </ul>
+                    </ul> */}
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         More
                     </ul>

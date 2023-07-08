@@ -226,62 +226,62 @@ const gemstone = {
     },
 
 
-    "Prasiolite": {
-        "name": "Prasiolite",
+    "Citrine": {
+        "name": "Citrine",
 
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+        "description": "Citrine quartz is a gemstone with a captivating golden-yellow appearance. Its transparent to translucent quality allows light to pass through, enhancing its radiant beauty. It forms in hexagonal crystals with pointed terminations, varying in size from delicate to larger formations. The gemstone often exhibits a range of yellow hues, from pale to deep golden shades, sometimes with hints of orange and brown undertones. Smooth and polished surfaces showcase its color and clarity, while natural inclusions can add character. Overall, citrine quartz is a visually enchanting gemstone that exudes warmth, energy, and elegance with its sunny, golden presence.",
 
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-
-    "Prasiolite": {
-        "name": "Prasiolite",
-
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
-
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+        "healing_factor": "Citrine quartz is believed to possess various healing properties. It is associated with positive energy, abundance, and personal power. This gemstone is said to enhance motivation, creativity, and self-confidence. Citrine quartz is thought to promote success, prosperity, and wealth, attracting abundance into one's life. It is also believed to dissipate negative energies, release emotional blockages, and increase joy and optimism. Additionally, citrine quartz is said to stimulate the intellect, improve concentration, and promote mental clarity. Some also attribute citrine quartz with boosting physical energy, supporting digestion, and aiding in overall well-being. It is considered a crystal of warmth, light, and positivity.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Prasiolite": {
-        "name": "Prasiolite",
+    "Rock crystal": {
+        "name": "Rock crystal",
 
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+        "description": "Rock crystal quartz, also known as clear quartz, has a transparent and colorless appearance, earning it the name 'rock crystal' due to its resemblance to ice or crystal-clear water. It is often found in the form of prismatic crystals with six-sided terminations, showcasing its hexagonal symmetry. The crystals can range in size from small and delicate to large and impressive formations. Clear quartz can also occur in massive or granular forms. Its surface is usually smooth and glassy, allowing light to pass through and revealing its internal clarity. Its pristine appearance gives it a timeless and elegant allure.",
 
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-
-    "Prasiolite": {
-        "name": "Prasiolite",
-
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
-
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+        "healing_factor": "Rock crystal quartz, also known as clear quartz, is highly regarded for its powerful healing properties. It is considered a versatile and amplifying stone that enhances the energy of other crystals and intentions. Clear quartz is believed to cleanse and purify the mind, body, and spirit, promoting clarity, focus, and balance. It is thought to amplify positive energy, ward off negativity, and stimulate spiritual growth. This crystal is said to enhance intuition, strengthen the aura, and facilitate spiritual connection. Clear quartz is also believed to promote physical healing, boost energy levels, and support overall well-being. It is considered a master healer and a versatile tool for various healing practices.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Prasiolite": {
-        "name": "Prasiolite",
+    "Rose": {
+        "name": "Rose",
 
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+        "description": "Rose quartz is a beautiful gemstone characterized by its gentle and soothing pink color. It exhibits a translucent to opaque appearance, often with a smooth and polished surface that enhances its natural glow. The stone can vary in shades, ranging from pale pink to deeper hues. Its delicate and nurturing aesthetic evokes feelings of love, compassion, and emotional healing. Rose quartz is commonly used in jewelry and crystal healing practices, symbolizing the essence of tenderness and harmony.",
 
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+        "healing_factor": "Rose quartz is renowned for its healing properties related to matters of the heart and emotions. It is believed to promote self-love, compassion, and forgiveness, enhancing relationships and attracting love into one's life. This gemstone is said to soothe emotional wounds, reduce stress, and promote inner peace. Rose quartz is also thought to balance emotions, increase empathy, and encourage harmony in relationships. It is considered a powerful crystal for healing matters of the heart, promoting emotional well-being and unconditional love.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Prasiolite": {
-        "name": "Prasiolite",
+    "Smoky": {
+        "name": "Smoky",
 
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+        "description": "Smoky quartz is a captivating gemstone known for its smoky gray to brown coloration. Its transparent to translucent appearance reveals an alluring depth, resembling the misty hues of smoke. This variety of quartz can occur in various forms, including prismatic crystals, clusters, and polished stones. The crystal formations often exhibit a vitreous luster, while some specimens may display natural internal veils or inclusions, adding to its unique charm. Smoky quartz has a grounding and earthy aesthetic, evoking a sense of strength and stability.",
 
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+        "healing_factor": "Smoky quartz is associated with grounding and protection, making it a powerful healing crystal. It is believed to absorb negative energy and transform it into positive energy. This stone is thought to promote emotional balance, relieve stress, and alleviate anxiety. Smoky quartz is also said to enhance mental clarity, aid in decision-making, and promote spiritual growth. It is believed to have a calming effect on the mind, providing a sense of stability and protection during challenging times.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Hawk's eye": {
+        "name": "Hawk's eye",
+
+        "description": "Hawk's eye quartz, also known as blue tiger's eye, boasts a captivating appearance. It features a striking blue-gray color with shimmering bands that resemble the eye of a hawk, hence its name. This gemstone often exhibits a chatoyant effect, where the bands reflect light, creating a mesmerizing silky luster. The stone typically occurs in smooth, polished cabochons or faceted cuts, showcasing its unique color and chatoyancy. Hawk's eye quartz is known for its depth and intensity, evoking a sense of focus, clarity, and insight.",
+
+        "healing_factor": "Hawk's eye quartz, with its unique properties, is believed to enhance focus, clarity, and insight. It is thought to stimulate the third eye chakra, promoting intuition and psychic abilities. This gemstone is associated with inner strength, courage, and self-confidence. Hawk's eye quartz is believed to aid in decision-making, providing a sense of perspective and discernment. It is also said to protect against negative energies and promote mental clarity, making it a valuable crystal for spiritual growth and self-discovery.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Aventurine": {
+        "name": "Aventurine",
+
+        "description": "Aventurine quartz displays a beautiful and distinctive appearance. It typically has a translucent to opaque quality and comes in various shades of green, ranging from light to dark. What makes aventurine quartz unique is the presence of shimmering mineral inclusions, often referred to as 'aventurescence'. These inclusions create a captivating glittering effect, resembling tiny specks or flakes. The stone can occur in polished, tumbled, or rough forms, showcasing its vibrant green color and the mesmerizing play of light caused by the inclusions. Aventurine quartz has a natural and earthy aesthetic that is both calming and uplifting.",
+
+        "healing_factor": "Aventurine quartz is a soothing and harmonizing gemstone with various healing properties. It is believed to bring abundance, prosperity, and luck, attracting opportunities and positive energies. This stone is associated with the heart chakra, promoting emotional healing, compassion, and balance. Aventurine quartz is said to alleviate stress, anxiety, and negativity, fostering a sense of calm and well-being. It is also thought to enhance creativity, motivation, and decision-making abilities, making it a valuable crystal for personal growth and achieving goals.",
 
         "img": "src/assets/Iceland_Spar.png"
     },

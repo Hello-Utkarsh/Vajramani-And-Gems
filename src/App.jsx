@@ -42,6 +42,14 @@ function App() {
           <Route path={'Prasiolite'} element={<GemStone data={GemStone_Data['Prasiolite']} />} />
           <Route path={'Amethyst'} element={<GemStone data={GemStone_Data['Amethyst']} />} />
           <Route path={'Ametrine'} element={<GemStone data={GemStone_Data['Ametrine']} />} />
+          <Route path={'Citrine'} element={<GemStone data={GemStone_Data['Citrine']} />} />
+          <Route path={'Rose'} element={<GemStone data={GemStone_Data['Rose']} />} />
+          <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
+          <Route path={'Smoky'} element={<GemStone data={GemStone_Data['Smoky']} />} />
+          <Route path={'Hawkeye'} element={<GemStone data={GemStone_Data["Hawk's eye"]} />} />
+          <Route path={'Aventurine'} element={<GemStone data={GemStone_Data['Aventurine']} />} />
+          <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
+          <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
           <Route path="*" element={<NoPage />} />
 
         </Routes>
