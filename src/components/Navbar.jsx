@@ -38,7 +38,7 @@ const Navbar = () => {
                     menu
                 </span>
                 <Link to='/' className="m-auto">
-                    <h2 className='cursor-pointer font-dancin text-5xl m-auto text-[#4C3D3D] font-medium '>Vajramani And Gems</h2>
+                    <h2 className='cursor-pointer font-dancin text-5xl m-auto text-[#4C3D3D] font-medium'>Vajramani And Gems</h2>
                 </Link>
             </div>
             <div className='flex bg-[#C07F00] text-[#4C3D3D] item-center justify-center text-lg px-6 pb-3'>
@@ -152,14 +152,6 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
-                    {/* <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
-                        Tourmaline
-                        <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-2 mt-3 absolute w-fit dropdown-content'>
-                            <li className='text-center p-1'>Rubelite</li>
-                            <li className='text-center p-1'>Bi-Coloured</li>
-                            <li className='text-center p-1'>Watermelon</li>
-                        </div>
-                    </ul> */}
                     <Link to="/More">
                         <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                             More

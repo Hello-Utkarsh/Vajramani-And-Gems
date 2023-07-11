@@ -283,35 +283,35 @@ const gemstone = {
 
         "healing_factor": "Aventurine quartz is a soothing and harmonizing gemstone with various healing properties. It is believed to bring abundance, prosperity, and luck, attracting opportunities and positive energies. This stone is associated with the heart chakra, promoting emotional healing, compassion, and balance. Aventurine quartz is said to alleviate stress, anxiety, and negativity, fostering a sense of calm and well-being. It is also thought to enhance creativity, motivation, and decision-making abilities, making it a valuable crystal for personal growth and achieving goals.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/aventurine-quartz-40 jewelery.png"
     },
 
-    "Prasiolite": {
-        "name": "Prasiolite",
+    "Rubellite": {
+        "name": "Rubellite",
 
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+        "description": "Rubellite tourmaline is a captivating gemstone with a vivid pink to red color. Its transparent to translucent nature allows light to pass through, while its vitreous luster gives it a glossy sheen. With a Mohs hardness of 7 to 7.5, it is durable for everyday wear. Its intense hue, ranging from raspberry red to hot pink, makes it highly desirable for jewelry. Rubellite tourmaline exhibits a captivating beauty that effortlessly catches the eye.",
 
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-
-    "Prasiolite": {
-        "name": "Prasiolite",
-
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
-
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+        "healing_factor": "Rubellite tourmaline is believed to possess several healing properties. It is said to stimulate the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance one's self-confidence and courage while reducing feelings of fear and anxiety. It may also help balance emotions and promote a sense of calmness and serenity. Additionally, rubellite tourmaline is said to boost vitality and energize the body, promoting overall well-being.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
 
-    "Prasiolite": {
-        "name": "Prasiolite",
+    "Bi-colored": {
+        "name": "Bi-colored",
 
-        "description": "Prasiolite is a transparent to translucent quartz variety, although clear gem quality material is usually produced artificially from amethyst. The color varies from a pale gray green to a deep grass green. Crystals can show zones of amethyst color. Natural prasiolite is a very light, translucent green. Darker green quartz is generally the result of artificial treatment",
+        "description": "Bi-colored tourmaline, also known as watermelon tourmaline, showcases a unique and eye-catching appearance. This gemstone features a combination of pink or red hues at one end and green hues at the other, resembling the colors of a watermelon. The transition between the colors can be gradual or distinct, creating a striking visual effect. Bi-colored tourmaline typically exhibits a vitreous luster and a transparent to translucent nature. Its crystal structure is often prismatic or elongated, adding to its allure.",
 
-        "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
+        "healing_factor": "Bi-colored tourmaline, or watermelon tourmaline, is believed to possess a range of healing properties. It is thought to balance and harmonize the heart and root chakras, promoting emotional healing, love, and compassion. This gemstone is said to help alleviate stress, calm the mind, and promote a sense of inner peace. It may also enhance creativity, intuition, and spiritual growth. Bi-colored tourmaline is believed to have a soothing and grounding effect, facilitating emotional stability and overall well-being.",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+
+    "Watermelon": {
+        "name": "Watermelon",
+
+        "description": "Watermelon tourmaline, aptly named for its resemblance to the fruit, exhibits a captivating and distinct appearance. This gemstone features a delightful combination of pink or red hues at the center, surrounded by a green outer layer, reminiscent of a watermelon's flesh and rind. The transition between the colors can be gradual or sharply defined, creating a visually striking pattern. Watermelon tourmaline typically displays a vitreous luster and a transparent to translucent nature, making it a captivating and unique gemstone.",
+
+        "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
         "img": "src/assets/Iceland_Spar.png"
     },
