@@ -50,7 +50,16 @@ function App() {
           <Route path={'Smoky'} element={<GemStone data={GemStone_Data['Smoky']} />} />
 
           <Route path={'Hawkeye'} element={<GemStone data={GemStone_Data["Hawk's eye"]} />} />
-          <Route path={'Aventurine'} element={<GemStone data={GemStone_Data['Aventurine']} />} />
+          <Route path={'Aquamarine'} element={<GemStone data={GemStone_Data['Aquamarine']} />} />
+          <Route path={'Emerald'} element={<GemStone data={GemStone_Data['Emerald']} />} />
+          <Route path={'LightGreen'} element={<GemStone data={GemStone_Data['Light Green']} />} />
+          <Route path={'TrapicheEmerald'} element={<GemStone data={GemStone_Data['Trapiche Emerald']} />} />
+          <Route path={'CatEye'} element={<GemStone data={GemStone_Data['Cat Eye']} />} />
+          <Route path={'Golden'} element={<GemStone data={GemStone_Data['Golden']} />} />
+          <Route path={'Golden'} element={<GemStone data={GemStone_Data['Golden']} />} />
+          <Route path={'Golden'} element={<GemStone data={GemStone_Data['Golden']} />} />
+          <Route path={'Golden'} element={<GemStone data={GemStone_Data['Golden']} />} />
+          <Route path={'Golden'} element={<GemStone data={GemStone_Data['Golden']} />} />
           <Route path="*" element={<NoPage />} />
 
         </Routes>

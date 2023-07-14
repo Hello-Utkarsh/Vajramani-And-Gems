@@ -121,6 +121,29 @@ const Navbar = () => {
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                        Beryl
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content'>
+                            <Link to="/Aquamarine">
+                                <li className='text-center p-1'>Aquamarine</li>
+                            </Link>
+                            <Link to="/Emerald">
+                                <li className='text-center p-1'>Emerald</li>
+                            </Link>
+                            <Link to="/LightGreen">
+                                <li className='text-center p-1'>Light Green</li>
+                            </Link>
+                            <Link to="/Golden">
+                                <li className='text-center p-1'>Golden</li>
+                            </Link>
+                            <Link to="/TrapicheEmerald">
+                                <li className='text-center p-1'>Trapiche Emerald</li>
+                            </Link>
+                            <Link to="/CatEye">
+                                <li className='text-center p-1'>Cat's Eye</li>
+                            </Link>
+                        </div>
+                    </ul>
+                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Quartz
                         <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
                             <Link to="/Prasiolite">
