@@ -22,9 +22,9 @@ function App() {
         <Routes>
           <Route path='/' index element={<Home />} />
           <Route path={'More'} element={<More/>} />
-          <Route path={'IceLandSpar'} element={<GemStone data={GemStone_Data['Iceland Spar']} />} />
-          <Route path={'Marble'} element={<GemStone data={GemStone_Data['Marble']} />} />
-          <Route path={'OnyxMarble'} element={<GemStone data={GemStone_Data['Onyx Marble']} />} />
+          <Route path={'IceLandSpar'} element={<GemStone data={GemStone_Data} />} />
+          <Route path={'Marble'} element={<GemStone data={GemStone_Data["Marble"]} />} />
+          <Route path={'OnyxMarble'} element={<GemStone data={GemStone_Data["Onyx Marble"]} />} />
           <Route path={'Black'} element={<GemStone data={GemStone_Data['Black Chalcedony']} />} />
           <Route path={'Carnelian'} element={<GemStone data={GemStone_Data['Carnelian Chalcedony']} />} />
           <Route path={'Chrysocolla'} element={<GemStone data={GemStone_Data['Chrysocolla Chalcedony']} />} />

@@ -33,15 +33,15 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className='flex bg-[#C07F00] py-10 items-center'>
-                <span className="material-symbols-outlined text-[#4C3D3D] ml-7 cursor-pointer" style={{ fontSize: "26px" }}>
+            <div className='flex bg-[#e3874f] py-10 items-center'>
+                <span className="material-symbols-outlined text-[#37363d] ml-7 cursor-pointer" style={{ fontSize: "26px" }}>
                     menu
                 </span>
                 <Link to='/' className="m-auto">
                     <h2 className='cursor-pointer font-dancin text-5xl m-auto text-[#4C3D3D] font-medium'>Vajramani And Gems</h2>
                 </Link>
             </div>
-            <div className='flex bg-[#C07F00] text-[#4C3D3D] item-center justify-center text-lg px-6 pb-3'>
+            <div className='flex bg-[#e3874f] text-[#37363d] item-center justify-center text-lg px-6 pb-3'>
 
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center'>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>

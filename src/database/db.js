@@ -1,32 +1,39 @@
 const gemstone = {
-    "Iceland Spar": {
-        "name": "Iceland Spar",
 
-        "description": "Iceland spar is a crystal of calcite (calcium carbonate). Calcite is a fairly common mineral and comes in a spectacular range of colors caused by the impurities it contains. Iceland spar is rather unique among the calcites. It contains no impurities, so it’s nearly colorless and transparent to both visible and ultraviolet light",
-
-        "healing_factor": "Iceland Spar is thought to aid in detox. It is believed to be beneficial for eyes, organs of elimination, dissolving calcification, skeleton, joints, intestinal conditions, skin, blood clotting, tissue healing, immune system, ulcers, and warts. It is also thought to reduce the tension that causes migraines.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-
-    "Marble": {
-        "name": "Marble",
-
-        "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
-
-        "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-    "Onyx Marble": {
-        "name": "Onyx Marble",
-
-        "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
-
-        "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
+        "Iceland Spar": {
+            "name": "Iceland Spar",
+    
+            "description": "Iceland spar is a crystal of calcite (calcium carbonate). Calcite is a fairly common mineral and comes in a spectacular range of colors caused by the impurities it contains. Iceland spar is rather unique among the calcites. It contains no impurities, so it’s nearly colorless and transparent to both visible and ultraviolet light",
+    
+            "healing_factor": "Iceland Spar is thought to aid in detox. It is believed to be beneficial for eyes, organs of elimination, dissolving calcification, skeleton, joints, intestinal conditions, skin, blood clotting, tissue healing, immune system, ulcers, and warts. It is also thought to reduce the tension that causes migraines.",
+    
+            "tag" : "Calcite",
+    
+            "img": "src/assets/Iceland_Spar.png"
+        },
+    
+        "Marble": {
+            "name": "Marble",
+    
+            "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
+    
+            "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
+    
+            "tag" : "Calcite",
+    
+            "img": "src/assets/Iceland_Spar.png"
+        },
+        "Onyx Marble": {
+            "name": "Onyx Marble",
+    
+            "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
+    
+            "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
+    
+            "tag" : "Calcite",
+    
+            "img": "src/assets/Iceland_Spar.png"
+        },
 
     "Carnelian Chalcedony": {
         "name": "Carnelian Chalcedony",
