@@ -1,39 +1,27 @@
 const gemstone = {
 
-        "Iceland Spar": {
-            "name": "Iceland Spar",
-    
-            "description": "Iceland spar is a crystal of calcite (calcium carbonate). Calcite is a fairly common mineral and comes in a spectacular range of colors caused by the impurities it contains. Iceland spar is rather unique among the calcites. It contains no impurities, so it’s nearly colorless and transparent to both visible and ultraviolet light",
-    
-            "healing_factor": "Iceland Spar is thought to aid in detox. It is believed to be beneficial for eyes, organs of elimination, dissolving calcification, skeleton, joints, intestinal conditions, skin, blood clotting, tissue healing, immune system, ulcers, and warts. It is also thought to reduce the tension that causes migraines.",
-    
-            "tag" : "Calcite",
-    
-            "img": "src/assets/Iceland_Spar.png"
-        },
-    
-        "Marble": {
-            "name": "Marble",
-    
-            "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
-    
-            "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
-    
-            "tag" : "Calcite",
-    
-            "img": "src/assets/Iceland_Spar.png"
-        },
-        "Onyx Marble": {
-            "name": "Onyx Marble",
-    
-            "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
-    
-            "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
-    
-            "tag" : "Calcite",
-    
-            "img": "src/assets/Iceland_Spar.png"
-        },
+    "Marble": {
+        "name": "Marble",
+
+        "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
+
+        "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
+
+        "tag": "Calcite",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
+    "Onyx Marble": {
+        "name": "Onyx Marble",
+
+        "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
+
+        "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
+
+        "tag": "Calcite",
+
+        "img": "src/assets/Iceland_Spar.png"
+    },
 
     "Carnelian Chalcedony": {
         "name": "Carnelian Chalcedony",
@@ -42,7 +30,9 @@ const gemstone = {
 
         "healing_factor": "A stabilising stone, Carnelian restores vitality and motivation, and stimulates creativity.  It gives courage, promotes positive life choices, dispels apathy and motivates for success.  Carnelian is useful for overcoming abuse of any kind.  It helps in trusting yourself and your perceptions.  It overcomes negative conditioning and encourages steadfastness.  Carnelian improves analytic abilities and clarifies perception.  It sharpens concentration and dispels mental lethargy.  Protects against envy, rage and resentment.  Calms anger, banishes emotional negativity and replaces it with a love of life.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Black Chalcedony": {
@@ -52,8 +42,12 @@ const gemstone = {
 
         "healing_factor": "This gemstone is known for its grounding and protective abilities, helping to alleviate stress and promote a sense of calmness. It is also said to enhance communication skills and encourage positive relationships with others.Holding or wearing black chalcedony can help release negative emotions such as anger, jealousy, and self-doubt, allowing one to move forward with clarity and confidence. Plus, it is believed to boost physical energy levels and improve overall stamina.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
+
     },
+
     "Chrysocolla Chalcedony": {
         "name": "Chrysocolla Chalcedony",
 
@@ -61,7 +55,9 @@ const gemstone = {
 
         "healing_factor": "Chrysocolla, with associations of tranquility, peace, intuition, patience and unconditional love, is known as a healing stone among Native American cultures where it has been used to strengthen the body's resistance to illness and emotional duress. It has also been used traditionally to bring about calm feelings where there is upset and can be used to purify a place or restore balance to a person.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
     "Chrysoprase Chalcedony": {
         "name": "Chrysoprase Chalcedony",
@@ -70,7 +66,9 @@ const gemstone = {
 
         "healing_factor": "Chrysoprase is a strong detoxifying stone. It eliminates waste from the body, as well as the mind, by stimulating the liver and encouraging the body to rid itself of poisons. It is excellent for relaxation and promoting a peaceful night's sleep, reducing claustrophobia and preventing nightmares.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
     "Sard Chalcedony": {
         "name": "Sard Chalcedony",
@@ -79,7 +77,9 @@ const gemstone = {
 
         "healing_factor": "Chalcedony is a nurturing stone that promotes brotherhood and good will.  It absorbs negative energy.  It brings the mind, body, emotions and spirit into harmony.  Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Agate Chalcedony": {
@@ -89,7 +89,9 @@ const gemstone = {
 
         "healing_factor": "Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.  Eases self-doubt. Creates openness and enthusiasm.  Absorbs and dissipates negative thoughts, emotions and bad dreams.Chalcedony improves mineral assimilation and combats mineral buildup in veins.  Lessens the effects of dementia and senility.  It increases physical energy.  Heals the eyes, gallbladder, bones, spleen, blood and circulatory system.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Bloodstone Chalcedony": {
@@ -99,7 +101,9 @@ const gemstone = {
 
         "healing_factor": "Blood Stone brings the mind, body, and spirit into alignment and harmony. It is a protective stone that absorbs negative vibrations and energy, allowing it to dissipate to prevent onward transmission.It is a very nurturing stone that promotes and enhances goodwill and stability within groups of people. It encourages empathy and understanding and brings calming vibrations to potential areas of conflict between individuals. ",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Dendritic Agate Chalcedony": {
@@ -109,7 +113,9 @@ const gemstone = {
 
         "healing_factor": "Dendritic Agate brings fullness and abundance to all areas of life. It is the stone of plenitude. It creates a peaceful environment and encourages the enjoyment of each moment.  Deepens your connection to the earth.  Dendritic Agate brings stability in times of strife or confusion. Lends perseverance and the ability to see difficulties as a challenge. Opens and aligns the chakras.Dendritic Agate resonates with blood vessels and nerves. It heals the nervous system and conditions such as neuralgia. Treats skeletal disorders. Reverses capillary degeneration and stimulates the circulatory system. Provides pain relief.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Blue Chalcedony": {
@@ -119,7 +125,9 @@ const gemstone = {
 
         "healing_factor": "The healing properties of Blue Chalcedony make it a powerful stone that can help you deal with your emotions and past trauma. It can help to remove negative energy from your body, making it easier for you to connect with your higher self. This can also help you to focus on your dreams, meditate, and be at peace with your thoughts.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Moss Agate": {
@@ -129,7 +137,9 @@ const gemstone = {
 
         "healing_factor": "Moss agate is a stone that has various healing properties for the emotions, the mind, the body, and the spirit. It can help balance out negative feelings, bring grounding and stability, and shield against negative energies. It can also encourage growth, fertility, abundance, creativity, and optimism. It is linked to the heart chakra, which represents love, empathy, and forgiveness, and can heal this chakra from blockages caused by self-hatred, heartbreak, betrayal, and hatred from others. It can also relieve stress, infections, swellings, colds, flu, and fever with its anti-inflammatory properties.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Onyx": {
@@ -139,7 +149,9 @@ const gemstone = {
 
         "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Sardonyx": {
@@ -149,7 +161,9 @@ const gemstone = {
 
         "healing_factor": "Sardonyx is a stone that has mental and physical healing properties. It strengthens the ability to understand information, discern truth, and cultivate self-control. It also promotes virtuous conduct, friendship, and good fortune. It stimulates and heals the sensory organs, such as sight, hearing, touch, and smell. It regulates the fluids, metabolism, and functions of the body, especially the digestive and immune systems. It helps to repair bones and improve all sensory responses.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Fire agate": {
@@ -159,7 +173,9 @@ const gemstone = {
 
         "healing_factor": "Fire agate is believed to have healing properties that can help with digestive health by regulating the digestive system and reducing inflammation. It is also beneficial in the treatment of poor circulation, lethargy or lack of energy, or depression. It enhances mental function by improving concentration, perception, and analytical abilities. Fire Agate is useful in treating the endocrine system, the colon, and increasing metabolism. It boosts energy levels, encourages positive thinking, and improves communication skills. Additionally, fire agate is thought to help protect the wearer from harm and negative energy.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Chalcedony"
     },
 
     "Yellow sapphires": {
@@ -169,7 +185,9 @@ const gemstone = {
 
         "healing_factor": "Yellow sapphire is known for restoring balance in the spleen, and has been useful in treatments of the digestive system, gall bladder, and liver. It is beneficial in treating blood disorders and alleviates excessive bleeding; it strengthens the veins and improves their elasticity. Yellow sapphire can be very beneficial in the treatment of jaundice by protecting the liver. It can also help with throat infections, as well as with conditions that affect the lungs. It can boost blood circulation and help with disorders affecting the pancreas as well. Yellow sapphire is an excellent stone that will help in relaxing you and calming you down. It will focus your mind and get rid of any tension in your head.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Corundun"
     },
 
     "Ruby": {
@@ -179,7 +197,9 @@ const gemstone = {
 
         "healing_factor": "Ruby is believed to stimulate the root chakra, promoting energy, vitality, and a zest for life. It is also associated with passion, love, and romance. Ruby stones are thought to have a positive effect on the circulatory system and promote detoxification. Ruby is ideal for any blood or circulatory system disorders in terms of physical healing. It cleanses the blood while also stimulating the lymphatic system.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Corundun"
     },
 
     "Sapphire": {
@@ -189,7 +209,9 @@ const gemstone = {
 
         "healing_factor": "Sapphire is a stone that has physical and emotional healing properties. It can improve bone strength and density, detoxify the body, reduce infections, fevers, inflammation, bleeding, and blood-related problems, and heal burns and eye issues. It can also calm the mind, balance the emotions, boost courage and self-esteem, and promote tranquility and restful sleep. ",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Corundun"
     },
 
     "Star Ruby": {
@@ -199,7 +221,9 @@ const gemstone = {
 
         "healing_factor": "Star Ruby is a Root Chakra stone that is a powerful stone for manifestation and tantric work through the aura and ascending Chakras. It is said to have stronger healing and magical energies than a normal Ruby. Star Ruby is a wonderful amplifier of one’s fortitude and inner resources, and is often used by Light Workers and healers to integrate high-frequency energy into the body. It is an excellent healing stone for the base chakra. It can be used to treat inadequate circulation or energy flow in the feet and legs.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Corundun"
     },
 
     "Prasiolite": {
@@ -209,7 +233,9 @@ const gemstone = {
 
         "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Amethyst": {
@@ -219,7 +245,9 @@ const gemstone = {
 
         "healing_factor": "Amethyst quartz is a powerful and protective stone that has a wide range of benefits. It relieves an individual from stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear and anxiety. This precious stone has outstanding healing and cleansing powers. It helps with addiction and cravings, alleviates insomnia and nightmares, boosts the immune system. It also enhances blood circulation and helps with digestive issues.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Ametrine": {
@@ -229,7 +257,9 @@ const gemstone = {
 
         "healing_factor": "Ametrine is believed to have several healing properties. It is said to strengthen the immune system using the power of its energy enhancement. Ametrine healing properties affect your mental ailments just as much as your physical ones. It helps improve mental capabilities and alleviate stress. Ametrine are a type of quartz crystal that helps to enhance mental and spiritual clarity. At the same time they help to unite masculine and feminine energies. They have a strong healing energy that releases negativity from within the aura. Their energy also aids weight loss, as well as helping you to release your addictions.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
 
@@ -240,7 +270,9 @@ const gemstone = {
 
         "healing_factor": "Citrine quartz is believed to possess various healing properties. It is associated with positive energy, abundance, and personal power. This gemstone is said to enhance motivation, creativity, and self-confidence. Citrine quartz is thought to promote success, prosperity, and wealth, attracting abundance into one's life. It is also believed to dissipate negative energies, release emotional blockages, and increase joy and optimism. Additionally, citrine quartz is said to stimulate the intellect, improve concentration, and promote mental clarity. Some also attribute citrine quartz with boosting physical energy, supporting digestion, and aiding in overall well-being. It is considered a crystal of warmth, light, and positivity.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Rock crystal": {
@@ -250,7 +282,9 @@ const gemstone = {
 
         "healing_factor": "Rock crystal quartz, also known as clear quartz, is highly regarded for its powerful healing properties. It is considered a versatile and amplifying stone that enhances the energy of other crystals and intentions. Clear quartz is believed to cleanse and purify the mind, body, and spirit, promoting clarity, focus, and balance. It is thought to amplify positive energy, ward off negativity, and stimulate spiritual growth. This crystal is said to enhance intuition, strengthen the aura, and facilitate spiritual connection. Clear quartz is also believed to promote physical healing, boost energy levels, and support overall well-being. It is considered a master healer and a versatile tool for various healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Rose": {
@@ -260,7 +294,9 @@ const gemstone = {
 
         "healing_factor": "Rose quartz is renowned for its healing properties related to matters of the heart and emotions. It is believed to promote self-love, compassion, and forgiveness, enhancing relationships and attracting love into one's life. This gemstone is said to soothe emotional wounds, reduce stress, and promote inner peace. Rose quartz is also thought to balance emotions, increase empathy, and encourage harmony in relationships. It is considered a powerful crystal for healing matters of the heart, promoting emotional well-being and unconditional love.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Smoky": {
@@ -270,7 +306,9 @@ const gemstone = {
 
         "healing_factor": "Smoky quartz is associated with grounding and protection, making it a powerful healing crystal. It is believed to absorb negative energy and transform it into positive energy. This stone is thought to promote emotional balance, relieve stress, and alleviate anxiety. Smoky quartz is also said to enhance mental clarity, aid in decision-making, and promote spiritual growth. It is believed to have a calming effect on the mind, providing a sense of stability and protection during challenging times.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Hawk's eye": {
@@ -280,7 +318,9 @@ const gemstone = {
 
         "healing_factor": "Hawk's eye quartz, with its unique properties, is believed to enhance focus, clarity, and insight. It is thought to stimulate the third eye chakra, promoting intuition and psychic abilities. This gemstone is associated with inner strength, courage, and self-confidence. Hawk's eye quartz is believed to aid in decision-making, providing a sense of perspective and discernment. It is also said to protect against negative energies and promote mental clarity, making it a valuable crystal for spiritual growth and self-discovery.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Quartz"
     },
 
     "Aventurine": {
@@ -290,7 +330,9 @@ const gemstone = {
 
         "healing_factor": "Aventurine quartz is a soothing and harmonizing gemstone with various healing properties. It is believed to bring abundance, prosperity, and luck, attracting opportunities and positive energies. This stone is associated with the heart chakra, promoting emotional healing, compassion, and balance. Aventurine quartz is said to alleviate stress, anxiety, and negativity, fostering a sense of calm and well-being. It is also thought to enhance creativity, motivation, and decision-making abilities, making it a valuable crystal for personal growth and achieving goals.",
 
-        "img": "src/assets/aventurine-quartz-40 jewelery.png"
+        "img": "src/assets/aventurine-quartz-40 jewelery.png",
+
+        "tag": "Quartz"
     },
 
     "Rubellite": {
@@ -350,7 +392,9 @@ const gemstone = {
 
         "healing_factor": "Aquamarine, a variety of beryl, is renowned for its soothing and healing properties. This serene gemstone is believed to calm the mind and emotions, promoting inner peace and clarity. Aquamarine is associated with enhancing communication skills and encouraging self-expression. It is said to support emotional healing, assisting in the release of past traumas and promoting a sense of courage and resilience. Aquamarine is also believed to promote physical well-being, particularly benefiting the throat, respiratory system, and overall immune system.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Beryl"
     },
 
     "Emerald": {
@@ -360,7 +404,9 @@ const gemstone = {
 
         "healing_factor": "Emerald, with its vibrant energy, is believed to possess powerful healing properties. It is associated with promoting physical vitality and rejuvenation, supporting the heart, lungs, and immune system. Emerald is thought to enhance emotional well-being, fostering love, compassion, and harmony. It is said to promote mental clarity and stimulate intellectual growth, aiding in problem-solving and decision-making. Emerald is also believed to bring balance and serenity to relationships, fostering loyalty, and deepening connections.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Beryl"
     },
 
     "Light Green": {
@@ -370,17 +416,9 @@ const gemstone = {
 
         "healing_factor": "Light Green beryl, like Heliodor or Green Beryl, is associated with various healing properties. It is believed to stimulate the heart chakra, promoting emotional healing, compassion, and love. This gemstone is said to enhance clarity of thought, aiding in decision-making and problem-solving. Light Green beryl is also believed to support physical well-being by boosting the immune system and revitalizing the body. It is associated with promoting a sense of joy, optimism, and personal empowerment, fostering creativity and self-expression.",
 
-        "img": "src/assets/Iceland_Spar.png"
-    },
+        "img": "src/assets/Iceland_Spar.png",
 
-    "Golden": {
-        "name": "Golden",
-
-        "description": "Golden beryl, also known as Heliodor, possesses a striking appearance reminiscent of sun-kissed warmth and radiance. Its color ranges from pale yellow to rich golden-yellow, resembling the vibrant glow of a summer sunset. The gemstone often exhibits excellent transparency, allowing light to permeate and accentuate its luminosity. Golden beryl showcases a brilliant vitreous luster, and when expertly cut and polished, it displays a captivating play of light. Its alluring golden hues make it a gemstone that exudes a sense of luxury and elegance.",
-
-        "healing_factor": "Golden beryl, or Heliodor, is believed to possess numerous healing properties. It is associated with promoting self-confidence, personal power, and courage. Golden beryl is said to enhance mental clarity and focus, aiding in decision-making and problem-solving. It is believed to stimulate creativity and boost motivation. Golden beryl is also associated with balancing the solar plexus chakra, fostering a sense of inner strength and vitality. It is believed to bring warmth, joy, and abundance into one's life, promoting a positive and empowered mindset.",
-
-        "img": "src/assets/Iceland_Spar.png"
+        "tag": "Beryl"
     },
 
     "Trapiche Emerald": {
@@ -390,7 +428,9 @@ const gemstone = {
 
         "healing_factor": "Trapiche Emerald, a rare and unique variety of emerald, is believed to possess special healing properties. It is associated with grounding and stabilizing energy, promoting a sense of balance and harmony. Trapiche Emerald is said to assist in releasing emotional blockages and promoting emotional healing. It is believed to enhance intuition and spiritual awareness, facilitating spiritual growth and connection. This gemstone is also associated with promoting clarity of thought and aiding in decision-making, bringing a sense of wisdom and guidance.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Beryl"
     },
 
     "Cat Eye": {
@@ -400,7 +440,9 @@ const gemstone = {
 
         "healing_factor": "Cat Eye Beryl, with its unique cat's eye effect, is believed to possess special healing properties. It is associated with enhancing intuition and insight, promoting clarity of thought and decision-making. Cat Eye Beryl is said to offer protection from negative energies and bring good luck. It is believed to balance emotions, fostering a sense of calm and grounding. This gemstone is also associated with promoting self-awareness and spiritual growth, encouraging a deeper connection to one's inner wisdom and intuition.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "Beryl"
     },
 
     "Watermelon": {

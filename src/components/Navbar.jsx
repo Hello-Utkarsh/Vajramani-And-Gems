@@ -7,6 +7,10 @@ const Navbar = () => {
     // DROPDOWN LOGIC
     const dropdown = async () => {
 
+        Array.from(document.getElementsByTagName("ul")).forEach(element => {
+            element.children[0].style.display = "none"
+        })
+
         Array.from(event.target.children).forEach(element => {
             if (element.style.display == "" || element.style.display == "none") {
                 element.style.display = "grid"
@@ -58,7 +62,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
-                    <ul className='cursor-pointer hover-dropdown flex-col' onClick={dropdown}>
+                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Chalcedony
                         <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
                             <Link to="/Black">
@@ -132,9 +136,6 @@ const Navbar = () => {
                             <Link to="/LightGreen">
                                 <li className='text-center p-1'>Light Green</li>
                             </Link>
-                            <Link to="/Golden">
-                                <li className='text-center p-1'>Golden</li>
-                            </Link>
                             <Link to="/TrapicheEmerald">
                                 <li className='text-center p-1'>Trapiche Emerald</li>
                             </Link>
@@ -176,9 +177,9 @@ const Navbar = () => {
                         </div>
                     </ul>
                     <Link to="/More">
-                        <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                        <h4 className='cursor-pointer hover-dropdown'>
                             More
-                        </ul>
+                        </h4>
                     </Link>
                 </nav >
             </div >
