@@ -9,7 +9,7 @@ const gemstone = {
 
         "tag": "Calcite",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/marble-calcite.png"
     },
     "Onyx Marble": {
         "name": "Onyx Marble",
@@ -30,9 +30,11 @@ const gemstone = {
 
         "healing_factor": "A stabilising stone, Carnelian restores vitality and motivation, and stimulates creativity.  It gives courage, promotes positive life choices, dispels apathy and motivates for success.  Carnelian is useful for overcoming abuse of any kind.  It helps in trusting yourself and your perceptions.  It overcomes negative conditioning and encourages steadfastness.  Carnelian improves analytic abilities and clarifies perception.  It sharpens concentration and dispels mental lethargy.  Protects against envy, rage and resentment.  Calms anger, banishes emotional negativity and replaces it with a love of life.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/carnelian-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Carnelian"
     },
 
     "Black Chalcedony": {
@@ -42,9 +44,11 @@ const gemstone = {
 
         "healing_factor": "This gemstone is known for its grounding and protective abilities, helping to alleviate stress and promote a sense of calmness. It is also said to enhance communication skills and encourage positive relationships with others.Holding or wearing black chalcedony can help release negative emotions such as anger, jealousy, and self-doubt, allowing one to move forward with clarity and confidence. Plus, it is believed to boost physical energy levels and improve overall stamina.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/black-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Black"
 
     },
 
@@ -55,9 +59,11 @@ const gemstone = {
 
         "healing_factor": "Chrysocolla, with associations of tranquility, peace, intuition, patience and unconditional love, is known as a healing stone among Native American cultures where it has been used to strengthen the body's resistance to illness and emotional duress. It has also been used traditionally to bring about calm feelings where there is upset and can be used to purify a place or restore balance to a person.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/chrysocolla-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Chrysocolla"
     },
     "Chrysoprase Chalcedony": {
         "name": "Chrysoprase Chalcedony",
@@ -66,9 +72,11 @@ const gemstone = {
 
         "healing_factor": "Chrysoprase is a strong detoxifying stone. It eliminates waste from the body, as well as the mind, by stimulating the liver and encouraging the body to rid itself of poisons. It is excellent for relaxation and promoting a peaceful night's sleep, reducing claustrophobia and preventing nightmares.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/chrysoprase-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Chrysoprase"
     },
     "Sard Chalcedony": {
         "name": "Sard Chalcedony",
@@ -77,9 +85,11 @@ const gemstone = {
 
         "healing_factor": "Chalcedony is a nurturing stone that promotes brotherhood and good will.  It absorbs negative energy.  It brings the mind, body, emotions and spirit into harmony.  Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/sard-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Sard"
     },
 
     "Agate Chalcedony": {
@@ -89,9 +99,11 @@ const gemstone = {
 
         "healing_factor": "Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.  Eases self-doubt. Creates openness and enthusiasm.  Absorbs and dissipates negative thoughts, emotions and bad dreams.Chalcedony improves mineral assimilation and combats mineral buildup in veins.  Lessens the effects of dementia and senility.  It increases physical energy.  Heals the eyes, gallbladder, bones, spleen, blood and circulatory system.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/agate-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Agate"
     },
 
     "Bloodstone Chalcedony": {
@@ -101,9 +113,11 @@ const gemstone = {
 
         "healing_factor": "Blood Stone brings the mind, body, and spirit into alignment and harmony. It is a protective stone that absorbs negative vibrations and energy, allowing it to dissipate to prevent onward transmission.It is a very nurturing stone that promotes and enhances goodwill and stability within groups of people. It encourages empathy and understanding and brings calming vibrations to potential areas of conflict between individuals. ",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/bloodstone-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Chrysocolla"
     },
 
     "Dendritic Agate Chalcedony": {
@@ -113,9 +127,11 @@ const gemstone = {
 
         "healing_factor": "Dendritic Agate brings fullness and abundance to all areas of life. It is the stone of plenitude. It creates a peaceful environment and encourages the enjoyment of each moment.  Deepens your connection to the earth.  Dendritic Agate brings stability in times of strife or confusion. Lends perseverance and the ability to see difficulties as a challenge. Opens and aligns the chakras.Dendritic Agate resonates with blood vessels and nerves. It heals the nervous system and conditions such as neuralgia. Treats skeletal disorders. Reverses capillary degeneration and stimulates the circulatory system. Provides pain relief.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/dendritic-agate-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "DendriticAgate"
     },
 
     "Blue Chalcedony": {
@@ -125,9 +141,11 @@ const gemstone = {
 
         "healing_factor": "The healing properties of Blue Chalcedony make it a powerful stone that can help you deal with your emotions and past trauma. It can help to remove negative energy from your body, making it easier for you to connect with your higher self. This can also help you to focus on your dreams, meditate, and be at peace with your thoughts.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/blue-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Blue"
     },
 
     "Moss Agate": {
@@ -137,9 +155,11 @@ const gemstone = {
 
         "healing_factor": "Moss agate is a stone that has various healing properties for the emotions, the mind, the body, and the spirit. It can help balance out negative feelings, bring grounding and stability, and shield against negative energies. It can also encourage growth, fertility, abundance, creativity, and optimism. It is linked to the heart chakra, which represents love, empathy, and forgiveness, and can heal this chakra from blockages caused by self-hatred, heartbreak, betrayal, and hatred from others. It can also relieve stress, infections, swellings, colds, flu, and fever with its anti-inflammatory properties.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/moss-agate-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Moss"
     },
 
     "Onyx": {
@@ -149,9 +169,11 @@ const gemstone = {
 
         "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/onyx-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Onyx"
     },
 
     "Sardonyx": {
@@ -161,9 +183,11 @@ const gemstone = {
 
         "healing_factor": "Sardonyx is a stone that has mental and physical healing properties. It strengthens the ability to understand information, discern truth, and cultivate self-control. It also promotes virtuous conduct, friendship, and good fortune. It stimulates and heals the sensory organs, such as sight, hearing, touch, and smell. It regulates the fluids, metabolism, and functions of the body, especially the digestive and immune systems. It helps to repair bones and improve all sensory responses.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/sardonyx.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Sardonyx"
     },
 
     "Fire agate": {
@@ -173,9 +197,11 @@ const gemstone = {
 
         "healing_factor": "Fire agate is believed to have healing properties that can help with digestive health by regulating the digestive system and reducing inflammation. It is also beneficial in the treatment of poor circulation, lethargy or lack of energy, or depression. It enhances mental function by improving concentration, perception, and analytical abilities. Fire Agate is useful in treating the endocrine system, the colon, and increasing metabolism. It boosts energy levels, encourages positive thinking, and improves communication skills. Additionally, fire agate is thought to help protect the wearer from harm and negative energy.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/fire-agate-chalcedony.png",
 
-        "tag": "Chalcedony"
+        "tag": "Chalcedony",
+
+        "path" : "Fireagate"
     },
 
     "Yellow sapphires": {
@@ -185,9 +211,11 @@ const gemstone = {
 
         "healing_factor": "Yellow sapphire is known for restoring balance in the spleen, and has been useful in treatments of the digestive system, gall bladder, and liver. It is beneficial in treating blood disorders and alleviates excessive bleeding; it strengthens the veins and improves their elasticity. Yellow sapphire can be very beneficial in the treatment of jaundice by protecting the liver. It can also help with throat infections, as well as with conditions that affect the lungs. It can boost blood circulation and help with disorders affecting the pancreas as well. Yellow sapphire is an excellent stone that will help in relaxing you and calming you down. It will focus your mind and get rid of any tension in your head.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/yellow-sapphires-corundum.png",
 
-        "tag": "Corundun"
+        "tag": "Corundum",
+
+        "path" : "Yellowsapphires"
     },
 
     "Ruby": {
@@ -197,9 +225,11 @@ const gemstone = {
 
         "healing_factor": "Ruby is believed to stimulate the root chakra, promoting energy, vitality, and a zest for life. It is also associated with passion, love, and romance. Ruby stones are thought to have a positive effect on the circulatory system and promote detoxification. Ruby is ideal for any blood or circulatory system disorders in terms of physical healing. It cleanses the blood while also stimulating the lymphatic system.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/ruby-corundum.png",
 
-        "tag": "Corundun"
+        "tag": "Corundum",
+
+        "path" : "Ruby"
     },
 
     "Sapphire": {
@@ -209,9 +239,11 @@ const gemstone = {
 
         "healing_factor": "Sapphire is a stone that has physical and emotional healing properties. It can improve bone strength and density, detoxify the body, reduce infections, fevers, inflammation, bleeding, and blood-related problems, and heal burns and eye issues. It can also calm the mind, balance the emotions, boost courage and self-esteem, and promote tranquility and restful sleep. ",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/sapphire-corundum.png",
 
-        "tag": "Corundun"
+        "tag": "Corundum",
+
+        "path" : "Sapphire"
     },
 
     "Star Ruby": {
@@ -221,9 +253,11 @@ const gemstone = {
 
         "healing_factor": "Star Ruby is a Root Chakra stone that is a powerful stone for manifestation and tantric work through the aura and ascending Chakras. It is said to have stronger healing and magical energies than a normal Ruby. Star Ruby is a wonderful amplifier of one’s fortitude and inner resources, and is often used by Light Workers and healers to integrate high-frequency energy into the body. It is an excellent healing stone for the base chakra. It can be used to treat inadequate circulation or energy flow in the feet and legs.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/star-ruby-corundum.png",
 
-        "tag": "Corundun"
+        "tag": "Corundum",
+
+        "path" : "StarRuby"
     },
 
     "Prasiolite": {
@@ -235,7 +269,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Prasiolite"
     },
 
     "Amethyst": {
@@ -247,7 +283,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Amethyst"
     },
 
     "Ametrine": {
@@ -259,7 +297,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Ametrine"
     },
 
 
@@ -272,7 +312,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Citrine"
     },
 
     "Rock crystal": {
@@ -284,7 +326,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Rockcrystal"
     },
 
     "Rose": {
@@ -296,7 +340,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Rose"
     },
 
     "Smoky": {
@@ -308,7 +354,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Smoky"
     },
 
     "Hawk's eye": {
@@ -320,7 +368,9 @@ const gemstone = {
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Hawkeye"
     },
 
     "Aventurine": {
@@ -332,7 +382,9 @@ const gemstone = {
 
         "img": "src/assets/aventurine-quartz-40 jewelery.png",
 
-        "tag": "Quartz"
+        "tag": "Quartz",
+
+        "path" : "Chrysocolla"
     },
 
     "Rubellite": {

@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className='flex bg-[#e3874f] text-[#37363d] item-center justify-center text-lg px-6 pb-3'>
 
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center'>
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                    {/* <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Calcite
                         <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-10 mt-3 absolute w-fit dropdown-content'>
                             <Link to='/IcelandSpar'>
@@ -61,7 +61,7 @@ const Navbar = () => {
                                 <li className='text-center p-1'>Onyx Marble</li>
                             </Link>
                         </div>
-                    </ul>
+                    </ul> */}
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Chalcedony
                         <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
@@ -110,7 +110,7 @@ const Navbar = () => {
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Corundum
                         <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content'>
-                            <Link to="/Yellow Sapphires">
+                            <Link to="/YellowSapphires">
                                 <li className='text-center p-1'>Yellow Sapphire</li>
                             </Link>
                             <Link to="/Ruby">

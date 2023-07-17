@@ -6,7 +6,6 @@ import gemstone from '../database/db'
 const GemStone = (props) => {
 
   let data = props.data
-  console.log(data.tag)
 
   let more = Object.values(gemstone).filter((element) => {
     if (element.tag == data.tag && element.name != data.name) {
@@ -23,10 +22,10 @@ const GemStone = (props) => {
           <h3 className='text-xl my-3 font-semibold text-[#e3874f]'>Healing Factors:</h3>
           <p className='my-3'>{data.healing_factor}</p>
         </div>
-        <img src={data.img} className='w-[25%] rounded-lg' alt="" />
+        <img src={data.img} className='w-[28%] rounded-lg' alt="" />
       </div>
       {more ? <div className='my-5 flex flex-col w-[98vw] items-center justify-around'>
-        <h1 className='text-4xl font-semibold m-auto'>Discover more of Calcite</h1>
+        <h1 className='text-4xl font-semibold m-auto'>Discover more of {data.tag}</h1>
         <div className='flex flex-wrap justify-around w-[100%] my-10'>
           {more.map((element) => {
             return <Gemcard data={element} />
