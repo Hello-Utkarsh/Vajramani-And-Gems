@@ -168,9 +168,6 @@ const Navbar = () => {
                             <Link to="/Smoky">
                                 <li className='text-center p-1'>Smoky</li>
                             </Link>
-                            <Link to="/Hawkeye">
-                                <li className='text-center p-1'>Hawk's Eye</li>
-                            </Link>
                             <Link to="/Aventurine">
                                 <li className='text-center p-1'>Aventurine</li>
                             </Link>

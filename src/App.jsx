@@ -39,26 +39,32 @@ function App() {
           <Route path={'FireAgate'} element={<GemStone data={GemStone_Data['Fire agate']} />} />
           {/* Chalcedony */}
 
+          {/* Corundun */}
           <Route path={'YellowSapphires'} element={<GemStone data={GemStone_Data['Yellow sapphires']} />} />
           <Route path={'Ruby'} element={<GemStone data={GemStone_Data['Ruby']} />} />
           <Route path={'Sapphire'} element={<GemStone data={GemStone_Data['Sapphire']} />} />
           <Route path={'StarRuby'} element={<GemStone data={GemStone_Data['Star Ruby']} />} />
+          {/* Corundun */}
+
+          {/* Quartz */}
           <Route path={'Prasiolite'} element={<GemStone data={GemStone_Data['Prasiolite']} />} />
           <Route path={'Amethyst'} element={<GemStone data={GemStone_Data['Amethyst']} />} />
           <Route path={'Ametrine'} element={<GemStone data={GemStone_Data['Ametrine']} />} />
           <Route path={'Citrine'} element={<GemStone data={GemStone_Data['Citrine']} />} />
-          <Route path={'Rose'} element={<GemStone data={GemStone_Data['Rose']} />} />
-
           <Route path={'Rockcrystal'} element={<GemStone data={GemStone_Data['Rock crystal']} />} />
+          <Route path={'Rose'} element={<GemStone data={GemStone_Data['Rose']} />} />
           <Route path={'Smoky'} element={<GemStone data={GemStone_Data['Smoky']} />} />
+          <Route path={'Aventurine'} element={<GemStone data={GemStone_Data['Aventurine']} />} />
+          {/* Quartz */}
 
-          <Route path={'Hawkeye'} element={<GemStone data={GemStone_Data["Hawk's eye"]} />} />
+          {/* Beryl */}
           <Route path={'Aquamarine'} element={<GemStone data={GemStone_Data['Aquamarine']} />} />
           <Route path={'Emerald'} element={<GemStone data={GemStone_Data['Emerald']} />} />
           <Route path={'LightGreen'} element={<GemStone data={GemStone_Data['Light Green']} />} />
           <Route path={'TrapicheEmerald'} element={<GemStone data={GemStone_Data['Trapiche Emerald']} />} />
           <Route path={'CatEye'} element={<GemStone data={GemStone_Data['Cat Eye']} />} />
           <Route path="*" element={<NoPage />} />
+          {/* Beryl */}
 
         </Routes>
         <Contact />
