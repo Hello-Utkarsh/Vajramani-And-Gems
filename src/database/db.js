@@ -260,6 +260,76 @@ const gemstone = {
         "path" : "StarRuby"
     },
 
+    "Aquamarine": {
+        "name": "Aquamarine",
+
+        "description": "Aquamarine, a captivating variety of beryl, boasts a stunning appearance reminiscent of the sea. Its color ranges from pale blue to light greenish-blue, resembling the tranquil waters of tropical shores. The gemstone often exhibits exceptional transparency and a vitreous luster, radiating a captivating brilliance. Aquamarine's clarity allows light to dance within, creating a mesmerizing sparkle. It is frequently cut into faceted gemstones, showcasing its delicate hues and ensuring that each piece shines with a serene and ethereal beauty.",
+
+        "healing_factor": "Aquamarine, a variety of beryl, is renowned for its soothing and healing properties. This serene gemstone is believed to calm the mind and emotions, promoting inner peace and clarity. Aquamarine is associated with enhancing communication skills and encouraging self-expression. It is said to support emotional healing, assisting in the release of past traumas and promoting a sense of courage and resilience. Aquamarine is also believed to promote physical well-being, particularly benefiting the throat, respiratory system, and overall immune system.",
+
+        "img": "src/assets/aquamarine-beryl.png",
+
+        "tag": "Beryl",
+
+        "path" : "Aquamarine"
+    },
+
+    "Emerald": {
+        "name": "Emerald",
+
+        "description": "Emerald, a precious variety of beryl, showcases a breathtaking appearance that exudes elegance and allure. Its color ranges from vibrant green to deep emerald green, reminiscent of lush forests and verdant landscapes. The gemstone often exhibits a mesmerizing transparency and a vitreous luster, which enhances its brilliance. Emerald's internal clarity is highly valued, allowing light to reflect and refract within the gem, creating a captivating play of light. Its refined beauty and rich color make emerald an enchanting gemstone that commands attention and admiration.",
+
+        "healing_factor": "Emerald, with its vibrant energy, is believed to possess powerful healing properties. It is associated with promoting physical vitality and rejuvenation, supporting the heart, lungs, and immune system. Emerald is thought to enhance emotional well-being, fostering love, compassion, and harmony. It is said to promote mental clarity and stimulate intellectual growth, aiding in problem-solving and decision-making. Emerald is also believed to bring balance and serenity to relationships, fostering loyalty, and deepening connections.",
+
+        "img": "src/assets/emerald-beryl.png",
+
+        "tag": "Beryl",
+
+        "path" : "Emerald"
+    },
+
+    "Light Green": {
+        "name": "Light Green",
+
+        "description": "Light Green beryl, such as Heliodor or Green Beryl, exhibits a captivating appearance that exudes freshness and vitality. Its color ranges from pale yellow-green to a vibrant light green, reminiscent of tender spring foliage. The gemstone often possesses excellent transparency, allowing light to pass through and accentuate its brilliance. Light Green beryl showcases a vitreous luster and is commonly cut into faceted gemstones, showcasing its gentle hues and captivating sparkle, making it a delightful gemstone that evokes a sense of natural beauty.",
+
+        "healing_factor": "Light Green beryl, like Heliodor or Green Beryl, is associated with various healing properties. It is believed to stimulate the heart chakra, promoting emotional healing, compassion, and love. This gemstone is said to enhance clarity of thought, aiding in decision-making and problem-solving. Light Green beryl is also believed to support physical well-being by boosting the immune system and revitalizing the body. It is associated with promoting a sense of joy, optimism, and personal empowerment, fostering creativity and self-expression.",
+
+        "img": "src/assets/light-green-beryl.png",
+
+        "tag": "Beryl",
+
+        "path" : "LightGreen"
+    },
+
+    "Trapiche Emerald": {
+        "name": "Trapiche Emerald",
+
+        "description": "Trapiche Emerald, a remarkable and rare variety of emerald, exhibits a truly mesmerizing appearance. It showcases a distinct six-ray radial pattern reminiscent of a star, formed by dark impurities. The pattern radiates from a central point, resembling a wheel or a flower. Trapiche Emeralds typically possess a rich green color, often with exceptional transparency. This gemstone's unique formation creates a captivating and intricate visual display, making it a truly extraordinary and sought-after specimen for collectors and admirers of natural wonders.",
+
+        "healing_factor": "Trapiche Emerald, a rare and unique variety of emerald, is believed to possess special healing properties. It is associated with grounding and stabilizing energy, promoting a sense of balance and harmony. Trapiche Emerald is said to assist in releasing emotional blockages and promoting emotional healing. It is believed to enhance intuition and spiritual awareness, facilitating spiritual growth and connection. This gemstone is also associated with promoting clarity of thought and aiding in decision-making, bringing a sense of wisdom and guidance.",
+
+        "img": "src/assets/trapiche-emerald-beryl.png",
+
+        "tag": "Beryl",
+
+        "path" : "TrapicheEmerald"
+    },
+
+    "Cat Eye": {
+        "name": "Cat's Eye",
+
+        "description": "Cat Eye Beryl, also known as Cat's Eye Aquamarine or Cat's Eye Emerald, displays a captivating and distinctive appearance. This gemstone exhibits a luminous band of light, resembling the slit pupil of a feline, known as the 'cat's eye effect'. The band typically appears as a shimmering line running parallel to the gem's surface. Cat Eye Beryl often showcases a pale blue or green color, and when polished, it mesmerizes with its ethereal glow, creating a mesmerizing and enchanting gemstone.",
+
+        "healing_factor": "Cat Eye Beryl, with its unique cat's eye effect, is believed to possess special healing properties. It is associated with enhancing intuition and insight, promoting clarity of thought and decision-making. Cat Eye Beryl is said to offer protection from negative energies and bring good luck. It is believed to balance emotions, fostering a sense of calm and grounding. This gemstone is also associated with promoting self-awareness and spiritual growth, encouraging a deeper connection to one's inner wisdom and intuition.",
+
+        "img": "src/assets/yellow-cats-eye-beryl.png",
+
+        "tag": "Beryl",
+
+        "path" : "CatEye"
+    },
+
     "Prasiolite": {
         "name": "Prasiolite",
 
@@ -380,7 +450,11 @@ const gemstone = {
 
         "healing_factor": "Rubellite tourmaline is believed to possess several healing properties. It is said to stimulate the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance one's self-confidence and courage while reducing feelings of fear and anxiety. It may also help balance emotions and promote a sense of calmness and serenity. Additionally, rubellite tourmaline is said to boost vitality and energize the body, promoting overall well-being.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "morecategory",
+
+        "path": "Rubellite"
     },
 
     "Bi-colored": {
@@ -390,7 +464,11 @@ const gemstone = {
 
         "healing_factor": "Bi-colored tourmaline, or watermelon tourmaline, is believed to possess a range of healing properties. It is thought to balance and harmonize the heart and root chakras, promoting emotional healing, love, and compassion. This gemstone is said to help alleviate stress, calm the mind, and promote a sense of inner peace. It may also enhance creativity, intuition, and spiritual growth. Bi-colored tourmaline is believed to have a soothing and grounding effect, facilitating emotional stability and overall well-being.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "morecategory",
+
+        "path": "Bi-colored"
     },
 
     "Watermelon": {
@@ -400,7 +478,11 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "morecategory",
+
+        "path": "Watermelon"
     },
 
     "Amber": {
@@ -410,7 +492,11 @@ const gemstone = {
 
         "healing_factor": "Amber is believed to possess several healing properties. It is said to promote a sense of calmness and relaxation, soothing stress and anxiety. Amber is thought to have anti-inflammatory effects, aiding in relieving pain and discomfort. It is also believed to support the immune system and promote overall well-being. Additionally, wearing amber is said to help balance emotions, enhance clarity of thought, and provide a gentle energy that encourages healing and self-discovery.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "morecategory",
+
+        "path": "Amber"
     },
 
     "Chiastolite": {
@@ -420,67 +506,26 @@ const gemstone = {
 
         "healing_factor": "Chiastolite is believed to possess several healing properties. It is thought to bring stability and balance to one's life, promoting a sense of grounding and protection. Chiastolite is said to enhance spiritual insight and intuition, aiding in self-discovery and personal growth. It is believed to assist in overcoming challenges and obstacles, fostering resilience and perseverance. Additionally, chiastolite is associated with emotional healing, helping to alleviate feelings of guilt, fear, and negativity, and promoting a harmonious and positive mindset.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "morecategory",
+
+        "path": "Chiastolite"
     },
 
-    "Aquamarine": {
-        "name": "Aquamarine",
 
-        "description": "Aquamarine, a captivating variety of beryl, boasts a stunning appearance reminiscent of the sea. Its color ranges from pale blue to light greenish-blue, resembling the tranquil waters of tropical shores. The gemstone often exhibits exceptional transparency and a vitreous luster, radiating a captivating brilliance. Aquamarine's clarity allows light to dance within, creating a mesmerizing sparkle. It is frequently cut into faceted gemstones, showcasing its delicate hues and ensuring that each piece shines with a serene and ethereal beauty.",
+    "Watermelon": {
+        "name": "Watermelon",
 
-        "healing_factor": "Aquamarine, a variety of beryl, is renowned for its soothing and healing properties. This serene gemstone is believed to calm the mind and emotions, promoting inner peace and clarity. Aquamarine is associated with enhancing communication skills and encouraging self-expression. It is said to support emotional healing, assisting in the release of past traumas and promoting a sense of courage and resilience. Aquamarine is also believed to promote physical well-being, particularly benefiting the throat, respiratory system, and overall immune system.",
+        "description": "Watermelon tourmaline, aptly named for its resemblance to the fruit, exhibits a captivating and distinct appearance. This gemstone features a delightful combination of pink or red hues at the center, surrounded by a green outer layer, reminiscent of a watermelon's flesh and rind. The transition between the colors can be gradual or sharply defined, creating a visually striking pattern. Watermelon tourmaline typically displays a vitreous luster and a transparent to translucent nature, making it a captivating and unique gemstone.",
+
+        "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
         "img": "src/assets/Iceland_Spar.png",
 
-        "tag": "Beryl"
-    },
+        "tag": "morecategory",
 
-    "Emerald": {
-        "name": "Emerald",
-
-        "description": "Emerald, a precious variety of beryl, showcases a breathtaking appearance that exudes elegance and allure. Its color ranges from vibrant green to deep emerald green, reminiscent of lush forests and verdant landscapes. The gemstone often exhibits a mesmerizing transparency and a vitreous luster, which enhances its brilliance. Emerald's internal clarity is highly valued, allowing light to reflect and refract within the gem, creating a captivating play of light. Its refined beauty and rich color make emerald an enchanting gemstone that commands attention and admiration.",
-
-        "healing_factor": "Emerald, with its vibrant energy, is believed to possess powerful healing properties. It is associated with promoting physical vitality and rejuvenation, supporting the heart, lungs, and immune system. Emerald is thought to enhance emotional well-being, fostering love, compassion, and harmony. It is said to promote mental clarity and stimulate intellectual growth, aiding in problem-solving and decision-making. Emerald is also believed to bring balance and serenity to relationships, fostering loyalty, and deepening connections.",
-
-        "img": "src/assets/Iceland_Spar.png",
-
-        "tag": "Beryl"
-    },
-
-    "Light Green": {
-        "name": "Light Green",
-
-        "description": "Light Green beryl, such as Heliodor or Green Beryl, exhibits a captivating appearance that exudes freshness and vitality. Its color ranges from pale yellow-green to a vibrant light green, reminiscent of tender spring foliage. The gemstone often possesses excellent transparency, allowing light to pass through and accentuate its brilliance. Light Green beryl showcases a vitreous luster and is commonly cut into faceted gemstones, showcasing its gentle hues and captivating sparkle, making it a delightful gemstone that evokes a sense of natural beauty.",
-
-        "healing_factor": "Light Green beryl, like Heliodor or Green Beryl, is associated with various healing properties. It is believed to stimulate the heart chakra, promoting emotional healing, compassion, and love. This gemstone is said to enhance clarity of thought, aiding in decision-making and problem-solving. Light Green beryl is also believed to support physical well-being by boosting the immune system and revitalizing the body. It is associated with promoting a sense of joy, optimism, and personal empowerment, fostering creativity and self-expression.",
-
-        "img": "src/assets/Iceland_Spar.png",
-
-        "tag": "Beryl"
-    },
-
-    "Trapiche Emerald": {
-        "name": "Trapiche Emerald",
-
-        "description": "Trapiche Emerald, a remarkable and rare variety of emerald, exhibits a truly mesmerizing appearance. It showcases a distinct six-ray radial pattern reminiscent of a star, formed by dark impurities. The pattern radiates from a central point, resembling a wheel or a flower. Trapiche Emeralds typically possess a rich green color, often with exceptional transparency. This gemstone's unique formation creates a captivating and intricate visual display, making it a truly extraordinary and sought-after specimen for collectors and admirers of natural wonders.",
-
-        "healing_factor": "Trapiche Emerald, a rare and unique variety of emerald, is believed to possess special healing properties. It is associated with grounding and stabilizing energy, promoting a sense of balance and harmony. Trapiche Emerald is said to assist in releasing emotional blockages and promoting emotional healing. It is believed to enhance intuition and spiritual awareness, facilitating spiritual growth and connection. This gemstone is also associated with promoting clarity of thought and aiding in decision-making, bringing a sense of wisdom and guidance.",
-
-        "img": "src/assets/Iceland_Spar.png",
-
-        "tag": "Beryl"
-    },
-
-    "Cat Eye": {
-        "name": "Cat Eye",
-
-        "description": "Cat Eye Beryl, also known as Cat's Eye Aquamarine or Cat's Eye Emerald, displays a captivating and distinctive appearance. This gemstone exhibits a luminous band of light, resembling the slit pupil of a feline, known as the 'cat's eye effect'. The band typically appears as a shimmering line running parallel to the gem's surface. Cat Eye Beryl often showcases a pale blue or green color, and when polished, it mesmerizes with its ethereal glow, creating a mesmerizing and enchanting gemstone.",
-
-        "healing_factor": "Cat Eye Beryl, with its unique cat's eye effect, is believed to possess special healing properties. It is associated with enhancing intuition and insight, promoting clarity of thought and decision-making. Cat Eye Beryl is said to offer protection from negative energies and bring good luck. It is believed to balance emotions, fostering a sense of calm and grounding. This gemstone is also associated with promoting self-awareness and spiritual growth, encouraging a deeper connection to one's inner wisdom and intuition.",
-
-        "img": "src/assets/Iceland_Spar.png",
-
-        "tag": "Beryl"
+        "path": "Rubellite"
     },
 
     "Watermelon": {
@@ -490,7 +535,11 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png"
+        "img": "src/assets/Iceland_Spar.png",
+
+        "tag": "morecategory",
+
+        "path": "Rubellite"
     },
 
     "Watermelon": {
@@ -500,17 +549,11 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png"
-    },
+        "img": "src/assets/Iceland_Spar.png",
 
-    "Watermelon": {
-        "name": "Watermelon",
+        "tag": "morecategory",
 
-        "description": "Watermelon tourmaline, aptly named for its resemblance to the fruit, exhibits a captivating and distinct appearance. This gemstone features a delightful combination of pink or red hues at the center, surrounded by a green outer layer, reminiscent of a watermelon's flesh and rind. The transition between the colors can be gradual or sharply defined, creating a visually striking pattern. Watermelon tourmaline typically displays a vitreous luster and a transparent to translucent nature, making it a captivating and unique gemstone.",
-
-        "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
-
-        "img": "src/assets/Iceland_Spar.png"
+        "path": "Rubellite"
     },
 }
 
