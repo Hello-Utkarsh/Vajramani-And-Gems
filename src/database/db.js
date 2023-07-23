@@ -450,7 +450,7 @@ const gemstone = {
 
         "healing_factor": "Rubellite tourmaline is believed to possess several healing properties. It is said to stimulate the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance one's self-confidence and courage while reducing feelings of fear and anxiety. It may also help balance emotions and promote a sense of calmness and serenity. Additionally, rubellite tourmaline is said to boost vitality and energize the body, promoting overall well-being.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/rubellite-gemstone.png",
 
         "tag": "morecategory",
 
@@ -464,7 +464,7 @@ const gemstone = {
 
         "healing_factor": "Bi-colored tourmaline, or watermelon tourmaline, is believed to possess a range of healing properties. It is thought to balance and harmonize the heart and root chakras, promoting emotional healing, love, and compassion. This gemstone is said to help alleviate stress, calm the mind, and promote a sense of inner peace. It may also enhance creativity, intuition, and spiritual growth. Bi-colored tourmaline is believed to have a soothing and grounding effect, facilitating emotional stability and overall well-being.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/bi-colored-gemstone.png",
 
         "tag": "morecategory",
 
@@ -478,7 +478,7 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/watermelon-gemstone.png",
 
         "tag": "morecategory",
 
@@ -492,7 +492,7 @@ const gemstone = {
 
         "healing_factor": "Amber is believed to possess several healing properties. It is said to promote a sense of calmness and relaxation, soothing stress and anxiety. Amber is thought to have anti-inflammatory effects, aiding in relieving pain and discomfort. It is also believed to support the immune system and promote overall well-being. Additionally, wearing amber is said to help balance emotions, enhance clarity of thought, and provide a gentle energy that encourages healing and self-discovery.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/amber-gemstone.png",
 
         "tag": "morecategory",
 
@@ -506,7 +506,7 @@ const gemstone = {
 
         "healing_factor": "Chiastolite is believed to possess several healing properties. It is thought to bring stability and balance to one's life, promoting a sense of grounding and protection. Chiastolite is said to enhance spiritual insight and intuition, aiding in self-discovery and personal growth. It is believed to assist in overcoming challenges and obstacles, fostering resilience and perseverance. Additionally, chiastolite is associated with emotional healing, helping to alleviate feelings of guilt, fear, and negativity, and promoting a harmonious and positive mindset.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/chiastolite-gemstone.png",
 
         "tag": "morecategory",
 
@@ -549,7 +549,7 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/watermelon-gemstone.png",
 
         "tag": "morecategory",
 
