@@ -1,28 +1,5 @@
 const gemstone = {
 
-    "Marble": {
-        "name": "Marble",
-
-        "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
-
-        "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
-
-        "tag": "Calcite",
-
-        "img": "src/assets/marble-calcite.png"
-    },
-    "Onyx Marble": {
-        "name": "Onyx Marble",
-
-        "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
-
-        "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
-
-        "tag": "Calcite",
-
-        "img": "src/assets/Iceland_Spar.png"
-    },
-
     "Carnelian Chalcedony": {
         "name": "Carnelian Chalcedony",
 
@@ -452,7 +429,7 @@ const gemstone = {
 
         "img": "src/assets/rubellite-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
         "path": "Rubellite"
     },
@@ -466,7 +443,7 @@ const gemstone = {
 
         "img": "src/assets/bi-colored-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
         "path": "Bi-colored"
     },
@@ -480,7 +457,7 @@ const gemstone = {
 
         "img": "src/assets/watermelon-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
         "path": "Watermelon"
     },
@@ -494,7 +471,7 @@ const gemstone = {
 
         "img": "src/assets/amber-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
         "path": "Amber"
     },
@@ -508,52 +485,79 @@ const gemstone = {
 
         "img": "src/assets/chiastolite-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
         "path": "Chiastolite"
     },
 
+    "Marble": {
+        "name": "Marble",
 
-    "Watermelon": {
-        "name": "Watermelon",
+        "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
 
-        "description": "Watermelon tourmaline, aptly named for its resemblance to the fruit, exhibits a captivating and distinct appearance. This gemstone features a delightful combination of pink or red hues at the center, surrounded by a green outer layer, reminiscent of a watermelon's flesh and rind. The transition between the colors can be gradual or sharply defined, creating a visually striking pattern. Watermelon tourmaline typically displays a vitreous luster and a transparent to translucent nature, making it a captivating and unique gemstone.",
+        "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
 
-        "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
+        "tag": "Gemstone",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/marble-calcite.png",
 
-        "tag": "morecategory",
+        "path": "Marble"
+    },
+    "Onyx Marble": {
+        "name": "Onyx Marble",
 
-        "path": "Rubellite"
+        "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
+
+        "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
+
+        "tag": "Gemstone",
+
+        "img": "src/assets/onyx-chalcedony.png",
+
+        "path" : "OnyxMarble"
     },
 
-    "Watermelon": {
-        "name": "Watermelon",
 
-        "description": "Watermelon tourmaline, aptly named for its resemblance to the fruit, exhibits a captivating and distinct appearance. This gemstone features a delightful combination of pink or red hues at the center, surrounded by a green outer layer, reminiscent of a watermelon's flesh and rind. The transition between the colors can be gradual or sharply defined, creating a visually striking pattern. Watermelon tourmaline typically displays a vitreous luster and a transparent to translucent nature, making it a captivating and unique gemstone.",
+    "Synthetic cubic zirconia": {
+        "name": "Synthetic cubic zirconia",
+
+        "description": "Synthetic cubic zirconia gemstones have a diamond-like brilliance, sparkle, and clarity. They come in colorless or vibrant hues, thanks to added dopants. With various cuts available, they exhibit versatility in jewelry designs. Though slightly softer than diamonds, they still offer durability for regular wear. These CZ gems are an affordable alternative to diamonds, making them a popular choice for stunning jewelry pieces.",
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/Iceland_Spar.png",
+        "img": "src/assets/synthetic-cubic-zirconia-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
-        "path": "Rubellite"
+        "path": "Syntheticcubiczirconia"
     },
 
-    "Watermelon": {
-        "name": "Watermelon",
+    "Star diopside": {
+        "name": "Star diopside",
 
-        "description": "Watermelon tourmaline, aptly named for its resemblance to the fruit, exhibits a captivating and distinct appearance. This gemstone features a delightful combination of pink or red hues at the center, surrounded by a green outer layer, reminiscent of a watermelon's flesh and rind. The transition between the colors can be gradual or sharply defined, creating a visually striking pattern. Watermelon tourmaline typically displays a vitreous luster and a transparent to translucent nature, making it a captivating and unique gemstone.",
+        "description": "Star diopside is a mesmerizing gemstone displaying a unique natural phenomenon known as asterism. With a lustrous black or greenish-black hue, it boasts a captivating four-rayed star pattern that shimmers across its surface when illuminated. This optical effect arises from needle-like inclusions of magnetite, creating a celestial spectacle. Highly prized for its rarity and beauty, star diopside gemstone is a celestial delight cherished by collectors and jewelry enthusiasts alike.",
 
-        "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
+        "healing_factor": "Star diopside is believed to possess powerful healing properties that promote emotional and physical well-being. It is said to aid in releasing stress, anxiety, and negative emotions, fostering harmony and balance. This gemstone is thought to enhance intuition, encouraging a deeper connection with oneself and nature. Additionally, it is said to aid in physical healing, especially related to the heart, lungs, and circulation. Star diopside is revered as a gemstone that nurtures the mind, body, and soul.",
 
-        "img": "src/assets/watermelon-gemstone.png",
+        "img": "src/assets/star-diopside-gemstone.png",
 
-        "tag": "morecategory",
+        "tag": "Gemstone",
 
-        "path": "Rubellite"
+        "path": "Stardiopside"
+    },
+
+    "Labradorite": {
+        "name": "Labradorite",
+
+        "description": "Labradorite, a captivating feldspar gemstone, exudes a mystical allure with its mesmerizing play of colors. Displaying a dark gray to black base, it boasts iridescent flashes of blue, green, gold, and purple, known as labradorescence. These enchanting hues dance across the gem's surface when viewed from different angles. With a unique and ever-changing appearance, labradorite's iridescence adds a touch of magic to jewelry and gem collections, making it a popular choice among gem enthusiasts.",
+
+        "healing_factor": "Labradorite is believed to have various healing properties that promote spiritual growth and inner strength. It is thought to enhance intuition and psychic abilities, helping one tap into their higher consciousness. Labradorite is said to shield the aura from negative energies and promote a sense of balance and harmony. It is also believed to alleviate stress and anxiety, aiding in emotional healing and self-discovery. This gemstone is revered for its transformative energies, fostering a deeper connection with one's inner wisdom and spirituality.",
+
+        "img": "src/assets/labradorite-feldspar-gemstone.png",
+
+        "tag": "Gemstone",
+
+        "path": "Labradorite"
     },
 }
 

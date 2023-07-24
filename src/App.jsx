@@ -66,6 +66,20 @@ function App() {
           <Route path="*" element={<NoPage />} />
           {/* Beryl */}
 
+          {/* More */}
+          <Route path={'Rubellite'} element={<GemStone data={GemStone_Data['Rubellite']} />} />
+          <Route path={'Bi-colored'} element={<GemStone data={GemStone_Data['Bi-colored']} />} />
+          <Route path={'Watermelon'} element={<GemStone data={GemStone_Data['Watermelon']} />} />
+          <Route path={'Chiastolite'} element={<GemStone data={GemStone_Data['Chiastolite']} />} />
+          <Route path={'Marble'} element={<GemStone data={GemStone_Data['Marble']} />} />
+          <Route path={'OnyxMarble'} element={<GemStone data={GemStone_Data['Onyx Marble']} />} />
+          <Route path={'Syntheticcubiczirconia'} element={<GemStone data={GemStone_Data['Synthetic cubic zirconia']} />} />
+          <Route path={'Stardiopside'} element={<GemStone data={GemStone_Data['Star diopside']} />} />
+          <Route path={'Labradorite'} element={<GemStone data={GemStone_Data['Labradorite']} />} />
+          <Route path={'Amber'} element={<GemStone data={GemStone_Data['Amber']} />} />
+
+          {/* More */}
+
         </Routes>
         <Contact />
 

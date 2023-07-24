@@ -4,7 +4,7 @@ import Gemcard from './Gemcard'
 
 const More = () => {
   let more = Object.values(gemstone).filter((element) => {
-    if (element.tag == "morecategory") {
+    if (element.tag == "Gemstone") {
       return element
     }
   })
