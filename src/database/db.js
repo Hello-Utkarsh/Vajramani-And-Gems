@@ -559,6 +559,105 @@ const gemstone = {
 
         "path": "Labradorite"
     },
+
+    "Moonstone": {
+        "name": "Moonstone",
+
+        "description": "Moonstone, a variety of orthoclase feldspar, displays a captivating iridescent shimmer known as adularescence. This mesmerizing optical effect creates a soft glow resembling the moon's gentle light. The stone appears milky white or transparent with a bluish sheen that moves across its surface when viewed from different angles. Its enchanting appearance makes it a popular gemstone choice for jewelry and ornamental purposes.",
+
+        "healing_factor": "Moonstone, a form of orthoclase feldspar, is believed to possess various healing properties. It is associated with promoting emotional balance, soothing stress, and calming the mind. The stone is thought to enhance intuition and insight while fostering inner growth and self-discovery. Moonstone is also considered to be a symbol of femininity and can be helpful for hormonal imbalances and reproductive health. Its gentle energy is believed to bring about harmony and a sense of peace in one's life.",
+
+        "img": "src/assets/moonstone-orthoclase-feldspar.png",
+
+        "tag": "Gemstone",
+
+        "path": "Moonstone"
+    },
+
+    "Fluorite": {
+        "name": "Fluorite",
+
+        "description": "Fluorite is a stunning mineral that exhibits a kaleidoscope of colors, including purple, green, blue, yellow, and pink. Its appearance can be transparent or translucent, and some specimens even possess a unique fluorescence, glowing under ultraviolet light. Fluorite often forms in cubic or octahedral crystal shapes, and its surfaces can be smooth or exhibit intricate patterns and banding. Its captivating and vibrant appearance makes it a popular choice for both collectors and jewelry enthusiasts alike.",
+
+        "healing_factor": "Fluorite is believed to possess a range of healing properties. It is thought to enhance mental clarity, focus, and concentration, promoting better decision-making and problem-solving skills. This gem is considered a protective stone, shielding against negative energies and electromagnetic pollution. It may assist in emotional healing, easing stress, anxiety, and promoting emotional balance. Fluorite is also associated with enhancing intuition and spiritual growth, making it a sought-after crystal for meditation and inner exploration. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "src/assets/fluorite.png",
+
+        "tag": "Gemstone",
+
+        "path": "Fluorite"
+    },
+
+    "Garnet": {
+        "name": "Garnet",
+
+        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
+
+        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "src/assets/garnet-gemstone.png",
+
+        "tag": "Gemstone",
+
+        "path": "Garnet"
+    },
+
+    "Snowflake": {
+        "name": "Snowflake",
+
+        "description": "Snowflake Obsidian is a striking volcanic glass with a black or dark brown base color, adorned with unique white or gray snowflake-like patterns. Its appearance is a result of inclusions of the mineral cristobalite, which create the contrasting speckled or lacy designs. The stone is typically opaque and has a smooth, glassy texture. The combination of its dark background and delicate snowflake patterns makes Snowflake Obsidian a popular choice for jewelry and decorative items, offering both beauty and intrigue.",
+
+        "healing_factor": "Snowflake Obsidian is believed to possess various healing properties. It is thought to aid in releasing emotional blockages, promoting a sense of balance and grounding. The stone is associated with providing support during times of change, encouraging self-awareness, and fostering personal growth. Snowflake Obsidian is believed to help dispel negative energies and patterns, promoting purity and clarity of mind. It is also used for relieving stress and bringing about a sense of calmness and inner peace. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "src/assets/snowflake-obsidian.png",
+
+        "tag": "Gemstone",
+
+        "path": "Snowflake"
+    },
+
+    "Idocrase": {
+        "name": "Idocrase",
+
+        "description": "Idocrase, also known as Vesuvianite, is a captivating gemstone exhibiting a wide range of colors, including green, yellow, brown, blue, and rarely, violet. Its appearance can be transparent to translucent, with a vitreous to resinous luster. Idocrase crystals are often well-formed and prismatic, but it can also be found as massive aggregates. Some specimens may display pleochroism, showing different colors when viewed from different angles. Its enchanting and diverse appearance makes it a popular choice for both collectors and jewelry enthusiasts.",
+
+        "healing_factor": "Idocrase, or Vesuvianite, is believed to possess various healing properties. It is thought to enhance one's spiritual connection, promoting a deeper understanding of oneself and the universe. This gemstone is associated with encouraging self-expression and creativity, while also aiding in the release of negative thought patterns and emotional blockages. Idocrase is believed to promote a sense of balance, healing the mind, body, and spirit. It is also used to increase feelings of hope, compassion, and optimism, supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "src/assets/idocrase-gemstone.png",
+
+        "tag": "Gemstone",
+
+        "path": "Idocrase"
+    },
+
+    "Garnet": {
+        "name": "Garnet",
+
+        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
+
+        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "src/assets/garnet-gemstone.png",
+
+        "tag": "Gemstone",
+
+        "path": "Garnet"
+    },
+
+    "Garnet": {
+        "name": "Garnet",
+
+        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
+
+        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "src/assets/garnet-gemstone.png",
+
+        "tag": "Gemstone",
+
+        "path": "Garnet"
+    },
+
 }
 
 export default gemstone

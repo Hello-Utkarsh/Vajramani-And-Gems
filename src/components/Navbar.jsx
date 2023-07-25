@@ -38,7 +38,7 @@ const Navbar = () => {
     return (
         <div>
             <div className='flex bg-[#e3874f] py-10 items-center'>
-                <span className="material-symbols-outlined text-[#37363d] ml-7 cursor-pointer" style={{ fontSize: "26px" }}>
+                <span className="material-symbols-outlined hidden text-[#37363d] ml-7 cursor-pointer" style={{ fontSize: "26px" }}>
                     menu
                 </span>
                 <Link to='/' className="m-auto">
@@ -48,20 +48,6 @@ const Navbar = () => {
             <div className='flex bg-[#e3874f] text-[#37363d] item-center justify-center text-lg px-6 pb-3'>
 
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center'>
-                    {/* <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
-                        Calcite
-                        <div className='rounded-xl hidden grid-cols-1 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-10 mt-3 absolute w-fit dropdown-content'>
-                            <Link to='/IcelandSpar'>
-                                <li className='text-center p-1'>Iceland Spar</li>
-                            </Link>
-                            <Link to='/Marble'>
-                                <li className='text-center p-1'>Marble</li>
-                            </Link>
-                            <Link to="/OnyxMarble">
-                                <li className='text-center p-1'>Onyx Marble</li>
-                            </Link>
-                        </div>
-                    </ul> */}
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Chalcedony
                         <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
@@ -105,7 +91,6 @@ const Navbar = () => {
                                 <li className='text-center p-1'>Fire Agate</li>
                             </Link>
                         </div>
-                        {/* Yellow Sapphires */}
                     </ul>
                     <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
                         Corundum
