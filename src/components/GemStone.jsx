@@ -24,6 +24,8 @@ const GemStone = (props) => {
         </div>
         <img src={data.img} className='w-[28%] rounded-lg' alt="" />
       </div>
+
+      {/* More Section */}
       {more ? <div className='my-5 flex flex-col w-[98vw] items-center justify-around'>
         <h1 className='text-4xl font-semibold m-auto'>Discover more of {data.tag}</h1>
         <div className='grid grid-cols-4 justify-items-center w-[100%] my-10'>

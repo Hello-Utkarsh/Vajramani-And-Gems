@@ -429,7 +429,7 @@ const gemstone = {
 
         "img": "src/assets/rubellite-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Rubellite"
     },
@@ -443,7 +443,7 @@ const gemstone = {
 
         "img": "src/assets/bi-colored-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Bi-colored"
     },
@@ -457,7 +457,7 @@ const gemstone = {
 
         "img": "src/assets/watermelon-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Watermelon"
     },
@@ -471,7 +471,7 @@ const gemstone = {
 
         "img": "src/assets/amber-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Amber"
     },
@@ -485,7 +485,7 @@ const gemstone = {
 
         "img": "src/assets/chiastolite-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Chiastolite"
     },
@@ -497,7 +497,7 @@ const gemstone = {
 
         "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "img": "src/assets/marble-calcite.png",
 
@@ -510,7 +510,7 @@ const gemstone = {
 
         "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "img": "src/assets/onyx-chalcedony.png",
 
@@ -527,7 +527,7 @@ const gemstone = {
 
         "img": "src/assets/synthetic-cubic-zirconia-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Syntheticcubiczirconia"
     },
@@ -541,7 +541,7 @@ const gemstone = {
 
         "img": "src/assets/star-diopside-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Stardiopside"
     },
@@ -555,7 +555,7 @@ const gemstone = {
 
         "img": "src/assets/labradorite-feldspar-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Labradorite"
     },
@@ -569,7 +569,7 @@ const gemstone = {
 
         "img": "src/assets/moonstone-orthoclase-feldspar.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Moonstone"
     },
@@ -583,7 +583,7 @@ const gemstone = {
 
         "img": "src/assets/fluorite.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Fluorite"
     },
@@ -597,7 +597,7 @@ const gemstone = {
 
         "img": "src/assets/garnet-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Garnet"
     },
@@ -611,7 +611,7 @@ const gemstone = {
 
         "img": "src/assets/snowflake-obsidian.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Snowflake"
     },
@@ -625,7 +625,7 @@ const gemstone = {
 
         "img": "src/assets/idocrase-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Idocrase"
     },
@@ -639,7 +639,7 @@ const gemstone = {
 
         "img": "src/assets/garnet-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Garnet"
     },
@@ -653,7 +653,7 @@ const gemstone = {
 
         "img": "src/assets/garnet-gemstone.png",
 
-        "tag": "Gemstone",
+        "tag": "Gemstones",
 
         "path": "Garnet"
     },
