@@ -7,50 +7,87 @@ const Navbar = () => {
     // DROPDOWN LOGIC
     const dropdown = async () => {
 
+        let window_resol = window.matchMedia("(min-width: 600px)")
+
         Array.from(document.getElementsByTagName("ul")).forEach(element => {
             element.children[0].style.display = "none"
         })
 
         Array.from(event.target.children).forEach(element => {
-            if (element.style.display == "" || element.style.display == "none") {
-                element.style.display = "grid"
+            if (window_resol.matches) {
+                if (element.style.display == "" || element.style.display == "none") {
+                    element.style.display = "grid"
+                    console.log("hello")
+                }
+                else {
+                    element.style.display = "none"
+                }
             }
-            else {
-                element.style.display = "none"
+            else{
+                if (element.style.display == "" || element.style.display == "none") {
+                    element.style.display = "flex"
+                }
+                else {
+                    element.style.display = "none"
+                }
             }
+            
 
         })
 
     }
 
+    // Sidebar Logic
+    let show_sidebar = ()=>{
+        let sidebar_state = document.getElementsByClassName('sidebar')[0].style.display
+        if (sidebar_state == "none" || sidebar_state == "") {
+            document.getElementsByClassName('sidebar')[0].style.display = "flex"
+        }
+        else{
+            document.getElementsByClassName('sidebar')[0].style.display = "none"
+        }
+    }
+
+    let show_more_data = ()=>{
+        document.getElementsByClassName('sidebar')[0].style.display = "none"
+    }
+
     // CLOSE DROPDOWN IF CLICKED ANYWHERE ELSE
     window.onclick = async (event) => {
+        
         if (!event.target.matches('.hover-dropdown')) {
             Array.from(document.getElementsByClassName("dropdown-content")).forEach(element => {
-                if (element.style.display == "grid") {
+                if (element.style.display == "grid" || element.style.display == "flex") {
                     element.style.display = "none"
                 }
             })
         }
+        console.log(document.getElementsByClassName('sidebar')[0].style.display)
+        if (!event.target.matches('.sidebar') && !event.target.matches('.menu') && !event.target.matches('.sidebar-content') && !event.target.matches('.hover-dropdown')) {
+            if (document.getElementsByClassName('sidebar')[0].style.display == "flex") {
+                document.getElementsByClassName('sidebar')[0].style.display = "none"
+            }
+        }
+        
     }
 
 
     return (
-        <div>
-            <div className='flex bg-[#e3874f] py-10 items-center'>
-                <span className="material-symbols-outlined hidden text-[#37363d] ml-7 cursor-pointer" style={{ fontSize: "26px" }}>
+        <div className='max-[600px]:fixed max-[600px]:w-[100vw] max-[600px]:top-0 max-[600px]:z-50 '>
+            <div className='flex bg-[#e3874f] py-8 items-center max-[600px]:h-[20vh]'>
+                <span className="material-symbols-outlined hidden text-[#37363d] ml-7 cursor-pointer max-[600px]:block max-[370px]:mx-3 menu"  onClick={show_sidebar} style={{ fontSize: "23px"}}>
                     menu
                 </span>
                 <Link to='/' className="m-auto">
-                    <h2 className='cursor-pointer font-dancin text-5xl m-auto text-[#4C3D3D] font-medium'>Vajramani And Gems</h2>
+                    <h2 className='cursor-pointer font-dancin text-5xl text-center m-auto text-[#4C3D3D] font-medium max-[510px]:text-4xl max-[370px]:text-[34px]'>Vajramani And Gems</h2>
                 </Link>
             </div>
-            <div className='flex bg-[#e3874f] text-[#37363d] item-center justify-center text-lg px-6 pb-3'>
+            <div className='flex bg-[#e3874f] text-[#37363d] item-center justify-center text-lg px-6 pb-3 max-[600px]:h-[100vh] max-[600px]:w-[50vw] max-[600px]:z-30 max-[600px]:hidden sidebar'>
 
-                <nav className='flex list-none w-[83%] justify-between h-12 items-center'>
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                <nav className='flex list-none w-[83%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
+                    <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Chalcedony
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
                             <Link to="/Black">
                                 <li className='text-center p-1'>Black</li>
                             </Link>
@@ -92,9 +129,9 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                    <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Corundum
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
                             <Link to="/YellowSapphires">
                                 <li className='text-center p-1'>Yellow Sapphire</li>
                             </Link>
@@ -109,9 +146,9 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                    <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Beryl
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
                             <Link to="/Aquamarine">
                                 <li className='text-center p-1'>Aquamarine</li>
                             </Link>
@@ -129,9 +166,9 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
-                    <ul className='cursor-pointer hover-dropdown' onClick={dropdown}>
+                    <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Quartz
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
                             <Link to="/Prasiolite">
                                 <li className='text-center p-1'>Prasiolite</li>
                             </Link>
@@ -159,7 +196,7 @@ const Navbar = () => {
                         </div>
                     </ul>
                     <Link to="/More">
-                        <h4 className='cursor-pointer hover-dropdown'>
+                        <h4 className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={show_more_data}>
                             More
                         </h4>
                     </Link>
