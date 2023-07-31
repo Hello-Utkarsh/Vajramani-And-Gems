@@ -3,13 +3,13 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='bg-black text-[#BACCD1] w-[100%] p-4 pb-6'>
-      <div className='flex justify-between p-2 flex-wrap max-md:flex-col max-md:items-center'>
+      <div className='flex justify-between p-2 flex-wrap max-[790px]:flex-col max-[790px]:items-center'>
 
         {/* contacts */}
 
-        <div className='flex flex-col w-[30%] justify-around items-center ml-14 max-lg:w-[43%] max-md:w-[90%] max-md:ml-0 max-[500px]:m-auto'>
-          <img className='h-[16vh] w-[80%] -mb-8 max-md:w-[80%] max-md:h-36 max-[500px]:w-[100%] max-[500px]:h-32' src={"src/assets/logo.png"} alt="" />
-          <div className='flex justify-around w-[80%] max-md:mt-6 max-md:text-xl max-[500px]:w-[100%] max-[380px]:flex-col max-[380px]:items-center'>
+        <div className='flex flex-col w-[30%] justify-around items-center ml-14 max-lg:w-[43%] max-[790px]:w-[90%] max-[790px]:ml-0 max-[500px]:m-auto'>
+          <img className='h-[16vh] w-[80%] -mb-8 max-[790px]:w-[80%] max-[790px]:h-36 max-[500px]:w-[100%] max-[500px]:h-32' src={"src/assets/logo.png"} alt="" />
+          <div className='flex justify-around w-[80%] max-[790px]:mt-6 max-[790px]:text-xl max-[500px]:w-[100%] max-[380px]:flex-col max-[380px]:items-center'>
             <div className='flex flex-col max-[380px]:items-center max-[380px]:my-3'>
               <h4>Email</h4>
               <p className='max-[380px]:mt-1'>hello@gmail.com</p>
@@ -23,13 +23,13 @@ const Contact = () => {
 
         {/* top categories */}
 
-        <div className='mr-24 flex flex-col items-center justify-center font-semibold   max-lg:mr-20 max-md:mr-0'>
+        <div className='mr-24 flex flex-col items-center justify-center font-semibold   max-lg:mr-20 max-[790px]:mr-0'>
           <h4 className='text-2xl mt-6 mb-2 text-center   max-lg:mt-12'>Browse our top categories</h4>
-          <div className='grid grid-cols-4 w-[45vw] justify-around place-items-center    max-lg:grid-cols-2 max-lg:w-[35vw] max-md:grid-cols-4 max-md:w-[80vw] max-[600px]:grid-cols-2 max-[600px]:w-64'>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-md:text-lg mt-5'>Categories</button>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-md:text-lg mt-5'>Categories</button>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-md:text-lg mt-5'>Categories</button>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-md:text-lg mt-5'>Categories</button>
+          <div className='grid grid-cols-4 w-[45vw] justify-around place-items-center    max-lg:grid-cols-2 max-lg:w-[35vw] max-[790px]:grid-cols-4 max-[790px]:w-[80vw] max-[600px]:grid-cols-2 max-[600px]:w-64'>
+            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5'>Categories</button>
+            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5'>Categories</button>
+            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5'>Categories</button>
+            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5'>Categories</button>
           </div>
         </div>
       </div>

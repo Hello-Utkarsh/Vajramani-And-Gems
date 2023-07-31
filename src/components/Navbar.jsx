@@ -87,7 +87,7 @@ const Navbar = () => {
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Chalcedony
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Black">
                                 <li className='text-center p-1'>Black</li>
                             </Link>
@@ -131,67 +131,67 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Corundum
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/YellowSapphires">
-                                <li className='text-center p-1'>Yellow Sapphire</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Yellow Sapphire</li>
                             </Link>
                             <Link to="/Ruby">
-                                <li className='text-center p-1'>Ruby</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Ruby</li>
                             </Link>
                             <Link to="/Sapphire">
-                                <li className='text-center p-1'>Sapphire</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Sapphire</li>
                             </Link>
                             <Link to="/StarRuby">
-                                <li className='text-center p-1'>Star Ruby</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Star Ruby</li>
                             </Link>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Beryl
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Aquamarine">
-                                <li className='text-center p-1'>Aquamarine</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Aquamarine</li>
                             </Link>
                             <Link to="/Emerald">
-                                <li className='text-center p-1'>Emerald</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Emerald</li>
                             </Link>
                             <Link to="/LightGreen">
-                                <li className='text-center p-1'>Light Green</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Light Green</li>
                             </Link>
                             <Link to="/TrapicheEmerald">
-                                <li className='text-center p-1'>Trapiche Emerald</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Trapiche Emerald</li>
                             </Link>
                             <Link to="/CatEye">
-                                <li className='text-center p-1'>Cat's Eye</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Cat's Eye</li>
                             </Link>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Quartz
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[80vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-40'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-normal'>
                             <Link to="/Prasiolite">
-                                <li className='text-center p-1'>Prasiolite</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Prasiolite</li>
                             </Link>
                             <Link to="/Amethyst">
-                                <li className='text-center p-1'>Amethyst</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Amethyst</li>
                             </Link>
                             <Link to="/Ametrine">
-                                <li className='text-center p-1'>Ametrine</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Ametrine</li>
                             </Link>
                             <Link to="/Citrine">
-                                <li className='text-center p-1'>Citrine</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Citrine</li>
                             </Link>
                             <Link to="/RockCrystal">
-                                <li className='text-center p-1'>Rock Crystal</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Rock Crystal</li>
                             </Link>
                             <Link to="/Rose">
-                                <li className='text-center p-1'>Rose</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Rose</li>
                             </Link>
                             <Link to="/Smoky">
-                                <li className='text-center p-1'>Smoky</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Smoky</li>
                             </Link>
                             <Link to="/Aventurine">
-                                <li className='text-center p-1'>Aventurine</li>
+                                <li className='text-center p-1 max-[600px]:my-2'>Aventurine</li>
                             </Link>
                         </div>
                     </ul>
