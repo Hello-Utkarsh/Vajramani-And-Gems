@@ -12,8 +12,8 @@ const More = () => {
   return (
     <div className='bg-black'>
 
-      {more ? <div className='my-5 flex flex-col mt-[20vh] items-center justify-around'>
-        <div className='grid max-lg:grid-cols-3 grid-cols-4 justify-items-center flex-wrap w-[100%] my-10 max-md:grid-cols-2'>
+      {more ? <div className='flex z-0 flex-col items-center justify-around'>
+        <div className='grid mt-48 max-lg:grid-cols-3 grid-cols-4 justify-items-center flex-wrap w-[100%] my-10 max-md:grid-cols-2'>
           {more.map((element) => {
             return <Gemcard data={element} />
           })}

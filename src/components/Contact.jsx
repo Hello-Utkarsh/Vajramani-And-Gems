@@ -8,7 +8,7 @@ const Contact = () => {
         {/* contacts */}
 
         <div className='flex flex-col w-[30%] justify-around items-center ml-14 max-lg:w-[43%] max-[790px]:w-[90%] max-[790px]:ml-0 max-[500px]:m-auto'>
-          <img className='h-[16vh] w-[80%] -mb-8 max-[790px]:w-[80%] max-[790px]:h-36 max-[500px]:w-[100%] max-[500px]:h-32' src={"src/assets/logo.png"} alt="" />
+          <img className='h-[16vh] w-[80%] -mb-8 max-[790px]:w-[80%] max-[790px]:h-36 max-[500px]:w-[100%] max-[500px]:h-32' src={"/static/images/logo.png"} alt="" />
           <div className='flex justify-around w-[80%] max-[790px]:mt-6 max-[790px]:text-xl max-[500px]:w-[100%] max-[380px]:flex-col max-[380px]:items-center'>
             <div className='flex flex-col max-[380px]:items-center max-[380px]:my-3'>
               <h4>Email</h4>
@@ -41,10 +41,10 @@ const Contact = () => {
       <div className='w-[84%] mt-8 m-auto flex justify-around flex-wrap'>
         <h4 className='text-lg max-[510px]:text-xl'>Also available on</h4>
         <div className='flex w-[50%] justify-around mx-8 max-[510px]:w-[100%] max-[510px]:mt-6'>
-        <img className='mx-2 rounded-lg h-10 transition ease-in-out bg-[#BACCD1]    hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"src/assets/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
-        <img className='mx-2 rounded-lg bg-[#BACCD1] h-10 transition-all ease-in-out  hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"src/assets/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
-        <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"src/assets/facebook.png"} alt="" />
-        <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"src/assets/facebook.png"} alt="" />
+        <img className='mx-2 rounded-lg h-10 transition ease-in-out bg-[#BACCD1]    hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"/static/images/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
+        <img className='mx-2 rounded-lg bg-[#BACCD1] h-10 transition-all ease-in-out  hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"/static/images/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
+        <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"/static/images/facebook.png"} alt="" />
+        <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"/static/images/facebook.png"} alt="" />
         </div>
 
       </div>

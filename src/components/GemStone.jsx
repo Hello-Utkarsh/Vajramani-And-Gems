@@ -14,8 +14,8 @@ const GemStone = (props) => {
   })
 
   return (
-    <div className='bg-black max-[600px]:mt-[20vh] text-[#BACCD1] flex-col flex justify-around items-center'>
-      <div className='flex justify-around items-center max-[600px]:flex-col'>
+    <div className='bg-black text-[#BACCD1] flex-col flex justify-around items-center'>
+      <div className='flex mt-40 justify-around items-center max-[600px]:flex-col'>
         <div className="flex flex-col w-[50%] my-10 max-[900px]:ml-3 max-[600px]:w-[87%] max-[600px]:text-center max-[600px]:ml-0">
           <h1 className='text-3xl my-3 font-medium text-[#e3874f] max-[450px]:text-2xl'>{data.name}</h1>
           <p className='my-3 text-base max-[600px]:w-[100%]'>{data.description}</p>

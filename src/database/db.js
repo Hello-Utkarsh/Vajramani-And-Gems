@@ -7,7 +7,7 @@ const gemstone = {
 
         "healing_factor": "A stabilising stone, Carnelian restores vitality and motivation, and stimulates creativity.  It gives courage, promotes positive life choices, dispels apathy and motivates for success.  Carnelian is useful for overcoming abuse of any kind.  It helps in trusting yourself and your perceptions.  It overcomes negative conditioning and encourages steadfastness.  Carnelian improves analytic abilities and clarifies perception.  It sharpens concentration and dispels mental lethargy.  Protects against envy, rage and resentment.  Calms anger, banishes emotional negativity and replaces it with a love of life.",
 
-        "img": "src/assets/carnelian-chalcedony.png",
+        "img": "/static/images/carnelian-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -21,7 +21,7 @@ const gemstone = {
 
         "healing_factor": "This gemstone is known for its grounding and protective abilities, helping to alleviate stress and promote a sense of calmness. It is also said to enhance communication skills and encourage positive relationships with others.Holding or wearing black chalcedony can help release negative emotions such as anger, jealousy, and self-doubt, allowing one to move forward with clarity and confidence. Plus, it is believed to boost physical energy levels and improve overall stamina.",
 
-        "img": "src/assets/black-chalcedony.png",
+        "img": "/static/images/black-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -36,7 +36,7 @@ const gemstone = {
 
         "healing_factor": "Chrysocolla, with associations of tranquility, peace, intuition, patience and unconditional love, is known as a healing stone among Native American cultures where it has been used to strengthen the body's resistance to illness and emotional duress. It has also been used traditionally to bring about calm feelings where there is upset and can be used to purify a place or restore balance to a person.",
 
-        "img": "src/assets/chrysocolla-chalcedony.png",
+        "img": "/static/images/chrysocolla-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -49,7 +49,7 @@ const gemstone = {
 
         "healing_factor": "Chrysoprase is a strong detoxifying stone. It eliminates waste from the body, as well as the mind, by stimulating the liver and encouraging the body to rid itself of poisons. It is excellent for relaxation and promoting a peaceful night's sleep, reducing claustrophobia and preventing nightmares.",
 
-        "img": "src/assets/chrysoprase-chalcedony.png",
+        "img": "/static/images/chrysoprase-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -62,7 +62,7 @@ const gemstone = {
 
         "healing_factor": "Chalcedony is a nurturing stone that promotes brotherhood and good will.  It absorbs negative energy.  It brings the mind, body, emotions and spirit into harmony.  Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.",
 
-        "img": "src/assets/sard-chalcedony.png",
+        "img": "/static/images/sard-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -76,7 +76,7 @@ const gemstone = {
 
         "healing_factor": "Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.  Eases self-doubt. Creates openness and enthusiasm.  Absorbs and dissipates negative thoughts, emotions and bad dreams.Chalcedony improves mineral assimilation and combats mineral buildup in veins.  Lessens the effects of dementia and senility.  It increases physical energy.  Heals the eyes, gallbladder, bones, spleen, blood and circulatory system.",
 
-        "img": "src/assets/agate-chalcedony.png",
+        "img": "/static/images/agate-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -90,7 +90,7 @@ const gemstone = {
 
         "healing_factor": "Blood Stone brings the mind, body, and spirit into alignment and harmony. It is a protective stone that absorbs negative vibrations and energy, allowing it to dissipate to prevent onward transmission.It is a very nurturing stone that promotes and enhances goodwill and stability within groups of people. It encourages empathy and understanding and brings calming vibrations to potential areas of conflict between individuals. ",
 
-        "img": "src/assets/bloodstone-chalcedony.png",
+        "img": "/static/images/bloodstone-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -104,7 +104,7 @@ const gemstone = {
 
         "healing_factor": "Dendritic Agate brings fullness and abundance to all areas of life. It is the stone of plenitude. It creates a peaceful environment and encourages the enjoyment of each moment.  Deepens your connection to the earth.  Dendritic Agate brings stability in times of strife or confusion. Lends perseverance and the ability to see difficulties as a challenge. Opens and aligns the chakras.Dendritic Agate resonates with blood vessels and nerves. It heals the nervous system and conditions such as neuralgia. Treats skeletal disorders. Reverses capillary degeneration and stimulates the circulatory system. Provides pain relief.",
 
-        "img": "src/assets/dendritic-agate-chalcedony.png",
+        "img": "/static/images/dendritic-agate-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -118,7 +118,7 @@ const gemstone = {
 
         "healing_factor": "The healing properties of Blue Chalcedony make it a powerful stone that can help you deal with your emotions and past trauma. It can help to remove negative energy from your body, making it easier for you to connect with your higher self. This can also help you to focus on your dreams, meditate, and be at peace with your thoughts.",
 
-        "img": "src/assets/blue-chalcedony.png",
+        "img": "/static/images/blue-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -132,7 +132,7 @@ const gemstone = {
 
         "healing_factor": "Moss agate is a stone that has various healing properties for the emotions, the mind, the body, and the spirit. It can help balance out negative feelings, bring grounding and stability, and shield against negative energies. It can also encourage growth, fertility, abundance, creativity, and optimism. It is linked to the heart chakra, which represents love, empathy, and forgiveness, and can heal this chakra from blockages caused by self-hatred, heartbreak, betrayal, and hatred from others. It can also relieve stress, infections, swellings, colds, flu, and fever with its anti-inflammatory properties.",
 
-        "img": "src/assets/moss-agate-chalcedony.png",
+        "img": "/static/images/moss-agate-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -146,7 +146,7 @@ const gemstone = {
 
         "healing_factor": "Onyx is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, grief, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the bones and teeth. Onyx is also said to help with blood disorders and improve the immune system. Chalcedony is believed to have healing properties that can help with physical and emotional issues. It is said to help with stress, depression, and negative emotions by providing a sense of calmness and balance. It is also believed to help with skin problems, such as acne and eczema, as well as issues related to the respiratory system.",
 
-        "img": "src/assets/onyx-chalcedony.png",
+        "img": "/static/images/onyx-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -160,7 +160,7 @@ const gemstone = {
 
         "healing_factor": "Sardonyx is a stone that has mental and physical healing properties. It strengthens the ability to understand information, discern truth, and cultivate self-control. It also promotes virtuous conduct, friendship, and good fortune. It stimulates and heals the sensory organs, such as sight, hearing, touch, and smell. It regulates the fluids, metabolism, and functions of the body, especially the digestive and immune systems. It helps to repair bones and improve all sensory responses.",
 
-        "img": "src/assets/sardonyx.png",
+        "img": "/static/images/sardonyx.png",
 
         "tag": "Chalcedony",
 
@@ -174,7 +174,7 @@ const gemstone = {
 
         "healing_factor": "Fire agate is believed to have healing properties that can help with digestive health by regulating the digestive system and reducing inflammation. It is also beneficial in the treatment of poor circulation, lethargy or lack of energy, or depression. It enhances mental function by improving concentration, perception, and analytical abilities. Fire Agate is useful in treating the endocrine system, the colon, and increasing metabolism. It boosts energy levels, encourages positive thinking, and improves communication skills. Additionally, fire agate is thought to help protect the wearer from harm and negative energy.",
 
-        "img": "src/assets/fire-agate-chalcedony.png",
+        "img": "/static/images/fire-agate-chalcedony.png",
 
         "tag": "Chalcedony",
 
@@ -188,7 +188,7 @@ const gemstone = {
 
         "healing_factor": "Yellow sapphire is known for restoring balance in the spleen, and has been useful in treatments of the digestive system, gall bladder, and liver. It is beneficial in treating blood disorders and alleviates excessive bleeding; it strengthens the veins and improves their elasticity. Yellow sapphire can be very beneficial in the treatment of jaundice by protecting the liver. It can also help with throat infections, as well as with conditions that affect the lungs. It can boost blood circulation and help with disorders affecting the pancreas as well. Yellow sapphire is an excellent stone that will help in relaxing you and calming you down. It will focus your mind and get rid of any tension in your head.",
 
-        "img": "src/assets/yellow-sapphires-corundum.png",
+        "img": "/static/images/yellow-sapphires-corundum.png",
 
         "tag": "Corundum",
 
@@ -202,7 +202,7 @@ const gemstone = {
 
         "healing_factor": "Ruby is believed to stimulate the root chakra, promoting energy, vitality, and a zest for life. It is also associated with passion, love, and romance. Ruby stones are thought to have a positive effect on the circulatory system and promote detoxification. Ruby is ideal for any blood or circulatory system disorders in terms of physical healing. It cleanses the blood while also stimulating the lymphatic system.",
 
-        "img": "src/assets/ruby-corundum.png",
+        "img": "/static/images/ruby-corundum.png",
 
         "tag": "Corundum",
 
@@ -216,7 +216,7 @@ const gemstone = {
 
         "healing_factor": "Sapphire is a stone that has physical and emotional healing properties. It can improve bone strength and density, detoxify the body, reduce infections, fevers, inflammation, bleeding, and blood-related problems, and heal burns and eye issues. It can also calm the mind, balance the emotions, boost courage and self-esteem, and promote tranquility and restful sleep. ",
 
-        "img": "src/assets/sapphire-corundum.png",
+        "img": "/static/images/sapphire-corundum.png",
 
         "tag": "Corundum",
 
@@ -230,7 +230,7 @@ const gemstone = {
 
         "healing_factor": "Star Ruby is a Root Chakra stone that is a powerful stone for manifestation and tantric work through the aura and ascending Chakras. It is said to have stronger healing and magical energies than a normal Ruby. Star Ruby is a wonderful amplifier of one’s fortitude and inner resources, and is often used by Light Workers and healers to integrate high-frequency energy into the body. It is an excellent healing stone for the base chakra. It can be used to treat inadequate circulation or energy flow in the feet and legs.",
 
-        "img": "src/assets/star-ruby-corundum.png",
+        "img": "/static/images/star-ruby-corundum.png",
 
         "tag": "Corundum",
 
@@ -244,7 +244,7 @@ const gemstone = {
 
         "healing_factor": "Aquamarine, a variety of beryl, is renowned for its soothing and healing properties. This serene gemstone is believed to calm the mind and emotions, promoting inner peace and clarity. Aquamarine is associated with enhancing communication skills and encouraging self-expression. It is said to support emotional healing, assisting in the release of past traumas and promoting a sense of courage and resilience. Aquamarine is also believed to promote physical well-being, particularly benefiting the throat, respiratory system, and overall immune system.",
 
-        "img": "src/assets/aquamarine-beryl.png",
+        "img": "/static/images/aquamarine-beryl.png",
 
         "tag": "Beryl",
 
@@ -258,7 +258,7 @@ const gemstone = {
 
         "healing_factor": "Emerald, with its vibrant energy, is believed to possess powerful healing properties. It is associated with promoting physical vitality and rejuvenation, supporting the heart, lungs, and immune system. Emerald is thought to enhance emotional well-being, fostering love, compassion, and harmony. It is said to promote mental clarity and stimulate intellectual growth, aiding in problem-solving and decision-making. Emerald is also believed to bring balance and serenity to relationships, fostering loyalty, and deepening connections.",
 
-        "img": "src/assets/emerald-beryl.png",
+        "img": "/static/images/emerald-beryl.png",
 
         "tag": "Beryl",
 
@@ -272,7 +272,7 @@ const gemstone = {
 
         "healing_factor": "Light Green beryl, like Heliodor or Green Beryl, is associated with various healing properties. It is believed to stimulate the heart chakra, promoting emotional healing, compassion, and love. This gemstone is said to enhance clarity of thought, aiding in decision-making and problem-solving. Light Green beryl is also believed to support physical well-being by boosting the immune system and revitalizing the body. It is associated with promoting a sense of joy, optimism, and personal empowerment, fostering creativity and self-expression.",
 
-        "img": "src/assets/light-green-beryl.png",
+        "img": "/static/images/light-green-beryl.png",
 
         "tag": "Beryl",
 
@@ -286,7 +286,7 @@ const gemstone = {
 
         "healing_factor": "Trapiche Emerald, a rare and unique variety of emerald, is believed to possess special healing properties. It is associated with grounding and stabilizing energy, promoting a sense of balance and harmony. Trapiche Emerald is said to assist in releasing emotional blockages and promoting emotional healing. It is believed to enhance intuition and spiritual awareness, facilitating spiritual growth and connection. This gemstone is also associated with promoting clarity of thought and aiding in decision-making, bringing a sense of wisdom and guidance.",
 
-        "img": "src/assets/trapiche-emerald-beryl.png",
+        "img": "/static/images/trapiche-emerald-beryl.png",
 
         "tag": "Beryl",
 
@@ -300,7 +300,7 @@ const gemstone = {
 
         "healing_factor": "Cat Eye Beryl, with its unique cat's eye effect, is believed to possess special healing properties. It is associated with enhancing intuition and insight, promoting clarity of thought and decision-making. Cat Eye Beryl is said to offer protection from negative energies and bring good luck. It is believed to balance emotions, fostering a sense of calm and grounding. This gemstone is also associated with promoting self-awareness and spiritual growth, encouraging a deeper connection to one's inner wisdom and intuition.",
 
-        "img": "src/assets/yellow-cats-eye-beryl.png",
+        "img": "/static/images/yellow-cats-eye-beryl.png",
 
         "tag": "Beryl",
 
@@ -314,7 +314,7 @@ const gemstone = {
 
         "healing_factor": "Prasiolite is believed to help with spiritual growth and awareness, as well as emotional balance and healing. It is also said to help with physical healing, particularly in the areas of the heart and lungs. Prasiolite is thought to be a powerful stone for meditation and spiritual work by opening up the heart chakra and allowing one to connect more deeply with their inner self. It is also said to help with emotional balance and healing by promoting feelings of peace, calmness, and tranquility. Prasiolite is thought to be a powerful stone for meditation and spiritual work because it helps to clear the mind of negative thoughts and emotions, allowing one to focus more fully on their spiritual practice.",
 
-        "img": "src/assets/prasiolite-quartz.png",
+        "img": "/static/images/prasiolite-quartz.png",
 
         "tag": "Quartz",
 
@@ -328,7 +328,7 @@ const gemstone = {
 
         "healing_factor": "Amethyst quartz is a powerful and protective stone that has a wide range of benefits. It relieves an individual from stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear and anxiety. This precious stone has outstanding healing and cleansing powers. It helps with addiction and cravings, alleviates insomnia and nightmares, boosts the immune system. It also enhances blood circulation and helps with digestive issues.",
 
-        "img": "src/assets/amethyst-quartz.png",
+        "img": "/static/images/amethyst-quartz.png",
 
         "tag": "Quartz",
 
@@ -342,7 +342,7 @@ const gemstone = {
 
         "healing_factor": "Ametrine is believed to have several healing properties. It is said to strengthen the immune system using the power of its energy enhancement. Ametrine healing properties affect your mental ailments just as much as your physical ones. It helps improve mental capabilities and alleviate stress. Ametrine are a type of quartz crystal that helps to enhance mental and spiritual clarity. At the same time they help to unite masculine and feminine energies. They have a strong healing energy that releases negativity from within the aura. Their energy also aids weight loss, as well as helping you to release your addictions.",
 
-        "img": "src/assets/ametrine-quartz.png",
+        "img": "/static/images/ametrine-quartz.png",
 
         "tag": "Quartz",
 
@@ -357,7 +357,7 @@ const gemstone = {
 
         "healing_factor": "Citrine quartz is believed to possess various healing properties. It is associated with positive energy, abundance, and personal power. This gemstone is said to enhance motivation, creativity, and self-confidence. Citrine quartz is thought to promote success, prosperity, and wealth, attracting abundance into one's life. It is also believed to dissipate negative energies, release emotional blockages, and increase joy and optimism. Additionally, citrine quartz is said to stimulate the intellect, improve concentration, and promote mental clarity. Some also attribute citrine quartz with boosting physical energy, supporting digestion, and aiding in overall well-being. It is considered a crystal of warmth, light, and positivity.",
 
-        "img": "src/assets/citrine-quartz.png",
+        "img": "/static/images/citrine-quartz.png",
 
         "tag": "Quartz",
 
@@ -371,7 +371,7 @@ const gemstone = {
 
         "healing_factor": "Rock crystal quartz, also known as clear quartz, is highly regarded for its powerful healing properties. It is considered a versatile and amplifying stone that enhances the energy of other crystals and intentions. Clear quartz is believed to cleanse and purify the mind, body, and spirit, promoting clarity, focus, and balance. It is thought to amplify positive energy, ward off negativity, and stimulate spiritual growth. This crystal is said to enhance intuition, strengthen the aura, and facilitate spiritual connection. Clear quartz is also believed to promote physical healing, boost energy levels, and support overall well-being. It is considered a master healer and a versatile tool for various healing practices.",
 
-        "img": "src/assets/rock-crystal-quartz.png",
+        "img": "/static/images/rock-crystal-quartz.png",
 
         "tag": "Quartz",
 
@@ -385,7 +385,7 @@ const gemstone = {
 
         "healing_factor": "Rose quartz is renowned for its healing properties related to matters of the heart and emotions. It is believed to promote self-love, compassion, and forgiveness, enhancing relationships and attracting love into one's life. This gemstone is said to soothe emotional wounds, reduce stress, and promote inner peace. Rose quartz is also thought to balance emotions, increase empathy, and encourage harmony in relationships. It is considered a powerful crystal for healing matters of the heart, promoting emotional well-being and unconditional love.",
 
-        "img": "src/assets/rose-quartz.png",
+        "img": "/static/images/rose-quartz.png",
 
         "tag": "Quartz",
 
@@ -399,7 +399,7 @@ const gemstone = {
 
         "healing_factor": "Smoky quartz is associated with grounding and protection, making it a powerful healing crystal. It is believed to absorb negative energy and transform it into positive energy. This stone is thought to promote emotional balance, relieve stress, and alleviate anxiety. Smoky quartz is also said to enhance mental clarity, aid in decision-making, and promote spiritual growth. It is believed to have a calming effect on the mind, providing a sense of stability and protection during challenging times.",
 
-        "img": "src/assets/smoky-quartz.png",
+        "img": "/static/images/smoky-quartz.png",
 
         "tag": "Quartz",
 
@@ -413,7 +413,7 @@ const gemstone = {
 
         "healing_factor": "Aventurine quartz is a soothing and harmonizing gemstone with various healing properties. It is believed to bring abundance, prosperity, and luck, attracting opportunities and positive energies. This stone is associated with the heart chakra, promoting emotional healing, compassion, and balance. Aventurine quartz is said to alleviate stress, anxiety, and negativity, fostering a sense of calm and well-being. It is also thought to enhance creativity, motivation, and decision-making abilities, making it a valuable crystal for personal growth and achieving goals.",
 
-        "img": "src/assets/aventurine-quartz.png",
+        "img": "/static/images/aventurine-quartz.png",
 
         "tag": "Quartz",
 
@@ -427,7 +427,7 @@ const gemstone = {
 
         "healing_factor": "Rubellite tourmaline is believed to possess several healing properties. It is said to stimulate the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance one's self-confidence and courage while reducing feelings of fear and anxiety. It may also help balance emotions and promote a sense of calmness and serenity. Additionally, rubellite tourmaline is said to boost vitality and energize the body, promoting overall well-being.",
 
-        "img": "src/assets/rubellite-gemstone.png",
+        "img": "/static/images/rubellite-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -441,7 +441,7 @@ const gemstone = {
 
         "healing_factor": "Bi-colored tourmaline, or watermelon tourmaline, is believed to possess a range of healing properties. It is thought to balance and harmonize the heart and root chakras, promoting emotional healing, love, and compassion. This gemstone is said to help alleviate stress, calm the mind, and promote a sense of inner peace. It may also enhance creativity, intuition, and spiritual growth. Bi-colored tourmaline is believed to have a soothing and grounding effect, facilitating emotional stability and overall well-being.",
 
-        "img": "src/assets/bi-colored-gemstone.png",
+        "img": "/static/images/bi-colored-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -455,7 +455,7 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/watermelon-gemstone.png",
+        "img": "/static/images/watermelon-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -469,7 +469,7 @@ const gemstone = {
 
         "healing_factor": "Amber is believed to possess several healing properties. It is said to promote a sense of calmness and relaxation, soothing stress and anxiety. Amber is thought to have anti-inflammatory effects, aiding in relieving pain and discomfort. It is also believed to support the immune system and promote overall well-being. Additionally, wearing amber is said to help balance emotions, enhance clarity of thought, and provide a gentle energy that encourages healing and self-discovery.",
 
-        "img": "src/assets/amber-gemstone.png",
+        "img": "/static/images/amber-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -483,7 +483,7 @@ const gemstone = {
 
         "healing_factor": "Chiastolite is believed to possess several healing properties. It is thought to bring stability and balance to one's life, promoting a sense of grounding and protection. Chiastolite is said to enhance spiritual insight and intuition, aiding in self-discovery and personal growth. It is believed to assist in overcoming challenges and obstacles, fostering resilience and perseverance. Additionally, chiastolite is associated with emotional healing, helping to alleviate feelings of guilt, fear, and negativity, and promoting a harmonious and positive mindset.",
 
-        "img": "src/assets/chiastolite-gemstone.png",
+        "img": "/static/images/chiastolite-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -499,7 +499,7 @@ const gemstone = {
 
         "tag": "Gemstones",
 
-        "img": "src/assets/marble-calcite.png",
+        "img": "/static/images/marble-calcite.png",
 
         "path": "Marble"
     },
@@ -512,7 +512,7 @@ const gemstone = {
 
         "tag": "Gemstones",
 
-        "img": "src/assets/onyx-chalcedony.png",
+        "img": "/static/images/onyx-chalcedony.png",
 
         "path" : "OnyxMarble"
     },
@@ -525,7 +525,7 @@ const gemstone = {
 
         "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
 
-        "img": "src/assets/synthetic-cubic-zirconia-gemstone.png",
+        "img": "/static/images/synthetic-cubic-zirconia-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -539,7 +539,7 @@ const gemstone = {
 
         "healing_factor": "Star diopside is believed to possess powerful healing properties that promote emotional and physical well-being. It is said to aid in releasing stress, anxiety, and negative emotions, fostering harmony and balance. This gemstone is thought to enhance intuition, encouraging a deeper connection with oneself and nature. Additionally, it is said to aid in physical healing, especially related to the heart, lungs, and circulation. Star diopside is revered as a gemstone that nurtures the mind, body, and soul.",
 
-        "img": "src/assets/star-diopside-gemstone.png",
+        "img": "/static/images/star-diopside-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -553,7 +553,7 @@ const gemstone = {
 
         "healing_factor": "Labradorite is believed to have various healing properties that promote spiritual growth and inner strength. It is thought to enhance intuition and psychic abilities, helping one tap into their higher consciousness. Labradorite is said to shield the aura from negative energies and promote a sense of balance and harmony. It is also believed to alleviate stress and anxiety, aiding in emotional healing and self-discovery. This gemstone is revered for its transformative energies, fostering a deeper connection with one's inner wisdom and spirituality.",
 
-        "img": "src/assets/labradorite-feldspar-gemstone.png",
+        "img": "/static/images/labradorite-feldspar-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -567,7 +567,7 @@ const gemstone = {
 
         "healing_factor": "Moonstone, a form of orthoclase feldspar, is believed to possess various healing properties. It is associated with promoting emotional balance, soothing stress, and calming the mind. The stone is thought to enhance intuition and insight while fostering inner growth and self-discovery. Moonstone is also considered to be a symbol of femininity and can be helpful for hormonal imbalances and reproductive health. Its gentle energy is believed to bring about harmony and a sense of peace in one's life.",
 
-        "img": "src/assets/moonstone-orthoclase-feldspar.png",
+        "img": "/static/images/moonstone-orthoclase-feldspar.png",
 
         "tag": "Gemstones",
 
@@ -581,7 +581,7 @@ const gemstone = {
 
         "healing_factor": "Fluorite is believed to possess a range of healing properties. It is thought to enhance mental clarity, focus, and concentration, promoting better decision-making and problem-solving skills. This gem is considered a protective stone, shielding against negative energies and electromagnetic pollution. It may assist in emotional healing, easing stress, anxiety, and promoting emotional balance. Fluorite is also associated with enhancing intuition and spiritual growth, making it a sought-after crystal for meditation and inner exploration. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "src/assets/fluorite.png",
+        "img": "/static/images/fluorite.png",
 
         "tag": "Gemstones",
 
@@ -595,7 +595,7 @@ const gemstone = {
 
         "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "src/assets/garnet-gemstone.png",
+        "img": "/static/images/garnet-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -609,7 +609,7 @@ const gemstone = {
 
         "healing_factor": "Snowflake Obsidian is believed to possess various healing properties. It is thought to aid in releasing emotional blockages, promoting a sense of balance and grounding. The stone is associated with providing support during times of change, encouraging self-awareness, and fostering personal growth. Snowflake Obsidian is believed to help dispel negative energies and patterns, promoting purity and clarity of mind. It is also used for relieving stress and bringing about a sense of calmness and inner peace. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "src/assets/snowflake-obsidian.png",
+        "img": "/static/images/snowflake-obsidian.png",
 
         "tag": "Gemstones",
 
@@ -623,7 +623,7 @@ const gemstone = {
 
         "healing_factor": "Idocrase, or Vesuvianite, is believed to possess various healing properties. It is thought to enhance one's spiritual connection, promoting a deeper understanding of oneself and the universe. This gemstone is associated with encouraging self-expression and creativity, while also aiding in the release of negative thought patterns and emotional blockages. Idocrase is believed to promote a sense of balance, healing the mind, body, and spirit. It is also used to increase feelings of hope, compassion, and optimism, supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "src/assets/idocrase-gemstone.png",
+        "img": "/static/images/idocrase-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -637,7 +637,7 @@ const gemstone = {
 
         "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "src/assets/garnet-gemstone.png",
+        "img": "/static/images/garnet-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -651,7 +651,7 @@ const gemstone = {
 
         "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "src/assets/garnet-gemstone.png",
+        "img": "/static/images/garnet-gemstone.png",
 
         "tag": "Gemstones",
 

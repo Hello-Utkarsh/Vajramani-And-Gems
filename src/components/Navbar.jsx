@@ -4,6 +4,8 @@ import { PathContext } from '../context/PathContext'
 
 const Navbar = () => {
 
+    
+
     // DROPDOWN LOGIC
     const dropdown = async () => {
 
@@ -49,7 +51,11 @@ const Navbar = () => {
     }
 
     let show_more_data = ()=>{
-        document.getElementsByClassName('sidebar')[0].style.display = "none"
+        let window_resol = window.matchMedia("(max-width: 600px)")
+        if(window_resol.matches){
+            document.getElementsByClassName('sidebar')[0].style.display = "none"
+        }
+        
     }
 
     // CLOSE DROPDOWN IF CLICKED ANYWHERE ELSE
@@ -73,21 +79,21 @@ const Navbar = () => {
 
 
     return (
-        <div className='max-[600px]:fixed max-[600px]:w-[100vw] max-[600px]:top-0 max-[600px]:z-50 '>
-            <div className='flex bg-[#e3874f] py-8 items-center max-[600px]:h-[20vh]'>
-                <span className="material-symbols-outlined hidden text-[#37363d] ml-7 cursor-pointer max-[600px]:block max-[370px]:mx-3 menu"  onClick={show_sidebar} style={{ fontSize: "23px"}}>
+        <div className='fixed w-[100vw] top-0 z-50 bg-[#37363d] bg-opacity-80'>
+            <div className='flex py-8 items-center max-[600px]:h-36'>
+                <span className="material-symbols-outlined hidden text-[#C07F00] ml-7 cursor-pointer max-[600px]:block max-[370px]:mx-3 menu"  onClick={show_sidebar} style={{ fontSize: "23px"}}>
                     menu
                 </span>
                 <Link to='/' className="m-auto">
-                    <h2 className='cursor-pointer font-dancin text-5xl text-center m-auto text-[#4C3D3D] font-medium max-[510px]:text-4xl max-[370px]:text-[34px]'>Vajramani And Gems</h2>
+                    <h2 className='cursor-pointer font-dancin text-5xl text-center m-auto text-[#C07F00] font-medium max-[510px]:text-4xl max-[370px]:text-[34px]'>Vajramani And Gems</h2>
                 </Link>
             </div>
-            <div className='flex bg-[#e3874f] text-[#37363d] item-center justify-center text-lg px-6 pb-3 max-[600px]:h-[100vh] max-[600px]:w-[50vw] max-[600px]:z-30 max-[600px]:hidden sidebar'>
+            <div className='flex text-[#C07F00] item-center justify-center text-lg px-6 pb-3 max-[600px]:h-[100vh] max-[600px]:w-[50vw] max-[600px]:z-30 max-[600px]:hidden sidebar'>
 
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Chalcedony
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Black">
                                 <li className='text-center p-1'>Black</li>
                             </Link>
@@ -131,7 +137,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Corundum
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/YellowSapphires">
                                 <li className='text-center p-1 max-[600px]:my-2'>Yellow Sapphire</li>
                             </Link>
@@ -148,7 +154,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Beryl
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Aquamarine">
                                 <li className='text-center p-1 max-[600px]:my-2'>Aquamarine</li>
                             </Link>
@@ -168,7 +174,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Quartz
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-[#e3874f] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-[18vh] max-[600px]:w-36 max-[600px]:justify-normal'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-normal'>
                             <Link to="/Prasiolite">
                                 <li className='text-center p-1 max-[600px]:my-2'>Prasiolite</li>
                             </Link>

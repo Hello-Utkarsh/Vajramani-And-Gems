@@ -1,24 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
   return (
-    <div className='bg-black text-[#C07F00] mt-[20vh]'>
+    <div className='bg-black text-[#C07F00] h-[700px]'>
 
-      <div className='bg-black text-[#C07F00] flex py-8 items-center h-[48vh]'>
+      <div className='bg-black text-[#C07F00] bg-hero w-[100%] h-[100vh] bg-cover bg-left bg-no-repeat flex justify-start py-0 items-center max-[1000px]:bg-center max-[600px]:bg-hero2 max-[600px]:bg-left-top max-[450px]:bg-hero3'>
 
-        <div className='ml-[8%] text-5xl w-[30%]'>
-          <h1 className='font-rubik'>
+        <div className='w-[40%] ml-10 max-[700px]:w-[50%] max-[500px]:w-[65%] max-[380px]:w-[80%]' >
+          <h1 className='font-medium font-rubik text-6xl max-[380px]:text-[51px]'>
             For the high-class look you always wanted
           </h1>
+          <Link to="More">
+            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-9 w-24   max-[790px]:text-lg mt-5'>Browse</button>
+          </Link>
         </div>
 
-        <img className='w-[20%] ml-[27%]' src={"src/assets/gemstone2.png"} alt="" />
+        {/* <img className='w-[100vw] absolute top-0 h-[500px] mr-[4%] pt-5' src={"https://images.unsplash.com/photo-1611955167811-4711904bb9f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"} alt="" /> */}
       </div>
 
       {/* Categories: Birth Stones and Chakras */}
 
-      <div className='flex flex-wrap h-[80vh] my-4 text-white w-[100%] justify-around items-center m-auto p-8'>
+      {/* <div className='flex flex-wrap h-[80vh] my-4 text-white w-[100%] justify-around items-center m-auto p-8'>
 
         <div className='flex justify-center items-center w-[50%] cursor-pointer h-[100%] hover:opacity-80'>
           <img className='z-0 absolute h-[75%] w-[32vw] opacity-70' src={"src/assets/birthstones3.jpg"} alt="" />
@@ -36,7 +40,7 @@ const Home = () => {
           </div>
         </div>
         
-      </div>
+      </div> */}
 
     </div>
   )
