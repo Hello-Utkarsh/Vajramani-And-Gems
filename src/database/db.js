@@ -630,32 +630,88 @@ const gemstone = {
         "path": "Idocrase"
     },
 
-    "Garnet": {
-        "name": "Garnet",
+    "Hematite": {
+        "name": "Hematite",
 
-        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
+        "description": "Hematite is a striking mineral known for its metallic luster and dark gray to black coloration. Its appearance can range from metallic and shiny to dull and earthy, depending on its form. Hematite often forms as compact, botryoidal masses or as well-defined crystals with a distinct tabular or rhombohedral shape. In some cases, it may display a reddish-brown streak when scratched on a rough surface. Its unique appearance and metallic sheen make it a popular choice for both jewelry and ornamental purposes.",
 
-        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+        "healing_factor": "Hematite is believed to possess various healing properties. It is thought to have a grounding and stabilizing effect, promoting focus and concentration. This gemstone is associated with enhancing courage and strength, helping to dissolve negative energies and feelings of stress or anxiety. Hematite is also believed to stimulate the circulation of energy in the body, aiding in physical healing and revitalization. Additionally, it is used to promote a sense of calmness and balance, fostering a connection between the mind, body, and spirit. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/hematite.png",
 
         "tag": "Gemstones",
 
-        "path": "Garnet"
+        "path": "Hematite"
     },
 
-    "Garnet": {
-        "name": "Garnet",
+    "Iolite": {
+        "name": "Iolite",
 
-        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
+        "description": "Iolite, also known as 'water sapphire' or 'Vikings' compass,' is a stunning gemstone with a captivating appearance. Its color ranges from deep blue-violet to pale blue, with pleochroism, exhibiting different shades when viewed from various angles. Iolite often appears transparent to translucent with a vitreous luster, and its crystal form is typically prismatic or flattened. Its enchanting appearance, reminiscent of a clear blue sky or the depths of the ocean, makes it a sought-after gemstone for jewelry and decorative pieces.",
 
-        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "/static/images/iolite.png",
+
+        "tag": "Gemstones",
+
+        "path": "Iolite"
+    },
+
+    "Jadeite": {
+        "name": "Jadeite",
+
+        "description": "Jadeite is a stunning and precious gemstone known for its vibrant colors and exquisite appearance. It comes in various hues, including intense green, lavender, white, and rarely, red or yellow. The stone's transparency ranges from translucent to opaque, and it has a vitreous to waxy luster. Jadeite often displays a smooth and polished texture, accentuating its captivating beauty. Its striking colors and fine texture make it highly valued for use in jewelry and ornamental carvings.",
+
+        "healing_factor": "Jadeite is believed to hold powerful healing properties. It is thought to bring harmony and balance to the mind, body, and spirit. This gemstone is associated with promoting emotional well-being, dispelling negative energies, and fostering a sense of tranquility and inner peace. Jadeite is used for attracting prosperity and abundance while encouraging growth and prosperity in all aspects of life. It is also believed to aid in releasing self-imposed limitations and facilitating personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "/static/images/jadeite.png",
+
+        "tag": "Gemstones",
+
+        "path": "Jadeite"
+    },
+
+    "Lapis Lazuli": {
+        "name": "Lapis Lazuli",
+
+        "description": "Lapis Lazuli is a captivating gemstone known for its deep blue color, often adorned with shimmering flecks of gold pyrite and white calcite. Its appearance is reminiscent of a starry night sky, with its intense blue hue symbolizing the depths of the ocean. The stone's surface can vary from opaque to translucent, and it is often polished to a smooth, glassy texture. Its enchanting appearance and historical significance make it a prized gemstone for jewelry and ornamental purposes.",
+
+        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "/static/images/lapis-lazuli.png",
+
+        "tag": "Gemstones",
+
+        "path": "LapisLazuli"
+    },
+
+    "Iolite": {
+        "name": "Iolite",
+
+        "description": "Iolite, also known as 'water sapphire' or 'Vikings' compass,' is a stunning gemstone with a captivating appearance. Its color ranges from deep blue-violet to pale blue, with pleochroism, exhibiting different shades when viewed from various angles. Iolite often appears transparent to translucent with a vitreous luster, and its crystal form is typically prismatic or flattened. Its enchanting appearance, reminiscent of a clear blue sky or the depths of the ocean, makes it a sought-after gemstone for jewelry and decorative pieces.",
+
+        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
         "img": "/static/images/garnet-gemstone.png",
 
         "tag": "Gemstones",
 
-        "path": "Garnet"
+        "path": "Iolite"
+    },
+
+    "Iolite": {
+        "name": "Iolite",
+
+        "description": "Iolite, also known as 'water sapphire' or 'Vikings' compass,' is a stunning gemstone with a captivating appearance. Its color ranges from deep blue-violet to pale blue, with pleochroism, exhibiting different shades when viewed from various angles. Iolite often appears transparent to translucent with a vitreous luster, and its crystal form is typically prismatic or flattened. Its enchanting appearance, reminiscent of a clear blue sky or the depths of the ocean, makes it a sought-after gemstone for jewelry and decorative pieces.",
+
+        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Iolite"
     },
 
 }
