@@ -10,6 +10,7 @@ import PathState from './context/PathState'
 import { PathContext } from './context/PathContext'
 import NoPage from './components/NoPage'
 import More from './components/More'
+import GemCare from './components/GemCare'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path='/' index element={<Home />} />
           <Route path={'More'} element={<More/>} />
+          <Route path={'More_on_Gemstone'} element={<GemCare/>} />
 
           {/* Chalcedony */}
           <Route path={'Black'} element={<GemStone data={GemStone_Data['Black Chalcedony']} />} />

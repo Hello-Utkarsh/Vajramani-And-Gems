@@ -93,7 +93,7 @@ const Navbar = () => {
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Chalcedony
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Black">
                                 <li className='text-center p-1'>Black</li>
                             </Link>
@@ -137,7 +137,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Corundum
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/YellowSapphires">
                                 <li className='text-center p-1 max-[600px]:my-2'>Yellow Sapphire</li>
                             </Link>
@@ -154,7 +154,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Beryl
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Aquamarine">
                                 <li className='text-center p-1 max-[600px]:my-2'>Aquamarine</li>
                             </Link>
@@ -174,7 +174,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Quartz
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 text-[#4C3D3D] bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-normal'>
+                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-normal'>
                             <Link to="/Prasiolite">
                                 <li className='text-center p-1 max-[600px]:my-2'>Prasiolite</li>
                             </Link>
