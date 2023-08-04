@@ -41,10 +41,12 @@ const Contact = () => {
       <div className='w-[84%] mt-8 m-auto flex justify-around flex-wrap'>
         <h4 className='text-lg max-[510px]:text-xl'>Also available on</h4>
         <div className='flex w-[50%] justify-around mx-8 max-[510px]:w-[100%] max-[510px]:mt-6'>
-        <img className='mx-2 rounded-lg h-10 transition ease-in-out bg-[#BACCD1]    hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"/static/images/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
-        <img className='mx-2 rounded-lg bg-[#BACCD1] h-10 transition-all ease-in-out  hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"/static/images/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
-        <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"/static/images/facebook.png"} alt="" />
-        <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"/static/images/facebook.png"} alt="" />
+          <a href="https://instagram.com/vajramani_and_gems?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <img className='mx-2 rounded-lg h-10 transition ease-in-out bg-[#BACCD1]    hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"/static/images/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
+          </a>
+          <img className='mx-2 rounded-lg bg-[#BACCD1] h-10 transition-all ease-in-out  hover:bg-gradient-to-b from-[#405DE6] from-10% via-[#833AB4] via-75% to-[#C13584] to-100% duration-500 hover:-translate-y-2 hover:scale-125' src={"/static/images/instagram.png"} alt="nstagram logo icons created by Hight Quality Icons - Flaticon" />
+          <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"/static/images/facebook.png"} alt="" />
+          <img className='mx-2 transition ease-in-out duration-500 hover:-translate-y-2 hover:scale-125 h-10 hover:bg-blue-500 rounded-lg bg-[#BACCD1]' src={"/static/images/facebook.png"} alt="" />
         </div>
 
       </div>

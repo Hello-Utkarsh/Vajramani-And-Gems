@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 const Gemcard = (props) => {
   let data = props.data
-  
 
   return (
     <Link to={`/${data.path}`}>

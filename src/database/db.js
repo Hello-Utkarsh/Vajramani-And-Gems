@@ -55,19 +55,6 @@ const gemstone = {
 
         "path" : "Chrysoprase"
     },
-    "Sard Chalcedony": {
-        "name": "Sard Chalcedony",
-
-        "description": "Sard is a translucent, reddish-brown to brown chalcedony gemstone beloved since ancient times. The stone is related to fellow chalcedony gems carnelian and onyx, with all three being popular carving materials.The sard mineral is a variety of chalcedony, the microcrystalline type of quartz. The chalcedony gemstones are composed of silica. They’re similar to macrocrystalline quartz stones (e.g. amethyst) but form compact, fine-grained masses with crystals too small to see.",
-
-        "healing_factor": "Chalcedony is a nurturing stone that promotes brotherhood and good will.  It absorbs negative energy.  It brings the mind, body, emotions and spirit into harmony.  Chalcedony instills feelings of benevolence and generosity.  It alleviates hostility and transforms melancholy into joy.",
-
-        "img": "/static/images/sard-chalcedony.png",
-
-        "tag": "Chalcedony",
-
-        "path" : "Sard"
-    },
 
     "Agate Chalcedony": {
         "name": "Agate Chalcedony",
@@ -83,20 +70,6 @@ const gemstone = {
         "path" : "Agate"
     },
 
-    "Bloodstone Chalcedony": {
-        "name": "Bloodstone Chalcedony",
-
-        "description": "Bloodstone (Heliotrope) may be classified as a Jasper or Chalcedony variety of Quartz and is usually a combination of the two. It is typically defined as a dark green Chalcedony with blood-like spots of Red Jasper or iron oxide inclusions. It occurs as massive formations, ranging from dark green to greenish-blue or greenish-black, and may be translucent to opaque with a waxy, resinous luster.",
-
-        "healing_factor": "Blood Stone brings the mind, body, and spirit into alignment and harmony. It is a protective stone that absorbs negative vibrations and energy, allowing it to dissipate to prevent onward transmission.It is a very nurturing stone that promotes and enhances goodwill and stability within groups of people. It encourages empathy and understanding and brings calming vibrations to potential areas of conflict between individuals. ",
-
-        "img": "/static/images/bloodstone-chalcedony.png",
-
-        "tag": "Chalcedony",
-
-        "path" : "Bloodstone"
-    },
-
     "Dendritic Agate Chalcedony": {
         "name": "Dendritic Agate Chalcedony",
 
@@ -109,20 +82,6 @@ const gemstone = {
         "tag": "Chalcedony",
 
         "path" : "DendriticAgate"
-    },
-
-    "Blue Chalcedony": {
-        "name": "Blue Chalcedony",
-
-        "description": "Blue chalcedony is a lapidary material that has the same characteristics and composition as agate but without the color bands found in agates. It is a demure crystal, subtle and mystic, cool and serene, ethereal yet solid. It has an inviting, soft blue translucence, and an almost imperceptible movement within the stone that invokes a stillness of silent reverence. It's calming, and speaks of spirit and trust.",
-
-        "healing_factor": "The healing properties of Blue Chalcedony make it a powerful stone that can help you deal with your emotions and past trauma. It can help to remove negative energy from your body, making it easier for you to connect with your higher self. This can also help you to focus on your dreams, meditate, and be at peace with your thoughts.",
-
-        "img": "/static/images/blue-chalcedony.png",
-
-        "tag": "Chalcedony",
-
-        "path" : "Blue"
     },
 
     "Moss Agate": {
@@ -151,34 +110,6 @@ const gemstone = {
         "tag": "Chalcedony",
 
         "path" : "Onyx"
-    },
-
-    "Sardonyx": {
-        "name": "Sardonyx",
-
-        "description": "Sardonyx is created in layers of brown or red sard stone and black, white or green onyx stone. This gives it a beautiful banded appearance. While most onyx can be identified by the appearance of black and white bands, Sardonyx contains red or brown and white bands rather than black and white ones. Sardonyx is a stone that’s composed of silica. It can be translucent or opaque. The coloration of Sardonyx is always a shade of red with white bands running through it.",
-
-        "healing_factor": "Sardonyx is a stone that has mental and physical healing properties. It strengthens the ability to understand information, discern truth, and cultivate self-control. It also promotes virtuous conduct, friendship, and good fortune. It stimulates and heals the sensory organs, such as sight, hearing, touch, and smell. It regulates the fluids, metabolism, and functions of the body, especially the digestive and immune systems. It helps to repair bones and improve all sensory responses.",
-
-        "img": "/static/images/sardonyx.png",
-
-        "tag": "Chalcedony",
-
-        "path" : "Sardonyx"
-    },
-
-    "Fire agate": {
-        "name": "Fire agate",
-
-        "description": "Fire agate is a unique and rare gemstone known for its distinctive appearance and properties. The name Fire Agate comes from its appearance, which looks like an almost glowing internal fire. If you look closely at the Fire Agate stone, you’ll see that the bands are filled with colorful inclusions, giving it its fiery appearance. This phenomenon occurs due to a layer of clear Agate present over a hydrothermally deposited iron oxide layer. Fire agate typically has a brownish-red base color with flashes of iridescent orange, red, yellow, green, and deep brown crystal. It is a brown agate that reflects bright flashes of iridescent yellow, red, orange and green from hemispherical surfaces within the stone.",
-
-        "healing_factor": "Fire agate is believed to have healing properties that can help with digestive health by regulating the digestive system and reducing inflammation. It is also beneficial in the treatment of poor circulation, lethargy or lack of energy, or depression. It enhances mental function by improving concentration, perception, and analytical abilities. Fire Agate is useful in treating the endocrine system, the colon, and increasing metabolism. It boosts energy levels, encourages positive thinking, and improves communication skills. Additionally, fire agate is thought to help protect the wearer from harm and negative energy.",
-
-        "img": "/static/images/fire-agate-chalcedony.png",
-
-        "tag": "Chalcedony",
-
-        "path" : "Fireagate"
     },
 
     "Yellow sapphires": {
@@ -246,7 +177,7 @@ const gemstone = {
 
         "img": "/static/images/aquamarine-beryl.png",
 
-        "tag": "Beryl",
+        "tag": "Gemstones",
 
         "path" : "Aquamarine"
     },
@@ -260,51 +191,9 @@ const gemstone = {
 
         "img": "/static/images/emerald-beryl.png",
 
-        "tag": "Beryl",
+        "tag": "Gemstones",
 
         "path" : "Emerald"
-    },
-
-    "Light Green": {
-        "name": "Light Green",
-
-        "description": "Light Green beryl, such as Heliodor or Green Beryl, exhibits a captivating appearance that exudes freshness and vitality. Its color ranges from pale yellow-green to a vibrant light green, reminiscent of tender spring foliage. The gemstone often possesses excellent transparency, allowing light to pass through and accentuate its brilliance. Light Green beryl showcases a vitreous luster and is commonly cut into faceted gemstones, showcasing its gentle hues and captivating sparkle, making it a delightful gemstone that evokes a sense of natural beauty.",
-
-        "healing_factor": "Light Green beryl, like Heliodor or Green Beryl, is associated with various healing properties. It is believed to stimulate the heart chakra, promoting emotional healing, compassion, and love. This gemstone is said to enhance clarity of thought, aiding in decision-making and problem-solving. Light Green beryl is also believed to support physical well-being by boosting the immune system and revitalizing the body. It is associated with promoting a sense of joy, optimism, and personal empowerment, fostering creativity and self-expression.",
-
-        "img": "/static/images/light-green-beryl.png",
-
-        "tag": "Beryl",
-
-        "path" : "LightGreen"
-    },
-
-    "Trapiche Emerald": {
-        "name": "Trapiche Emerald",
-
-        "description": "Trapiche Emerald, a remarkable and rare variety of emerald, exhibits a truly mesmerizing appearance. It showcases a distinct six-ray radial pattern reminiscent of a star, formed by dark impurities. The pattern radiates from a central point, resembling a wheel or a flower. Trapiche Emeralds typically possess a rich green color, often with exceptional transparency. This gemstone's unique formation creates a captivating and intricate visual display, making it a truly extraordinary and sought-after specimen for collectors and admirers of natural wonders.",
-
-        "healing_factor": "Trapiche Emerald, a rare and unique variety of emerald, is believed to possess special healing properties. It is associated with grounding and stabilizing energy, promoting a sense of balance and harmony. Trapiche Emerald is said to assist in releasing emotional blockages and promoting emotional healing. It is believed to enhance intuition and spiritual awareness, facilitating spiritual growth and connection. This gemstone is also associated with promoting clarity of thought and aiding in decision-making, bringing a sense of wisdom and guidance.",
-
-        "img": "/static/images/trapiche-emerald-beryl.png",
-
-        "tag": "Beryl",
-
-        "path" : "TrapicheEmerald"
-    },
-
-    "Cat Eye": {
-        "name": "Cat's Eye",
-
-        "description": "Cat Eye Beryl, also known as Cat's Eye Aquamarine or Cat's Eye Emerald, displays a captivating and distinctive appearance. This gemstone exhibits a luminous band of light, resembling the slit pupil of a feline, known as the 'cat's eye effect'. The band typically appears as a shimmering line running parallel to the gem's surface. Cat Eye Beryl often showcases a pale blue or green color, and when polished, it mesmerizes with its ethereal glow, creating a mesmerizing and enchanting gemstone.",
-
-        "healing_factor": "Cat Eye Beryl, with its unique cat's eye effect, is believed to possess special healing properties. It is associated with enhancing intuition and insight, promoting clarity of thought and decision-making. Cat Eye Beryl is said to offer protection from negative energies and bring good luck. It is believed to balance emotions, fostering a sense of calm and grounding. This gemstone is also associated with promoting self-awareness and spiritual growth, encouraging a deeper connection to one's inner wisdom and intuition.",
-
-        "img": "/static/images/yellow-cats-eye-beryl.png",
-
-        "tag": "Beryl",
-
-        "path" : "CatEye"
     },
 
     "Prasiolite": {
@@ -406,6 +295,20 @@ const gemstone = {
         "path" : "Smoky"
     },
 
+    "Tigers eye": {
+        "name": "Tiger's eye",
+
+        "description": "Tiger's eye is a captivating gemstone admired for its chatoyant appearance. It showcases a unique blend of golden to reddish-brown hues with a silky luster, reminiscent of a tiger's eye. When light interacts with the stone's fibrous structure, it creates a luminous band of light that moves across the surface, resembling the eye of a feline. This optical effect, combined with its smooth texture and attractive color, makes tiger's eye a popular choice for jewelry and ornamental pieces.",
+
+        "healing_factor": "Tiger's eye is believed to possess various healing properties. It is associated with promoting courage, strength, and confidence, enabling the wearer to overcome fears and anxieties. The gemstone is thought to enhance focus, clarity, and decision-making abilities. Tiger's eye is believed to provide protection from negative energies and foster a sense of grounding and stability. It is also considered beneficial for balancing emotions and promoting harmony and peace. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Quartz",
+
+        "path": "Tigerseye"
+    },
+
     "Aventurine": {
         "name": "Aventurine",
 
@@ -462,90 +365,6 @@ const gemstone = {
         "path": "Watermelon"
     },
 
-    "Amber": {
-        "name": "Amber",
-
-        "description": "Amber is a captivating gemstone known for its warm, golden hues. It is a fossilized resin that often showcases an enchanting translucence. Its appearance can range from pale yellow to deep orange-brown, with occasional flashes of red or green. Amber may contain intriguing inclusions, such as ancient plants or insects trapped within its depths. Its smooth surface holds a timeless allure, and when polished, it radiates a gentle glow that evokes a sense of ancient beauty.",
-
-        "healing_factor": "Amber is believed to possess several healing properties. It is said to promote a sense of calmness and relaxation, soothing stress and anxiety. Amber is thought to have anti-inflammatory effects, aiding in relieving pain and discomfort. It is also believed to support the immune system and promote overall well-being. Additionally, wearing amber is said to help balance emotions, enhance clarity of thought, and provide a gentle energy that encourages healing and self-discovery.",
-
-        "img": "/static/images/amber-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Amber"
-    },
-
-    "Chiastolite": {
-        "name": "Chiastolite",
-
-        "description": "Chiastolite, a fascinating mineral, showcases a distinctive appearance. Its cross-shaped pattern, known as a cross-section or 'cross stone', sets it apart. Chiastolite is typically brown or gray with a black cross in the center, formed by graphite inclusions. Its surface may exhibit a pearly luster and a translucent to opaque quality. The unique arrangement of its crystals gives it an intriguing and eye-catching aesthetic, making chiastolite a captivating gemstone for both collectors and admirers of natural beauty.",
-
-        "healing_factor": "Chiastolite is believed to possess several healing properties. It is thought to bring stability and balance to one's life, promoting a sense of grounding and protection. Chiastolite is said to enhance spiritual insight and intuition, aiding in self-discovery and personal growth. It is believed to assist in overcoming challenges and obstacles, fostering resilience and perseverance. Additionally, chiastolite is associated with emotional healing, helping to alleviate feelings of guilt, fear, and negativity, and promoting a harmonious and positive mindset.",
-
-        "img": "/static/images/chiastolite-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Chiastolite"
-    },
-
-    "Marble": {
-        "name": "Marble",
-
-        "description": "Marble is a metamorphic rock formed under the influence of heat and pressure and consists of a mass of interlocking calcite or dolomite crystals. Pure marble is white, and some other marbles take their common names from their color or mineral impurities.",
-
-        "healing_factor": "This mineral is used to provide both clarity and states of “suspension” in both meditation and tantric activities. Provides for strength of self control and mastery of thought. It enhances the powers of serenity. Marble can provide the “good common sense” in matters of the home, heart and one’s constitution. Allows for total recall of dreams as well as, provides protection, stability and structure both in the physical and emotional mind. Marble may inspire your artistic endeavors, just as it inspired great sculptors to unlock this stone’s mystery.",
-
-        "tag": "Gemstones",
-
-        "img": "/static/images/marble-calcite.png",
-
-        "path": "Marble"
-    },
-    "Onyx Marble": {
-        "name": "Onyx Marble",
-
-        "description": "Onyx is a famous stone for various reasons, including its colour, scarcity, and sparkle. It is a semiprecious stone that is created by parallel coloured bands. Since ancient times, this stone has been around and was known to be employed as a symbol of great social standing by the Greeks and Romans. Onyx marble stone is one of the most costly and elite semiprecious stones.",
-
-        "healing_factor": "Onyx gives strength.  It promotes vigour, steadfastness and stamina.  Imparts self-confidence, helping you to be at ease in your surroundings.  Onyx banishes grief, enhances self-control and stimulates the power of wise decision-making.  It encourages happiness and good fortune.Onyx treats disorders of the bones, bone marrow and blood.  It is beneficial for teeth and the feet.",
-
-        "tag": "Gemstones",
-
-        "img": "/static/images/onyx-chalcedony.png",
-
-        "path" : "OnyxMarble"
-    },
-
-
-    "Synthetic cubic zirconia": {
-        "name": "Synthetic cubic zirconia",
-
-        "description": "Synthetic cubic zirconia gemstones have a diamond-like brilliance, sparkle, and clarity. They come in colorless or vibrant hues, thanks to added dopants. With various cuts available, they exhibit versatility in jewelry designs. Though slightly softer than diamonds, they still offer durability for regular wear. These CZ gems are an affordable alternative to diamonds, making them a popular choice for stunning jewelry pieces.",
-
-        "healing_factor": "Watermelon tourmaline is believed to possess powerful healing properties. It is associated with the heart chakra, promoting love, compassion, and emotional healing. This gemstone is thought to enhance feelings of joy, harmony, and inner peace. It is believed to assist in balancing emotions, reducing stress, and fostering a sense of calmness and serenity. Watermelon tourmaline is also believed to stimulate creativity, promote self-acceptance, and encourage spiritual growth, making it a sought-after stone for holistic healing practices.",
-
-        "img": "/static/images/synthetic-cubic-zirconia-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Syntheticcubiczirconia"
-    },
-
-    "Star diopside": {
-        "name": "Star diopside",
-
-        "description": "Star diopside is a mesmerizing gemstone displaying a unique natural phenomenon known as asterism. With a lustrous black or greenish-black hue, it boasts a captivating four-rayed star pattern that shimmers across its surface when illuminated. This optical effect arises from needle-like inclusions of magnetite, creating a celestial spectacle. Highly prized for its rarity and beauty, star diopside gemstone is a celestial delight cherished by collectors and jewelry enthusiasts alike.",
-
-        "healing_factor": "Star diopside is believed to possess powerful healing properties that promote emotional and physical well-being. It is said to aid in releasing stress, anxiety, and negative emotions, fostering harmony and balance. This gemstone is thought to enhance intuition, encouraging a deeper connection with oneself and nature. Additionally, it is said to aid in physical healing, especially related to the heart, lungs, and circulation. Star diopside is revered as a gemstone that nurtures the mind, body, and soul.",
-
-        "img": "/static/images/star-diopside-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Stardiopside"
-    },
-
     "Labradorite": {
         "name": "Labradorite",
 
@@ -574,18 +393,18 @@ const gemstone = {
         "path": "Moonstone"
     },
 
-    "Fluorite": {
-        "name": "Fluorite",
+    "Flourite": {
+        "name": "Flourite",
 
-        "description": "Fluorite is a stunning mineral that exhibits a kaleidoscope of colors, including purple, green, blue, yellow, and pink. Its appearance can be transparent or translucent, and some specimens even possess a unique fluorescence, glowing under ultraviolet light. Fluorite often forms in cubic or octahedral crystal shapes, and its surfaces can be smooth or exhibit intricate patterns and banding. Its captivating and vibrant appearance makes it a popular choice for both collectors and jewelry enthusiasts alike.",
+        "description": "Flourite is a stunning mineral that exhibits a kaleidoscope of colors, including purple, green, blue, yellow, and pink. Its appearance can be transparent or translucent, and some specimens even possess a unique fluorescence, glowing under ultraviolet light. Flourite often forms in cubic or octahedral crystal shapes, and its surfaces can be smooth or exhibit intricate patterns and banding. Its captivating and vibrant appearance makes it a popular choice for both collectors and jewelry enthusiasts alike.",
 
-        "healing_factor": "Fluorite is believed to possess a range of healing properties. It is thought to enhance mental clarity, focus, and concentration, promoting better decision-making and problem-solving skills. This gem is considered a protective stone, shielding against negative energies and electromagnetic pollution. It may assist in emotional healing, easing stress, anxiety, and promoting emotional balance. Fluorite is also associated with enhancing intuition and spiritual growth, making it a sought-after crystal for meditation and inner exploration. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+        "healing_factor": "Flourite is believed to possess a range of healing properties. It is thought to enhance mental clarity, focus, and concentration, promoting better decision-making and problem-solving skills. This gem is considered a protective stone, shielding against negative energies and electromagnetic pollution. It may assist in emotional healing, easing stress, anxiety, and promoting emotional balance. Flourite is also associated with enhancing intuition and spiritual growth, making it a sought-after crystal for meditation and inner exploration. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
 
         "img": "/static/images/fluorite.png",
 
         "tag": "Gemstones",
 
-        "path": "Fluorite"
+        "path": "Flourite"
     },
 
     "Garnet": {
@@ -616,62 +435,6 @@ const gemstone = {
         "path": "Snowflake"
     },
 
-    "Idocrase": {
-        "name": "Idocrase",
-
-        "description": "Idocrase, also known as Vesuvianite, is a captivating gemstone exhibiting a wide range of colors, including green, yellow, brown, blue, and rarely, violet. Its appearance can be transparent to translucent, with a vitreous to resinous luster. Idocrase crystals are often well-formed and prismatic, but it can also be found as massive aggregates. Some specimens may display pleochroism, showing different colors when viewed from different angles. Its enchanting and diverse appearance makes it a popular choice for both collectors and jewelry enthusiasts.",
-
-        "healing_factor": "Idocrase, or Vesuvianite, is believed to possess various healing properties. It is thought to enhance one's spiritual connection, promoting a deeper understanding of oneself and the universe. This gemstone is associated with encouraging self-expression and creativity, while also aiding in the release of negative thought patterns and emotional blockages. Idocrase is believed to promote a sense of balance, healing the mind, body, and spirit. It is also used to increase feelings of hope, compassion, and optimism, supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
-
-        "img": "/static/images/idocrase-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Idocrase"
-    },
-
-    "Hematite": {
-        "name": "Hematite",
-
-        "description": "Hematite is a striking mineral known for its metallic luster and dark gray to black coloration. Its appearance can range from metallic and shiny to dull and earthy, depending on its form. Hematite often forms as compact, botryoidal masses or as well-defined crystals with a distinct tabular or rhombohedral shape. In some cases, it may display a reddish-brown streak when scratched on a rough surface. Its unique appearance and metallic sheen make it a popular choice for both jewelry and ornamental purposes.",
-
-        "healing_factor": "Hematite is believed to possess various healing properties. It is thought to have a grounding and stabilizing effect, promoting focus and concentration. This gemstone is associated with enhancing courage and strength, helping to dissolve negative energies and feelings of stress or anxiety. Hematite is also believed to stimulate the circulation of energy in the body, aiding in physical healing and revitalization. Additionally, it is used to promote a sense of calmness and balance, fostering a connection between the mind, body, and spirit. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
-
-        "img": "/static/images/hematite.png",
-
-        "tag": "Gemstones",
-
-        "path": "Hematite"
-    },
-
-    "Iolite": {
-        "name": "Iolite",
-
-        "description": "Iolite, also known as 'water sapphire' or 'Vikings' compass,' is a stunning gemstone with a captivating appearance. Its color ranges from deep blue-violet to pale blue, with pleochroism, exhibiting different shades when viewed from various angles. Iolite often appears transparent to translucent with a vitreous luster, and its crystal form is typically prismatic or flattened. Its enchanting appearance, reminiscent of a clear blue sky or the depths of the ocean, makes it a sought-after gemstone for jewelry and decorative pieces.",
-
-        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
-
-        "img": "/static/images/iolite.png",
-
-        "tag": "Gemstones",
-
-        "path": "Iolite"
-    },
-
-    "Jadeite": {
-        "name": "Jadeite",
-
-        "description": "Jadeite is a stunning and precious gemstone known for its vibrant colors and exquisite appearance. It comes in various hues, including intense green, lavender, white, and rarely, red or yellow. The stone's transparency ranges from translucent to opaque, and it has a vitreous to waxy luster. Jadeite often displays a smooth and polished texture, accentuating its captivating beauty. Its striking colors and fine texture make it highly valued for use in jewelry and ornamental carvings.",
-
-        "healing_factor": "Jadeite is believed to hold powerful healing properties. It is thought to bring harmony and balance to the mind, body, and spirit. This gemstone is associated with promoting emotional well-being, dispelling negative energies, and fostering a sense of tranquility and inner peace. Jadeite is used for attracting prosperity and abundance while encouraging growth and prosperity in all aspects of life. It is also believed to aid in releasing self-imposed limitations and facilitating personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
-
-        "img": "/static/images/jadeite.png",
-
-        "tag": "Gemstones",
-
-        "path": "Jadeite"
-    },
-
     "Lapis Lazuli": {
         "name": "Lapis Lazuli",
 
@@ -686,34 +449,191 @@ const gemstone = {
         "path": "LapisLazuli"
     },
 
-    "Iolite": {
-        "name": "Iolite",
+    "Cats eye": {
+        "name": "Cat's eye",
 
-        "description": "Iolite, also known as 'water sapphire' or 'Vikings' compass,' is a stunning gemstone with a captivating appearance. Its color ranges from deep blue-violet to pale blue, with pleochroism, exhibiting different shades when viewed from various angles. Iolite often appears transparent to translucent with a vitreous luster, and its crystal form is typically prismatic or flattened. Its enchanting appearance, reminiscent of a clear blue sky or the depths of the ocean, makes it a sought-after gemstone for jewelry and decorative pieces.",
+        "description": "Cat's eye chrysoberyl is a captivating gemstone with a yellowish-green hue. It showcases a mesmerizing chatoyant effect, resembling the slit-eye of a cat, caused by needle-like inclusions. The stone is typically transparent to translucent and cut into cabochons to accentuate its beauty. With a vitreous to silky luster, this durable gem ranks 8.5 on the Mohs scale. Its uniqueness and rarity make it highly valued among collectors and jewelry enthusiasts.",
 
-        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
-
-        "img": "/static/images/garnet-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Iolite"
-    },
-
-    "Iolite": {
-        "name": "Iolite",
-
-        "description": "Iolite, also known as 'water sapphire' or 'Vikings' compass,' is a stunning gemstone with a captivating appearance. Its color ranges from deep blue-violet to pale blue, with pleochroism, exhibiting different shades when viewed from various angles. Iolite often appears transparent to translucent with a vitreous luster, and its crystal form is typically prismatic or flattened. Its enchanting appearance, reminiscent of a clear blue sky or the depths of the ocean, makes it a sought-after gemstone for jewelry and decorative pieces.",
-
-        "healing_factor": "Iolite is believed to possess various healing properties. It is thought to enhance intuition, aiding in accessing inner wisdom and spiritual guidance. This gemstone is associated with promoting self-discovery, encouraging self-expression, and bringing about a deeper understanding of one's true self. Iolite is also believed to foster a sense of calmness and balance, relieving stress and anxiety. It is used for enhancing creativity and imagination, as well as supporting personal growth and transformation. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+        "healing_factor": "The cat's eye chrysoberyl is believed to possess several healing properties. It is thought to aid in strengthening intuition and awareness, promoting focus and concentration. The gemstone is associated with protection against negative energies and bringing good luck to its wearer. Additionally, it is believed to assist in dispelling fears and anxieties, fostering a sense of self-confidence and courage. However, it is essential to remember that these healing factors are based on traditional beliefs and not scientifically proven.",
 
         "img": "/static/images/garnet-gemstone.png",
 
         "tag": "Gemstones",
 
-        "path": "Iolite"
+        "path": "Catseye"
     },
 
+    "Malachite": {
+        "name": "Malachite",
+
+        "description": "Malachite is a stunning gemstone renowned for its vivid green color and mesmerizing banded patterns. Its vibrant hues range from deep forest green to lighter shades, often exhibiting swirls and concentric rings. The stone has a vitreous to silky luster and a hardness of 3.5-4 on the Mohs scale. It is typically opaque and can be found in various forms, including cabochons and polished specimens, revealing its captivating beauty. Malachite's appearance makes it a popular choice for jewelry and decorative pieces.",
+
+        "healing_factor": "Malachite is believed to possess several healing properties. It is thought to be a powerful stone for emotional healing, promoting positive transformation and growth. The gemstone is associated with providing protection against negative energies and enhancing intuition. Malachite is believed to help release emotional trauma and reduce stress and anxiety. It is also thought to support the heart and circulatory system, as well as aid in detoxification. However, it's essential to remember that these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Malachite"
+    },
+
+    "BlackOpal": {
+        "name": "Black opal",
+
+        "description": "Black opal is a mesmerizing gemstone cherished for its captivating play-of-color. It features a dark body tone, ranging from deep gray to black, which enhances the brilliance of its iridescent flashes. These flashes exhibit a vibrant array of colors, including blues, greens, reds, and yellows, set against the dark backdrop. The gemstone's unique and dynamic color display, combined with its polished surface, makes it a prized and sought-after choice for jewelry, especially in opulent and elegant designs.",
+
+        "healing_factor": "Black opal is believed to possess various healing properties. It is associated with enhancing emotional stability and promoting a sense of calmness and tranquility. The gemstone is thought to stimulate creativity, imagination, and intuition. Black opal is believed to help in releasing negative energy and promoting positive transformation. It is also considered beneficial for eye-related issues and is said to strengthen the immune system. However, it's essential to note that these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Blackopal"
+    },
+
+    "Fire opal": {
+        "name": "Fire opal",
+
+        "description": "Fire opal is a striking gemstone known for its vibrant and fiery appearance. It displays a transparent to translucent quality, showcasing vivid orange, red, and yellow hues reminiscent of a blazing flame. The gem's body color ranges from pale to intense, with an inner glow that seems to radiate light from within. Fire opals can be found in various cuts, including faceted and cabochon, which enhance their brilliance and allure. Their warm and captivating colors make them a popular choice for unique and eye-catching jewelry pieces.",
+
+        "healing_factor": "Fire opal is believed to possess various healing properties. It is thought to promote vitality, passion, and creativity, stimulating one's life force and inspiring positive energy. The gemstone is associated with emotional healing, helping to release emotional blockages and promote self-confidence. Fire opal is also believed to aid in digestion and improve circulation. Additionally, it is thought to enhance spiritual insight and aid in meditation, fostering a sense of inner peace and balance. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Fireopal"
+    },
+
+    "Peridot": {
+        "name": "Peridot",
+
+        "description": "Peridot is a radiant gemstone known for its brilliant, lime-green color. Its vibrant hues range from yellowish-green to olive green, and its transparency varies from transparent to translucent. Peridot's luster is usually vitreous to oily, enhancing its captivating sparkle. The gemstone is often faceted to showcase its brilliance and exceptional clarity. Its appealing color, combined with its gem quality and mesmerizing brilliance, makes it a popular choice for various jewelry designs, adding a touch of natural beauty and elegance.",
+
+        "healing_factor": "Peridot is believed to have various healing properties. It is associated with promoting physical well-being by supporting the heart, lungs, and digestive system. The gemstone is thought to reduce stress, anxiety, and negative emotions, fostering emotional healing and promoting a sense of peace and harmony. Peridot is also believed to enhance self-confidence, motivation, and assertiveness. It is considered a stone of abundance and prosperity, attracting success and good fortune to its wearer. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Peridot"
+    },
+
+    "Plastic": {
+        "name": "Plastic",
+
+        "description": "Plastic gemstones are synthetic replicas designed to imitate the appearance of natural gemstones. They come in various colors and shapes, attempting to mimic the brilliance and luster of genuine stones. However, they lack the depth, clarity, and natural beauty of authentic gemstones. Plastic gemstones are typically lightweight, and their surfaces may have visible molding lines or imperfections. While they are affordable and used in costume jewelry, they do not possess the same value or appeal as natural gemstones.",
+
+        "healing_factor": "Plastic gemstones do not possess any inherent healing properties as they are man-made replicas and lack the mineral composition found in natural gemstones. Unlike genuine gemstones, plastics cannot harness energies or vibrations for healing purposes. Instead, their purpose lies primarily in costume jewelry or decorative pieces, adding aesthetic value without any therapeutic qualities. When it comes to healing or metaphysical properties, it's essential to focus on genuine gemstones with scientifically proven attributes.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Plastic"
+    },
+
+    "Topaz": {
+        "name": "Topaz",
+
+        "description": "Topaz is a mesmerizing gemstone admired for its wide range of colors, including yellow, blue, pink, and brown. The most common variety is a lustrous golden-yellow. It has excellent transparency and often exhibits exceptional brilliance. Topaz can be found in various cuts, such as faceted, oval, pear, and cushion, showcasing its dazzling sparkle. The gemstone's hardness and durability, combined with its captivating color options, make it a popular and versatile choice for jewelry pieces that exude elegance and sophistication.",
+
+        "healing_factor": "Topaz is believed to have various healing properties. It is thought to enhance mental clarity, creativity, and self-expression. The gemstone is associated with promoting feelings of joy, abundance, and confidence, aiding in overcoming anxiety and stress. Topaz is believed to support the respiratory system and improve digestion. It is also considered a stone of love and good fortune, attracting positive energies and fostering emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Topaz"
+    },
+
+    "Tourmaline": {
+        "name": "Tourmaline",
+
+        "description": "Tourmaline is a stunning gemstone known for its vast array of colors, ranging from vibrant hues like pink, green, blue, and yellow to rare shades like watermelon and bi-color combinations. The gem can be transparent to opaque and has a vitreous to resinous luster. It often exhibits beautiful pleochroism, showing different colors when viewed from different angles. With various cuts available, including faceted and cabochon, tourmaline's exquisite color variations and impressive brilliance make it a favored choice for fine jewelry designs.",
+
+        "healing_factor": "Tourmaline is believed to possess various healing properties. Different colors of tourmaline are associated with specific benefits, such as promoting love, compassion, and emotional healing for pink tourmaline, enhancing mental clarity and focus for blue tourmaline, and fostering courage and strength for green tourmaline. The gemstone is also thought to protect against negative energies and electromagnetic radiation. Additionally, tourmaline is believed to support the immune system, aid in detoxification, and promote overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Tourmaline"
+    },
+
+
+    "Turquoise": {
+        "name": "Turquoise",
+
+        "description": "Turquoise is a captivating gemstone admired for its stunning blue and green hues reminiscent of a clear sky or serene ocean. It often features a web-like pattern of brown or black veins known as matrix. The gemstone can vary in opacity from opaque to translucent, with a waxy to subvitreous luster. Turquoise is typically cut into various shapes, including cabochons and beads, showcasing its natural beauty. Its eye-catching color and smooth texture make it a popular choice for jewelry and ornamental pieces.",
+
+        "healing_factor": "Turquoise is believed to possess various healing properties. It is associated with promoting emotional balance, inner peace, and a sense of calmness. The gemstone is thought to enhance communication and self-expression, aiding in dispelling negative energies and fostering protection and healing. Turquoise is also considered beneficial for the respiratory system, supporting lung health. It is believed to provide solace for the mind and body, promoting overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Turquoise"
+    },
+
+
+    "Charoite": {
+        "name": "Charoite",
+
+        "description": "Charoite is a remarkable gemstone known for its unique and captivating appearance. It showcases a striking combination of lavender, purple, and swirling patterns, often interspersed with black and white veins. The gemstone's color and patterns create a mesmerizing and almost otherworldly effect. Charoite can have a pearly to vitreous luster, and its translucent to opaque nature adds to its allure. The stone is typically cut into cabochons or beads, emphasizing its intriguing color and enhancing its beauty in jewelry designs.",
+
+        "healing_factor": "Charoite is believed to possess various healing properties. It is associated with promoting emotional healing and spiritual growth. The gemstone is thought to assist in overcoming fears and negative patterns, promoting courage and inner strength. Charoite is believed to enhance intuition and open the third eye chakra, facilitating spiritual insight and connection. It is also considered beneficial for reducing stress and anxiety, promoting deep relaxation and a sense of calmness. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Charoite"
+    },
+
+
+    "Howlite": {
+        "name": "Howlite",
+
+        "description": "Howlite is a striking gemstone known for its distinct appearance. It is usually found in white to light grey color with dark grey or black web-like veins running through it, resembling the appearance of a spiderweb. The gemstone often has a porous and matte texture, adding to its unique charm. Howlite can be cut and polished into various shapes, including beads and cabochons, to showcase its fascinating patterns. Its captivating appearance makes it a popular choice for jewelry and decorative pieces.",
+
+        "healing_factor": "Howlite is believed to possess various healing properties. It is associated with promoting calmness, reducing stress, and relieving anxiety. The gemstone is thought to aid in sleep, encouraging restful and peaceful nights. Howlite is believed to enhance patience and self-awareness, fostering emotional healing and balance. It is also considered beneficial for calming an overactive mind and promoting mindfulness during meditation. Howlite is believed to assist with anger management and promoting positive communication, helping its wearer to express themselves more effectively. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Howlite"
+    },
+
+
+    "Unakite": {
+        "name": "Unakite",
+
+        "description": "Unakite is a captivating gemstone known for its distinct blend of colors. It typically features a combination of olive green and salmon pink, often with splashes of white quartz. The gemstone's colors form swirling patterns, creating a harmonious and natural look. Unakite has a granular texture and is usually opaque. It can be found in various shapes, including cabochons and beads, showcasing its unique appearance in jewelry and ornamental designs. Its earthy and tranquil colors make it a favored choice for nature-inspired creations.",
+
+        "healing_factor": "Unakite is believed to possess various healing properties. It is associated with promoting emotional healing and balance, helping to release past traumas and negative emotions. The gemstone is thought to support a sense of calmness and relaxation, reducing stress and anxiety. Unakite is also believed to enhance patience, resilience, and perseverance. It is considered beneficial for the physical heart and circulatory system, as well as supporting healthy relationships and fostering harmony and emotional growth. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Unakite"
+    },
+
+    "Tanzanite": {
+        "name": "Tanzanite",
+
+        "description": "Tanzanite is a mesmerizing gemstone celebrated for its striking blue-violet hue, ranging from deep royal blue to lavender shades. The gemstone's vivid color is enhanced when viewed under different lighting conditions, revealing captivating pleochroism. Tanzanite typically has excellent transparency and a vitreous to oily luster. It is commonly found in faceted cuts, accentuating its brilliance and allure. This rare gem's alluring color and exceptional clarity make it a highly prized and sought-after choice for fine jewelry pieces.",
+
+        "healing_factor": "Tanzanite is believed to possess various healing properties. It is associated with promoting a sense of calmness and tranquility, helping to reduce stress and anxiety. The gemstone is thought to enhance spiritual awareness and intuition, encouraging a deeper connection with one's inner self. Tanzanite is also considered beneficial for the throat and third eye chakras, fostering clear communication and spiritual insight. It is believed to assist in releasing negative energy and encouraging emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/snowflake-obsidian.png",
+
+        "tag": "Gemstones",
+
+        "path": "Tanzanite"
+    },
 }
 
 export default gemstone

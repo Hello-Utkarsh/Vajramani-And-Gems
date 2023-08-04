@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import Gemcard from './Gemcard'
 import { PathContext } from '../context/PathContext'
 import gemstone from '../database/db'
@@ -6,6 +6,14 @@ import gemstone from '../database/db'
 const GemStone = (props) => {
 
   let data = props.data
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[location.href])
+
+  
+
+  
 
   let more = Object.values(gemstone).filter((element) => {
     if (element.tag == data.tag && element.name != data.name) {

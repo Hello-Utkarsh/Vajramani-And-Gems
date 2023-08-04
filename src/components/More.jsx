@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import gemstone from '../database/db'
 import Gemcard from './Gemcard'
 
@@ -8,6 +8,10 @@ const More = () => {
       return element
     }
   })
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[location.href])
 
   return (
     <div className='bg-black'>

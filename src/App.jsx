@@ -31,14 +31,9 @@ function App() {
           <Route path={'Chrysocolla'} element={<GemStone data={GemStone_Data['Chrysocolla Chalcedony']} />} />
           <Route path={'Chrysoprase'} element={<GemStone data={GemStone_Data['Chrysoprase Chalcedony']} />} />
           <Route path={'Agate'} element={<GemStone data={GemStone_Data['Agate Chalcedony']} />} />
-          <Route path={'Sard'} element={<GemStone data={GemStone_Data['Sard Chalcedony']} />} />
-          <Route path={'Bloodstone'} element={<GemStone data={GemStone_Data['Bloodstone Chalcedony']} />} />
           <Route path={'DendriticAgate'} element={<GemStone data={GemStone_Data['Dendritic Agate Chalcedony']} />} />
-          <Route path={'Blue'} element={<GemStone data={GemStone_Data['Blue Chalcedony']} />} />
           <Route path={'MossAgate'} element={<GemStone data={GemStone_Data['Moss Agate']} />} />
           <Route path={'Onyx'} element={<GemStone data={GemStone_Data['Onyx']} />} />
-          <Route path={'Sardonyx'} element={<GemStone data={GemStone_Data['Sardonyx']} />} />
-          <Route path={'FireAgate'} element={<GemStone data={GemStone_Data['Fire agate']} />} />
           {/* Chalcedony */}
 
           {/* Corundun */}
@@ -62,9 +57,6 @@ function App() {
           {/* Beryl */}
           <Route path={'Aquamarine'} element={<GemStone data={GemStone_Data['Aquamarine']} />} />
           <Route path={'Emerald'} element={<GemStone data={GemStone_Data['Emerald']} />} />
-          <Route path={'LightGreen'} element={<GemStone data={GemStone_Data['Light Green']} />} />
-          <Route path={'TrapicheEmerald'} element={<GemStone data={GemStone_Data['Trapiche Emerald']} />} />
-          <Route path={'CatEye'} element={<GemStone data={GemStone_Data['Cat Eye']} />} />
           <Route path="*" element={<NoPage />} />
           {/* Beryl */}
 
@@ -72,24 +64,26 @@ function App() {
           <Route path={'Rubellite'} element={<GemStone data={GemStone_Data['Rubellite']} />} />
           <Route path={'Bi-colored'} element={<GemStone data={GemStone_Data['Bi-colored']} />} />
           <Route path={'Watermelon'} element={<GemStone data={GemStone_Data['Watermelon']} />} />
-          <Route path={'Chiastolite'} element={<GemStone data={GemStone_Data['Chiastolite']} />} />
-          <Route path={'Marble'} element={<GemStone data={GemStone_Data['Marble']} />} />
-          <Route path={'OnyxMarble'} element={<GemStone data={GemStone_Data['Onyx Marble']} />} />
-          <Route path={'Syntheticcubiczirconia'} element={<GemStone data={GemStone_Data['Synthetic cubic zirconia']} />} />
-          <Route path={'Stardiopside'} element={<GemStone data={GemStone_Data['Star diopside']} />} />
           <Route path={'Labradorite'} element={<GemStone data={GemStone_Data['Labradorite']} />} />
-          <Route path={'Amber'} element={<GemStone data={GemStone_Data['Amber']} />} />
           <Route path={'Moonstone'} element={<GemStone data={GemStone_Data['Moonstone']} />} />
-          <Route path={'Fluorite'} element={<GemStone data={GemStone_Data['Fluorite']} />} />
+          <Route path={'Flourite'} element={<GemStone data={GemStone_Data['Flourite']} />} />
           <Route path={'Garnet'} element={<GemStone data={GemStone_Data['Garnet']} />} />
-          <Route path={'Idocrase'} element={<GemStone data={GemStone_Data['Idocrase']} />} />
-          <Route path={'Hematite'} element={<GemStone data={GemStone_Data['Hematite']} />} />
           <Route path={'Snowflake'} element={<GemStone data={GemStone_Data['Snowflake']} />} />
-          <Route path={'Iolite'} element={<GemStone data={GemStone_Data['Iolite']} />} />
-          <Route path={'Jadeite'} element={<GemStone data={GemStone_Data['Jadeite']} />} />
           <Route path={'LapisLazuli'} element={<GemStone data={GemStone_Data['Lapis Lazuli']} />} />
-          <Route path={'Iolite'} element={<GemStone data={GemStone_Data['Iolite']} />} />
-
+          <Route path={'Catseye'} element={<GemStone data={GemStone_Data['Cats eye']} />} />
+          <Route path={'Malachite'} element={<GemStone data={GemStone_Data['Malachite']} />} />
+          <Route path={'Blackopal'} element={<GemStone data={GemStone_Data['BlackOpal']} />} />
+          <Route path={'Fireopal'} element={<GemStone data={GemStone_Data['Fire opal']} />} />
+          <Route path={'Peridot'} element={<GemStone data={GemStone_Data['Peridot']} />} />
+          <Route path={'Plastic'} element={<GemStone data={GemStone_Data['Plastic']} />} />
+          <Route path={'Tigerseye'} element={<GemStone data={GemStone_Data['Tigers eye']} />} />
+          <Route path={'Topaz'} element={<GemStone data={GemStone_Data['Topaz']} />} />
+          <Route path={'Tourmaline'} element={<GemStone data={GemStone_Data['Tourmaline']} />} />
+          <Route path={'Turquoise'} element={<GemStone data={GemStone_Data['Turquoise']} />} />
+          <Route path={'Charoite'} element={<GemStone data={GemStone_Data['Charoite']} />} />
+          <Route path={'Howlite'} element={<GemStone data={GemStone_Data['Howlite']} />} />
+          <Route path={'Unakite'} element={<GemStone data={GemStone_Data['Unakite']} />} />
+          <Route path={'Tanzanite'} element={<GemStone data={GemStone_Data['Tanzanite']} />} />
           {/* More */}
 
         </Routes>

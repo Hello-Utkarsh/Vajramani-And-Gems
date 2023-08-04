@@ -19,7 +19,6 @@ const Navbar = () => {
             if (window_resol.matches) {
                 if (element.style.display == "" || element.style.display == "none") {
                     element.style.display = "grid"
-                    console.log("hello")
                 }
                 else {
                     element.style.display = "none"
@@ -68,7 +67,6 @@ const Navbar = () => {
                 }
             })
         }
-        console.log(document.getElementsByClassName('sidebar')[0].style.display)
         if (!event.target.matches('.sidebar') && !event.target.matches('.menu') && !event.target.matches('.sidebar-content') && !event.target.matches('.hover-dropdown')) {
             if (document.getElementsByClassName('sidebar')[0].style.display == "flex") {
                 document.getElementsByClassName('sidebar')[0].style.display = "none"
@@ -93,7 +91,7 @@ const Navbar = () => {
                 <nav className='flex list-none w-[83%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Chalcedony
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl text-[#37363d] hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/Black">
                                 <li className='text-center p-1'>Black</li>
                             </Link>
@@ -105,21 +103,12 @@ const Navbar = () => {
                             </Link>
                             <Link to="/Chrysoprase">
                                 <li className='text-center p-1'>Chrysoprase</li>
-                            </Link>
-                            <Link to="/Sard">
-                                <li className='text-center p-1'>Sard</li>
-                            </Link>
+                            </Link>         
                             <Link to="/Agate">
                                 <li className='text-center p-1'>Agate</li>
                             </Link>
-                            <Link to="/Bloodstone">
-                                <li className='text-center p-1'>Bloodstone</li>
-                            </Link>
                             <Link to="/DendriticAgate">
                                 <li className='text-center p-1'>Dendritic Agate</li>
-                            </Link>
-                            <Link to="/Blue">
-                                <li className='text-center p-1'>Blue</li>
                             </Link>
                             <Link to="/MossAgate">
                                 <li className='text-center p-1'>Moss Agate</li>
@@ -127,17 +116,11 @@ const Navbar = () => {
                             <Link to="/Onyx">
                                 <li className='text-center p-1'>Onyx</li>
                             </Link>
-                            <Link to="/Sardonyx">
-                                <li className='text-center p-1'>Sardonyx</li>
-                            </Link>
-                            <Link to="/FireAgate">
-                                <li className='text-center p-1'>Fire Agate</li>
-                            </Link>
                         </div>
                     </ul>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Corundum
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
+                        <div className='rounded-xl text-[#37363d] hidden grid-cols-2 justify-around px-2 bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
                             <Link to="/YellowSapphires">
                                 <li className='text-center p-1 max-[600px]:my-2'>Yellow Sapphire</li>
                             </Link>
@@ -152,29 +135,10 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
-                    <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
-                        Beryl
-                        <div className='rounded-xl hidden grid-cols-2 justify-around px-2 bg-[#FFD95A] -ml-24 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
-                            <Link to="/Aquamarine">
-                                <li className='text-center p-1 max-[600px]:my-2'>Aquamarine</li>
-                            </Link>
-                            <Link to="/Emerald">
-                                <li className='text-center p-1 max-[600px]:my-2'>Emerald</li>
-                            </Link>
-                            <Link to="/LightGreen">
-                                <li className='text-center p-1 max-[600px]:my-2'>Light Green</li>
-                            </Link>
-                            <Link to="/TrapicheEmerald">
-                                <li className='text-center p-1 max-[600px]:my-2'>Trapiche Emerald</li>
-                            </Link>
-                            <Link to="/CatEye">
-                                <li className='text-center p-1 max-[600px]:my-2'>Cat's Eye</li>
-                            </Link>
-                        </div>
-                    </ul>
+                
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Quartz
-                        <div className='rounded-xl hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-normal'>
+                        <div className='rounded-xl text-[#37363d] hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-normal'>
                             <Link to="/Prasiolite">
                                 <li className='text-center p-1 max-[600px]:my-2'>Prasiolite</li>
                             </Link>
