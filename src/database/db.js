@@ -456,7 +456,7 @@ const gemstone = {
 
         "healing_factor": "The cat's eye chrysoberyl is believed to possess several healing properties. It is thought to aid in strengthening intuition and awareness, promoting focus and concentration. The gemstone is associated with protection against negative energies and bringing good luck to its wearer. Additionally, it is believed to assist in dispelling fears and anxieties, fostering a sense of self-confidence and courage. However, it is essential to remember that these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/cats-eye-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -470,7 +470,7 @@ const gemstone = {
 
         "healing_factor": "Malachite is believed to possess several healing properties. It is thought to be a powerful stone for emotional healing, promoting positive transformation and growth. The gemstone is associated with providing protection against negative energies and enhancing intuition. Malachite is believed to help release emotional trauma and reduce stress and anxiety. It is also thought to support the heart and circulatory system, as well as aid in detoxification. However, it's essential to remember that these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/malachite-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -484,7 +484,7 @@ const gemstone = {
 
         "healing_factor": "Black opal is believed to possess various healing properties. It is associated with enhancing emotional stability and promoting a sense of calmness and tranquility. The gemstone is thought to stimulate creativity, imagination, and intuition. Black opal is believed to help in releasing negative energy and promoting positive transformation. It is also considered beneficial for eye-related issues and is said to strengthen the immune system. However, it's essential to note that these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/black-opal-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -498,7 +498,7 @@ const gemstone = {
 
         "healing_factor": "Fire opal is believed to possess various healing properties. It is thought to promote vitality, passion, and creativity, stimulating one's life force and inspiring positive energy. The gemstone is associated with emotional healing, helping to release emotional blockages and promote self-confidence. Fire opal is also believed to aid in digestion and improve circulation. Additionally, it is thought to enhance spiritual insight and aid in meditation, fostering a sense of inner peace and balance. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/fire-opal-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -512,25 +512,11 @@ const gemstone = {
 
         "healing_factor": "Peridot is believed to have various healing properties. It is associated with promoting physical well-being by supporting the heart, lungs, and digestive system. The gemstone is thought to reduce stress, anxiety, and negative emotions, fostering emotional healing and promoting a sense of peace and harmony. Peridot is also believed to enhance self-confidence, motivation, and assertiveness. It is considered a stone of abundance and prosperity, attracting success and good fortune to its wearer. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/peridot-gemstone.png",
 
         "tag": "Gemstones",
 
         "path": "Peridot"
-    },
-
-    "Plastic": {
-        "name": "Plastic",
-
-        "description": "Plastic gemstones are synthetic replicas designed to imitate the appearance of natural gemstones. They come in various colors and shapes, attempting to mimic the brilliance and luster of genuine stones. However, they lack the depth, clarity, and natural beauty of authentic gemstones. Plastic gemstones are typically lightweight, and their surfaces may have visible molding lines or imperfections. While they are affordable and used in costume jewelry, they do not possess the same value or appeal as natural gemstones.",
-
-        "healing_factor": "Plastic gemstones do not possess any inherent healing properties as they are man-made replicas and lack the mineral composition found in natural gemstones. Unlike genuine gemstones, plastics cannot harness energies or vibrations for healing purposes. Instead, their purpose lies primarily in costume jewelry or decorative pieces, adding aesthetic value without any therapeutic qualities. When it comes to healing or metaphysical properties, it's essential to focus on genuine gemstones with scientifically proven attributes.",
-
-        "img": "/static/images/garnet-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Plastic"
     },
 
     "Topaz": {
@@ -540,7 +526,7 @@ const gemstone = {
 
         "healing_factor": "Topaz is believed to have various healing properties. It is thought to enhance mental clarity, creativity, and self-expression. The gemstone is associated with promoting feelings of joy, abundance, and confidence, aiding in overcoming anxiety and stress. Topaz is believed to support the respiratory system and improve digestion. It is also considered a stone of love and good fortune, attracting positive energies and fostering emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/topaz-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -554,7 +540,7 @@ const gemstone = {
 
         "healing_factor": "Tourmaline is believed to possess various healing properties. Different colors of tourmaline are associated with specific benefits, such as promoting love, compassion, and emotional healing for pink tourmaline, enhancing mental clarity and focus for blue tourmaline, and fostering courage and strength for green tourmaline. The gemstone is also thought to protect against negative energies and electromagnetic radiation. Additionally, tourmaline is believed to support the immune system, aid in detoxification, and promote overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/tormaline-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -569,7 +555,7 @@ const gemstone = {
 
         "healing_factor": "Turquoise is believed to possess various healing properties. It is associated with promoting emotional balance, inner peace, and a sense of calmness. The gemstone is thought to enhance communication and self-expression, aiding in dispelling negative energies and fostering protection and healing. Turquoise is also considered beneficial for the respiratory system, supporting lung health. It is believed to provide solace for the mind and body, promoting overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/turquoise-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -584,7 +570,7 @@ const gemstone = {
 
         "healing_factor": "Charoite is believed to possess various healing properties. It is associated with promoting emotional healing and spiritual growth. The gemstone is thought to assist in overcoming fears and negative patterns, promoting courage and inner strength. Charoite is believed to enhance intuition and open the third eye chakra, facilitating spiritual insight and connection. It is also considered beneficial for reducing stress and anxiety, promoting deep relaxation and a sense of calmness. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/charoite-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -599,7 +585,7 @@ const gemstone = {
 
         "healing_factor": "Howlite is believed to possess various healing properties. It is associated with promoting calmness, reducing stress, and relieving anxiety. The gemstone is thought to aid in sleep, encouraging restful and peaceful nights. Howlite is believed to enhance patience and self-awareness, fostering emotional healing and balance. It is also considered beneficial for calming an overactive mind and promoting mindfulness during meditation. Howlite is believed to assist with anger management and promoting positive communication, helping its wearer to express themselves more effectively. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/howlite-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -614,7 +600,7 @@ const gemstone = {
 
         "healing_factor": "Unakite is believed to possess various healing properties. It is associated with promoting emotional healing and balance, helping to release past traumas and negative emotions. The gemstone is thought to support a sense of calmness and relaxation, reducing stress and anxiety. Unakite is also believed to enhance patience, resilience, and perseverance. It is considered beneficial for the physical heart and circulatory system, as well as supporting healthy relationships and fostering harmony and emotional growth. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/unakite-gemstone.png",
 
         "tag": "Gemstones",
 
@@ -628,7 +614,7 @@ const gemstone = {
 
         "healing_factor": "Tanzanite is believed to possess various healing properties. It is associated with promoting a sense of calmness and tranquility, helping to reduce stress and anxiety. The gemstone is thought to enhance spiritual awareness and intuition, encouraging a deeper connection with one's inner self. Tanzanite is also considered beneficial for the throat and third eye chakras, fostering clear communication and spiritual insight. It is believed to assist in releasing negative energy and encouraging emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/snowflake-obsidian.png",
+        "img": "/static/images/tanzanite.png",
 
         "tag": "Gemstones",
 

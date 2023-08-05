@@ -75,7 +75,6 @@ function App() {
           <Route path={'Blackopal'} element={<GemStone data={GemStone_Data['BlackOpal']} />} />
           <Route path={'Fireopal'} element={<GemStone data={GemStone_Data['Fire opal']} />} />
           <Route path={'Peridot'} element={<GemStone data={GemStone_Data['Peridot']} />} />
-          <Route path={'Plastic'} element={<GemStone data={GemStone_Data['Plastic']} />} />
           <Route path={'Tigerseye'} element={<GemStone data={GemStone_Data['Tigers eye']} />} />
           <Route path={'Topaz'} element={<GemStone data={GemStone_Data['Topaz']} />} />
           <Route path={'Tourmaline'} element={<GemStone data={GemStone_Data['Tourmaline']} />} />
