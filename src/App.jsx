@@ -11,6 +11,7 @@ import { PathContext } from './context/PathContext'
 import NoPage from './components/NoPage'
 import More from './components/More'
 import GemCare from './components/GemCare'
+import Birthstone from './components/Birthstone'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path='/' index element={<Home />} />
           <Route path={'More'} element={<More/>} />
+          <Route path={'Birthstone'} element={<Birthstone/>} />
           <Route path={'More_on_Gemstone'} element={<GemCare/>} />
 
           {/* Chalcedony */}
@@ -52,6 +54,7 @@ function App() {
           <Route path={'Rose'} element={<GemStone data={GemStone_Data['Rose']} />} />
           <Route path={'Smoky'} element={<GemStone data={GemStone_Data['Smoky']} />} />
           <Route path={'Aventurine'} element={<GemStone data={GemStone_Data['Aventurine']} />} />
+          <Route path={'Tigerseye'} element={<GemStone data={GemStone_Data['Tigers eye']} />} />
           {/* Quartz */}
 
           {/* Beryl */}

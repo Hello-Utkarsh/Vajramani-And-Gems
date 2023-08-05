@@ -1,5 +1,213 @@
 const gemstone = {
 
+    "Garnet": {
+        "name": "Garnet",
+
+        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
+
+        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
+
+        "img": "/static/images/garnet-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Garnet",
+
+        "birthmonth": "January"
+    },
+
+    "Amethyst": {
+        "name": "Amethyst",
+
+        "description": "Amethyst is the purple variety of the quartz mineral species. It’s the gem that’s most commonly associated with the color purple, even though there are other purple gems such as sapphire and tanzanite. Its purple color can be cool and bluish, or a reddish purple that’s sometimes referred to as “raspberry”. Amethyst crystals grow primarily on the inner surface of an amethyst geode in nature. The shades can vary from light violet to deep, rich purple. This eye-catching hue is what sets amethyst apart from other types of quartz and makes it a prized addition to any crystal collection.",
+
+        "healing_factor": "Amethyst quartz is a powerful and protective stone that has a wide range of benefits. It relieves an individual from stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear and anxiety. This precious stone has outstanding healing and cleansing powers. It helps with addiction and cravings, alleviates insomnia and nightmares, boosts the immune system. It also enhances blood circulation and helps with digestive issues.",
+
+        "img": "/static/images/amethyst-quartz.png",
+
+        "tag": "Quartz",
+
+        "path" : "Amethyst",
+
+        "birthmonth": "Feburary"
+    },
+
+    "Aquamarine": {
+        "name": "Aquamarine",
+
+        "description": "Aquamarine, a captivating variety of beryl, boasts a stunning appearance reminiscent of the sea. Its color ranges from pale blue to light greenish-blue, resembling the tranquil waters of tropical shores. The gemstone often exhibits exceptional transparency and a vitreous luster, radiating a captivating brilliance. Aquamarine's clarity allows light to dance within, creating a mesmerizing sparkle. It is frequently cut into faceted gemstones, showcasing its delicate hues and ensuring that each piece shines with a serene and ethereal beauty.",
+
+        "healing_factor": "Aquamarine, a variety of beryl, is renowned for its soothing and healing properties. This serene gemstone is believed to calm the mind and emotions, promoting inner peace and clarity. Aquamarine is associated with enhancing communication skills and encouraging self-expression. It is said to support emotional healing, assisting in the release of past traumas and promoting a sense of courage and resilience. Aquamarine is also believed to promote physical well-being, particularly benefiting the throat, respiratory system, and overall immune system.",
+
+        "img": "/static/images/aquamarine-beryl.png",
+
+        "tag": "Gemstones",
+
+        "path" : "Aquamarine",
+
+        "birthmonth": "March"
+    },
+
+    "Emerald": {
+        "name": "Emerald",
+
+        "description": "Emerald, a precious variety of beryl, showcases a breathtaking appearance that exudes elegance and allure. Its color ranges from vibrant green to deep emerald green, reminiscent of lush forests and verdant landscapes. The gemstone often exhibits a mesmerizing transparency and a vitreous luster, which enhances its brilliance. Emerald's internal clarity is highly valued, allowing light to reflect and refract within the gem, creating a captivating play of light. Its refined beauty and rich color make emerald an enchanting gemstone that commands attention and admiration.",
+
+        "healing_factor": "Emerald, with its vibrant energy, is believed to possess powerful healing properties. It is associated with promoting physical vitality and rejuvenation, supporting the heart, lungs, and immune system. Emerald is thought to enhance emotional well-being, fostering love, compassion, and harmony. It is said to promote mental clarity and stimulate intellectual growth, aiding in problem-solving and decision-making. Emerald is also believed to bring balance and serenity to relationships, fostering loyalty, and deepening connections.",
+
+        "img": "/static/images/emerald-beryl.png",
+
+        "tag": "Gemstones",
+
+        "path" : "Emerald",
+
+        "birthmonth": "May"
+    },
+
+    "Moonstone": {
+        "name": "Moonstone",
+
+        "description": "Moonstone, a variety of orthoclase feldspar, displays a captivating iridescent shimmer known as adularescence. This mesmerizing optical effect creates a soft glow resembling the moon's gentle light. The stone appears milky white or transparent with a bluish sheen that moves across its surface when viewed from different angles. Its enchanting appearance makes it a popular gemstone choice for jewelry and ornamental purposes.",
+
+        "healing_factor": "Moonstone, a form of orthoclase feldspar, is believed to possess various healing properties. It is associated with promoting emotional balance, soothing stress, and calming the mind. The stone is thought to enhance intuition and insight while fostering inner growth and self-discovery. Moonstone is also considered to be a symbol of femininity and can be helpful for hormonal imbalances and reproductive health. Its gentle energy is believed to bring about harmony and a sense of peace in one's life.",
+
+        "img": "/static/images/moonstone-orthoclase-feldspar.png",
+
+        "tag": "Gemstones",
+
+        "path": "Moonstone",
+
+        "birthmonth": "June"
+    },
+
+    "Ruby": {
+        "name": "Ruby",
+
+        "description": "Rubies are gem corundums with a dominant red color. The color can range from orangy red to purplish red or brownish red. The most desirable color range is a pure vibrant red to a slightly purplish red. The red color of ruby is produced by the presence of chromium in the gem. A small trace of chromium will produce a pink color1. Rubies tend to grow in a roughly hexagonal shape. Typically, the surface of a ruby is flat rather than having the spiky protrusions seen in other crystalline formations. The type of host rock in which a ruby grows may impact its overall shape, with some raw rubies appearing blocky and others adopting a more tapered shape2.",
+
+        "healing_factor": "Ruby is believed to stimulate the root chakra, promoting energy, vitality, and a zest for life. It is also associated with passion, love, and romance. Ruby stones are thought to have a positive effect on the circulatory system and promote detoxification. Ruby is ideal for any blood or circulatory system disorders in terms of physical healing. It cleanses the blood while also stimulating the lymphatic system.",
+
+        "img": "/static/images/ruby-corundum.png",
+
+        "tag": "Corundum",
+
+        "path" : "Ruby",
+
+        "birthmonth": "July"
+    },
+
+    "Peridot": {
+        "name": "Peridot",
+
+        "description": "Peridot is a radiant gemstone known for its brilliant, lime-green color. Its vibrant hues range from yellowish-green to olive green, and its transparency varies from transparent to translucent. Peridot's luster is usually vitreous to oily, enhancing its captivating sparkle. The gemstone is often faceted to showcase its brilliance and exceptional clarity. Its appealing color, combined with its gem quality and mesmerizing brilliance, makes it a popular choice for various jewelry designs, adding a touch of natural beauty and elegance.",
+
+        "healing_factor": "Peridot is believed to have various healing properties. It is associated with promoting physical well-being by supporting the heart, lungs, and digestive system. The gemstone is thought to reduce stress, anxiety, and negative emotions, fostering emotional healing and promoting a sense of peace and harmony. Peridot is also believed to enhance self-confidence, motivation, and assertiveness. It is considered a stone of abundance and prosperity, attracting success and good fortune to its wearer. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/peridot-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Peridot",
+
+        "birthmonth": "August"
+    },
+
+    "Sapphire": {
+        "name": "Sapphire",
+
+        "description": "Sapphire is a gemstone that belongs to the mineral species corundum. It is generally known as a blue gemstone, but it can come in a wide range of colors and quality variations. The color of sapphire depends on the trace elements in the mineral, such as iron, titanium, and chromium. Sapphires that are not blue are called fancy sapphires, and they may be any color except red, which is a ruby. Some rare and valuable sapphire colors are pinkish orange, called padparadscha, and violet",
+
+        "healing_factor": "Sapphire is a stone that has physical and emotional healing properties. It can improve bone strength and density, detoxify the body, reduce infections, fevers, inflammation, bleeding, and blood-related problems, and heal burns and eye issues. It can also calm the mind, balance the emotions, boost courage and self-esteem, and promote tranquility and restful sleep. ",
+
+        "img": "/static/images/sapphire-corundum.png",
+
+        "tag": "Corundum",
+
+        "path" : "Sapphire",
+
+        "birthmonth": "September"
+    },
+
+    "Tourmaline": {
+        "name": "Tourmaline",
+
+        "description": "Tourmaline is a stunning gemstone known for its vast array of colors, ranging from vibrant hues like pink, green, blue, and yellow to rare shades like watermelon and bi-color combinations. The gem can be transparent to opaque and has a vitreous to resinous luster. It often exhibits beautiful pleochroism, showing different colors when viewed from different angles. With various cuts available, including faceted and cabochon, tourmaline's exquisite color variations and impressive brilliance make it a favored choice for fine jewelry designs.",
+
+        "healing_factor": "Tourmaline is believed to possess various healing properties. Different colors of tourmaline are associated with specific benefits, such as promoting love, compassion, and emotional healing for pink tourmaline, enhancing mental clarity and focus for blue tourmaline, and fostering courage and strength for green tourmaline. The gemstone is also thought to protect against negative energies and electromagnetic radiation. Additionally, tourmaline is believed to support the immune system, aid in detoxification, and promote overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/tormaline-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Tourmaline",
+
+        "birthmonth": "October"
+    },
+
+    "Citrine": {
+        "name": "Citrine",
+
+        "description": "Citrine quartz is a gemstone with a captivating golden-yellow appearance. Its transparent to translucent quality allows light to pass through, enhancing its radiant beauty. It forms in hexagonal crystals with pointed terminations, varying in size from delicate to larger formations. The gemstone often exhibits a range of yellow hues, from pale to deep golden shades, sometimes with hints of orange and brown undertones. Smooth and polished surfaces showcase its color and clarity, while natural inclusions can add character. Overall, citrine quartz is a visually enchanting gemstone that exudes warmth, energy, and elegance with its sunny, golden presence.",
+
+        "healing_factor": "Citrine quartz is believed to possess various healing properties. It is associated with positive energy, abundance, and personal power. This gemstone is said to enhance motivation, creativity, and self-confidence. Citrine quartz is thought to promote success, prosperity, and wealth, attracting abundance into one's life. It is also believed to dissipate negative energies, release emotional blockages, and increase joy and optimism. Additionally, citrine quartz is said to stimulate the intellect, improve concentration, and promote mental clarity. Some also attribute citrine quartz with boosting physical energy, supporting digestion, and aiding in overall well-being. It is considered a crystal of warmth, light, and positivity.",
+
+        "img": "/static/images/citrine-quartz.png",
+
+        "tag": "Quartz",
+
+        "path" : "Citrine",
+
+        "birthmonth": "November"
+    },
+
+    "Topaz": {
+        "name": "Topaz",
+
+        "description": "Topaz is a mesmerizing gemstone admired for its wide range of colors, including yellow, blue, pink, and brown. The most common variety is a lustrous golden-yellow. It has excellent transparency and often exhibits exceptional brilliance. Topaz can be found in various cuts, such as faceted, oval, pear, and cushion, showcasing its dazzling sparkle. The gemstone's hardness and durability, combined with its captivating color options, make it a popular and versatile choice for jewelry pieces that exude elegance and sophistication.",
+
+        "healing_factor": "Topaz is believed to have various healing properties. It is thought to enhance mental clarity, creativity, and self-expression. The gemstone is associated with promoting feelings of joy, abundance, and confidence, aiding in overcoming anxiety and stress. Topaz is believed to support the respiratory system and improve digestion. It is also considered a stone of love and good fortune, attracting positive energies and fostering emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/topaz-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Topaz",
+
+        "birthmonth": "November"
+    },
+
+    "Turquoise": {
+        "name": "Turquoise",
+
+        "description": "Turquoise is a captivating gemstone admired for its stunning blue and green hues reminiscent of a clear sky or serene ocean. It often features a web-like pattern of brown or black veins known as matrix. The gemstone can vary in opacity from opaque to translucent, with a waxy to subvitreous luster. Turquoise is typically cut into various shapes, including cabochons and beads, showcasing its natural beauty. Its eye-catching color and smooth texture make it a popular choice for jewelry and ornamental pieces.",
+
+        "healing_factor": "Turquoise is believed to possess various healing properties. It is associated with promoting emotional balance, inner peace, and a sense of calmness. The gemstone is thought to enhance communication and self-expression, aiding in dispelling negative energies and fostering protection and healing. Turquoise is also considered beneficial for the respiratory system, supporting lung health. It is believed to provide solace for the mind and body, promoting overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/turquoise-gemstone.png",
+
+        "tag": "Gemstones",
+
+        "path": "Turquoise",
+
+        "birthmonth": "December"
+    },
+
+    "Tanzanite": {
+        "name": "Tanzanite",
+
+        "description": "Tanzanite is a mesmerizing gemstone celebrated for its striking blue-violet hue, ranging from deep royal blue to lavender shades. The gemstone's vivid color is enhanced when viewed under different lighting conditions, revealing captivating pleochroism. Tanzanite typically has excellent transparency and a vitreous to oily luster. It is commonly found in faceted cuts, accentuating its brilliance and allure. This rare gem's alluring color and exceptional clarity make it a highly prized and sought-after choice for fine jewelry pieces.",
+
+        "healing_factor": "Tanzanite is believed to possess various healing properties. It is associated with promoting a sense of calmness and tranquility, helping to reduce stress and anxiety. The gemstone is thought to enhance spiritual awareness and intuition, encouraging a deeper connection with one's inner self. Tanzanite is also considered beneficial for the throat and third eye chakras, fostering clear communication and spiritual insight. It is believed to assist in releasing negative energy and encouraging emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
+
+        "img": "/static/images/tanzanite.png",
+
+        "tag": "Gemstones",
+
+        "path": "Tanzanite",
+
+        "birthmonth": "December"
+    },
+
     "Carnelian Chalcedony": {
         "name": "Carnelian Chalcedony",
 
@@ -126,34 +334,6 @@ const gemstone = {
         "path" : "Yellowsapphires"
     },
 
-    "Ruby": {
-        "name": "Ruby",
-
-        "description": "Rubies are gem corundums with a dominant red color. The color can range from orangy red to purplish red or brownish red. The most desirable color range is a pure vibrant red to a slightly purplish red. The red color of ruby is produced by the presence of chromium in the gem. A small trace of chromium will produce a pink color1. Rubies tend to grow in a roughly hexagonal shape. Typically, the surface of a ruby is flat rather than having the spiky protrusions seen in other crystalline formations. The type of host rock in which a ruby grows may impact its overall shape, with some raw rubies appearing blocky and others adopting a more tapered shape2.",
-
-        "healing_factor": "Ruby is believed to stimulate the root chakra, promoting energy, vitality, and a zest for life. It is also associated with passion, love, and romance. Ruby stones are thought to have a positive effect on the circulatory system and promote detoxification. Ruby is ideal for any blood or circulatory system disorders in terms of physical healing. It cleanses the blood while also stimulating the lymphatic system.",
-
-        "img": "/static/images/ruby-corundum.png",
-
-        "tag": "Corundum",
-
-        "path" : "Ruby"
-    },
-
-    "Sapphire": {
-        "name": "Sapphire",
-
-        "description": "Sapphire is a gemstone that belongs to the mineral species corundum. It is generally known as a blue gemstone, but it can come in a wide range of colors and quality variations. The color of sapphire depends on the trace elements in the mineral, such as iron, titanium, and chromium. Sapphires that are not blue are called fancy sapphires, and they may be any color except red, which is a ruby. Some rare and valuable sapphire colors are pinkish orange, called padparadscha, and violet",
-
-        "healing_factor": "Sapphire is a stone that has physical and emotional healing properties. It can improve bone strength and density, detoxify the body, reduce infections, fevers, inflammation, bleeding, and blood-related problems, and heal burns and eye issues. It can also calm the mind, balance the emotions, boost courage and self-esteem, and promote tranquility and restful sleep. ",
-
-        "img": "/static/images/sapphire-corundum.png",
-
-        "tag": "Corundum",
-
-        "path" : "Sapphire"
-    },
-
     "Star Ruby": {
         "name": "Star Ruby",
 
@@ -166,34 +346,6 @@ const gemstone = {
         "tag": "Corundum",
 
         "path" : "StarRuby"
-    },
-
-    "Aquamarine": {
-        "name": "Aquamarine",
-
-        "description": "Aquamarine, a captivating variety of beryl, boasts a stunning appearance reminiscent of the sea. Its color ranges from pale blue to light greenish-blue, resembling the tranquil waters of tropical shores. The gemstone often exhibits exceptional transparency and a vitreous luster, radiating a captivating brilliance. Aquamarine's clarity allows light to dance within, creating a mesmerizing sparkle. It is frequently cut into faceted gemstones, showcasing its delicate hues and ensuring that each piece shines with a serene and ethereal beauty.",
-
-        "healing_factor": "Aquamarine, a variety of beryl, is renowned for its soothing and healing properties. This serene gemstone is believed to calm the mind and emotions, promoting inner peace and clarity. Aquamarine is associated with enhancing communication skills and encouraging self-expression. It is said to support emotional healing, assisting in the release of past traumas and promoting a sense of courage and resilience. Aquamarine is also believed to promote physical well-being, particularly benefiting the throat, respiratory system, and overall immune system.",
-
-        "img": "/static/images/aquamarine-beryl.png",
-
-        "tag": "Gemstones",
-
-        "path" : "Aquamarine"
-    },
-
-    "Emerald": {
-        "name": "Emerald",
-
-        "description": "Emerald, a precious variety of beryl, showcases a breathtaking appearance that exudes elegance and allure. Its color ranges from vibrant green to deep emerald green, reminiscent of lush forests and verdant landscapes. The gemstone often exhibits a mesmerizing transparency and a vitreous luster, which enhances its brilliance. Emerald's internal clarity is highly valued, allowing light to reflect and refract within the gem, creating a captivating play of light. Its refined beauty and rich color make emerald an enchanting gemstone that commands attention and admiration.",
-
-        "healing_factor": "Emerald, with its vibrant energy, is believed to possess powerful healing properties. It is associated with promoting physical vitality and rejuvenation, supporting the heart, lungs, and immune system. Emerald is thought to enhance emotional well-being, fostering love, compassion, and harmony. It is said to promote mental clarity and stimulate intellectual growth, aiding in problem-solving and decision-making. Emerald is also believed to bring balance and serenity to relationships, fostering loyalty, and deepening connections.",
-
-        "img": "/static/images/emerald-beryl.png",
-
-        "tag": "Gemstones",
-
-        "path" : "Emerald"
     },
 
     "Prasiolite": {
@@ -210,20 +362,6 @@ const gemstone = {
         "path" : "Prasiolite"
     },
 
-    "Amethyst": {
-        "name": "Amethyst",
-
-        "description": "Amethyst is the purple variety of the quartz mineral species. It’s the gem that’s most commonly associated with the color purple, even though there are other purple gems such as sapphire and tanzanite. Its purple color can be cool and bluish, or a reddish purple that’s sometimes referred to as “raspberry”. Amethyst crystals grow primarily on the inner surface of an amethyst geode in nature. The shades can vary from light violet to deep, rich purple. This eye-catching hue is what sets amethyst apart from other types of quartz and makes it a prized addition to any crystal collection.",
-
-        "healing_factor": "Amethyst quartz is a powerful and protective stone that has a wide range of benefits. It relieves an individual from stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear and anxiety. This precious stone has outstanding healing and cleansing powers. It helps with addiction and cravings, alleviates insomnia and nightmares, boosts the immune system. It also enhances blood circulation and helps with digestive issues.",
-
-        "img": "/static/images/amethyst-quartz.png",
-
-        "tag": "Quartz",
-
-        "path" : "Amethyst"
-    },
-
     "Ametrine": {
         "name": "Ametrine",
 
@@ -236,21 +374,6 @@ const gemstone = {
         "tag": "Quartz",
 
         "path" : "Ametrine"
-    },
-
-
-    "Citrine": {
-        "name": "Citrine",
-
-        "description": "Citrine quartz is a gemstone with a captivating golden-yellow appearance. Its transparent to translucent quality allows light to pass through, enhancing its radiant beauty. It forms in hexagonal crystals with pointed terminations, varying in size from delicate to larger formations. The gemstone often exhibits a range of yellow hues, from pale to deep golden shades, sometimes with hints of orange and brown undertones. Smooth and polished surfaces showcase its color and clarity, while natural inclusions can add character. Overall, citrine quartz is a visually enchanting gemstone that exudes warmth, energy, and elegance with its sunny, golden presence.",
-
-        "healing_factor": "Citrine quartz is believed to possess various healing properties. It is associated with positive energy, abundance, and personal power. This gemstone is said to enhance motivation, creativity, and self-confidence. Citrine quartz is thought to promote success, prosperity, and wealth, attracting abundance into one's life. It is also believed to dissipate negative energies, release emotional blockages, and increase joy and optimism. Additionally, citrine quartz is said to stimulate the intellect, improve concentration, and promote mental clarity. Some also attribute citrine quartz with boosting physical energy, supporting digestion, and aiding in overall well-being. It is considered a crystal of warmth, light, and positivity.",
-
-        "img": "/static/images/citrine-quartz.png",
-
-        "tag": "Quartz",
-
-        "path" : "Citrine"
     },
 
     "Rock crystal": {
@@ -302,7 +425,7 @@ const gemstone = {
 
         "healing_factor": "Tiger's eye is believed to possess various healing properties. It is associated with promoting courage, strength, and confidence, enabling the wearer to overcome fears and anxieties. The gemstone is thought to enhance focus, clarity, and decision-making abilities. Tiger's eye is believed to provide protection from negative energies and foster a sense of grounding and stability. It is also considered beneficial for balancing emotions and promoting harmony and peace. However, these healing factors are based on traditional beliefs and not scientifically proven.",
 
-        "img": "/static/images/garnet-gemstone.png",
+        "img": "/static/images/tigers-eye-gemstone.png",
 
         "tag": "Quartz",
 
@@ -379,20 +502,6 @@ const gemstone = {
         "path": "Labradorite"
     },
 
-    "Moonstone": {
-        "name": "Moonstone",
-
-        "description": "Moonstone, a variety of orthoclase feldspar, displays a captivating iridescent shimmer known as adularescence. This mesmerizing optical effect creates a soft glow resembling the moon's gentle light. The stone appears milky white or transparent with a bluish sheen that moves across its surface when viewed from different angles. Its enchanting appearance makes it a popular gemstone choice for jewelry and ornamental purposes.",
-
-        "healing_factor": "Moonstone, a form of orthoclase feldspar, is believed to possess various healing properties. It is associated with promoting emotional balance, soothing stress, and calming the mind. The stone is thought to enhance intuition and insight while fostering inner growth and self-discovery. Moonstone is also considered to be a symbol of femininity and can be helpful for hormonal imbalances and reproductive health. Its gentle energy is believed to bring about harmony and a sense of peace in one's life.",
-
-        "img": "/static/images/moonstone-orthoclase-feldspar.png",
-
-        "tag": "Gemstones",
-
-        "path": "Moonstone"
-    },
-
     "Flourite": {
         "name": "Flourite",
 
@@ -405,20 +514,6 @@ const gemstone = {
         "tag": "Gemstones",
 
         "path": "Flourite"
-    },
-
-    "Garnet": {
-        "name": "Garnet",
-
-        "description": "Garnet, a diverse gemstone family, comes in an array of captivating colors, including red, orange, green, yellow, and even rare blue. Its appearance is characterized by its rich, deep hues and high luster, making it a popular choice for jewelry. Garnet crystals can be transparent or translucent and often exhibit a well-defined crystal structure. Depending on the specific type, garnets may form as dodecahedrons, trapezohedrons, or other complex shapes, adding to their allure and aesthetic appeal.",
-
-        "healing_factor": "Garnet is believed to hold a variety of healing properties. It is thought to energize and revitalize, enhancing physical strength and endurance. The stone is associated with promoting emotional stability and confidence, fostering a sense of security and grounding. Garnet is also believed to inspire creativity, passion, and love, while providing protection from negative energies. It is often used to balance and cleanse the chakras, particularly the root chakra, bringing harmony and alignment to one's spiritual and physical aspects. However, these beliefs are based on traditional and metaphysical practices and are not scientifically proven.",
-
-        "img": "/static/images/garnet-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Garnet"
     },
 
     "Snowflake": {
@@ -505,63 +600,6 @@ const gemstone = {
         "path": "Fireopal"
     },
 
-    "Peridot": {
-        "name": "Peridot",
-
-        "description": "Peridot is a radiant gemstone known for its brilliant, lime-green color. Its vibrant hues range from yellowish-green to olive green, and its transparency varies from transparent to translucent. Peridot's luster is usually vitreous to oily, enhancing its captivating sparkle. The gemstone is often faceted to showcase its brilliance and exceptional clarity. Its appealing color, combined with its gem quality and mesmerizing brilliance, makes it a popular choice for various jewelry designs, adding a touch of natural beauty and elegance.",
-
-        "healing_factor": "Peridot is believed to have various healing properties. It is associated with promoting physical well-being by supporting the heart, lungs, and digestive system. The gemstone is thought to reduce stress, anxiety, and negative emotions, fostering emotional healing and promoting a sense of peace and harmony. Peridot is also believed to enhance self-confidence, motivation, and assertiveness. It is considered a stone of abundance and prosperity, attracting success and good fortune to its wearer. However, these healing factors are based on traditional beliefs and not scientifically proven.",
-
-        "img": "/static/images/peridot-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Peridot"
-    },
-
-    "Topaz": {
-        "name": "Topaz",
-
-        "description": "Topaz is a mesmerizing gemstone admired for its wide range of colors, including yellow, blue, pink, and brown. The most common variety is a lustrous golden-yellow. It has excellent transparency and often exhibits exceptional brilliance. Topaz can be found in various cuts, such as faceted, oval, pear, and cushion, showcasing its dazzling sparkle. The gemstone's hardness and durability, combined with its captivating color options, make it a popular and versatile choice for jewelry pieces that exude elegance and sophistication.",
-
-        "healing_factor": "Topaz is believed to have various healing properties. It is thought to enhance mental clarity, creativity, and self-expression. The gemstone is associated with promoting feelings of joy, abundance, and confidence, aiding in overcoming anxiety and stress. Topaz is believed to support the respiratory system and improve digestion. It is also considered a stone of love and good fortune, attracting positive energies and fostering emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
-
-        "img": "/static/images/topaz-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Topaz"
-    },
-
-    "Tourmaline": {
-        "name": "Tourmaline",
-
-        "description": "Tourmaline is a stunning gemstone known for its vast array of colors, ranging from vibrant hues like pink, green, blue, and yellow to rare shades like watermelon and bi-color combinations. The gem can be transparent to opaque and has a vitreous to resinous luster. It often exhibits beautiful pleochroism, showing different colors when viewed from different angles. With various cuts available, including faceted and cabochon, tourmaline's exquisite color variations and impressive brilliance make it a favored choice for fine jewelry designs.",
-
-        "healing_factor": "Tourmaline is believed to possess various healing properties. Different colors of tourmaline are associated with specific benefits, such as promoting love, compassion, and emotional healing for pink tourmaline, enhancing mental clarity and focus for blue tourmaline, and fostering courage and strength for green tourmaline. The gemstone is also thought to protect against negative energies and electromagnetic radiation. Additionally, tourmaline is believed to support the immune system, aid in detoxification, and promote overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
-
-        "img": "/static/images/tormaline-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Tourmaline"
-    },
-
-
-    "Turquoise": {
-        "name": "Turquoise",
-
-        "description": "Turquoise is a captivating gemstone admired for its stunning blue and green hues reminiscent of a clear sky or serene ocean. It often features a web-like pattern of brown or black veins known as matrix. The gemstone can vary in opacity from opaque to translucent, with a waxy to subvitreous luster. Turquoise is typically cut into various shapes, including cabochons and beads, showcasing its natural beauty. Its eye-catching color and smooth texture make it a popular choice for jewelry and ornamental pieces.",
-
-        "healing_factor": "Turquoise is believed to possess various healing properties. It is associated with promoting emotional balance, inner peace, and a sense of calmness. The gemstone is thought to enhance communication and self-expression, aiding in dispelling negative energies and fostering protection and healing. Turquoise is also considered beneficial for the respiratory system, supporting lung health. It is believed to provide solace for the mind and body, promoting overall well-being. However, these healing factors are based on traditional beliefs and not scientifically proven.",
-
-        "img": "/static/images/turquoise-gemstone.png",
-
-        "tag": "Gemstones",
-
-        "path": "Turquoise"
-    },
-
 
     "Charoite": {
         "name": "Charoite",
@@ -605,20 +643,6 @@ const gemstone = {
         "tag": "Gemstones",
 
         "path": "Unakite"
-    },
-
-    "Tanzanite": {
-        "name": "Tanzanite",
-
-        "description": "Tanzanite is a mesmerizing gemstone celebrated for its striking blue-violet hue, ranging from deep royal blue to lavender shades. The gemstone's vivid color is enhanced when viewed under different lighting conditions, revealing captivating pleochroism. Tanzanite typically has excellent transparency and a vitreous to oily luster. It is commonly found in faceted cuts, accentuating its brilliance and allure. This rare gem's alluring color and exceptional clarity make it a highly prized and sought-after choice for fine jewelry pieces.",
-
-        "healing_factor": "Tanzanite is believed to possess various healing properties. It is associated with promoting a sense of calmness and tranquility, helping to reduce stress and anxiety. The gemstone is thought to enhance spiritual awareness and intuition, encouraging a deeper connection with one's inner self. Tanzanite is also considered beneficial for the throat and third eye chakras, fostering clear communication and spiritual insight. It is believed to assist in releasing negative energy and encouraging emotional healing. However, these healing factors are based on traditional beliefs and not scientifically proven.",
-
-        "img": "/static/images/tanzanite.png",
-
-        "tag": "Gemstones",
-
-        "path": "Tanzanite"
     },
 }
 

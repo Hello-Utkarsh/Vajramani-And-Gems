@@ -142,6 +142,9 @@ const Navbar = () => {
                             <Link to="/Prasiolite">
                                 <li className='text-center p-1 max-[600px]:my-2'>Prasiolite</li>
                             </Link>
+                            <Link to="/Tigerseye">
+                                <li className='text-center p-1 max-[600px]:my-2'>Tiger's Eye</li>
+                            </Link>
                             <Link to="/Amethyst">
                                 <li className='text-center p-1 max-[600px]:my-2'>Amethyst</li>
                             </Link>
@@ -165,6 +168,11 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </ul>
+                    <Link to="/Birthstone">
+                        <h4 className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={show_more_data}>
+                            Birthstones
+                        </h4>
+                    </Link>
                     <Link to="/More">
                         <h4 className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={show_more_data}>
                             More
