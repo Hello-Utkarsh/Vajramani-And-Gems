@@ -10,7 +10,7 @@ const Home = () => {
       <div className='bg-black text-[#C07F00] bg-hero w-[100%] h-[100vh] bg-cover bg-left bg-no-repeat flex justify-start py-0 items-center max-[1000px]:bg-center max-[600px]:bg-hero2 max-[600px]:bg-left-top max-[450px]:bg-hero3'>
 
         <div className='w-[40%] ml-10 max-[700px]:w-[50%] max-[500px]:w-[65%] max-[380px]:w-[80%]' >
-          <h1 className='font-medium font-rubik text-6xl max-[380px]:text-[51px]'>
+          <h1 className='text-gray-300 font-medium font-rubik text-6xl max-[380px]:text-[51px]'>
             For the high-class look you always wanted
           </h1>
           <Link to="More">
@@ -40,24 +40,24 @@ const Home = () => {
       <div className='flex-col items-center w-[97%] m-auto my-20'>
         <h1 className='text-5xl text-center'>Available on our store</h1>
         <div className='flex flex-wrap w-[97%] justify-between ml-[3%] my-6'>
-          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left-bottom bg-[length:350px_350px] bg-no-repeat bg-ring max-[700px]:w-[280px] max-[700px]:mt-14 max-[570px]:w-[40%] max-[570px]:bg-center max-[570px]:bg-[length:200px_230px]'>
-            <h3 className='w-[100%] h-[100%] text-white pt-10 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100 max-[570px]:text-[13px]'>
-            <span className='font-medium text-[18px]'>Rings</span>: <br /><br />Indulge in the enchanting allure of our gemstone rings collection. Each ring is a masterpiece, showcasing nature's mesmerizing colors and captivating energies. Let these vibrant gems adorn your fingers, reflecting your personality and illuminating your beauty.
+          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left-bottom bg-[length:350px_350px] bg-no-repeat bg-ring max-[700px]:w-[280px] max-[700px]:bg-center max-[700px]:bg-[length:250px_280px] max-[700px]:mt-14 max-[600px]:w-[40%] max-[600px]:bg-right max-[600px]:bg-[length:200px_230px] max-[500px]:bg-left max-[650px]:h-[250px] max-[650px]:text-[13px] max-[450px]:text-[10px] max-[450px]:bg-[length:170px_200px]'>
+            <h3 className='w-[100%] h-[100%] text-white pt-10 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100'>
+            <span className='font-medium text-[18px] max-[500px]:text-[14px]'>Rings</span>: <br /><br />Indulge in the enchanting allure of our gemstone rings collection. Each ring is a masterpiece, showcasing nature's mesmerizing colors and captivating energies. Let these vibrant gems adorn your fingers, reflecting your personality and illuminating your beauty.
             </h3>
           </div>
-          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left bg-[length:350px_350px] bg-no-repeat bg-bracelet max-[700px]:w-[280px] max-[700px]:bg-center max-[700px]:mt-14 max-[570px]:w-[40%] max-[570px]:bg-center max-[570px]:bg-[length:200px_230px] max-[450px]:bg-[length:180px_200px]'>
-            <h3 className='w-[100%] h-[100%] text-white pt-4 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100 max-[570px]:text-[13px]'>
-              <span className='font-medium text-[18px]'>Bracelet</span>: <br /><br />Embrace the magic of nature's most enchanting treasures with our exquisite gemstone bracelets. Each bracelet is a symphony of colors and energies, carefully curated to captivate your senses and elevate your style. Adorn your wrist with the alluring charm of sapphires, the passionate glow of rubies, or the calming embrace of emeralds.
+          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left bg-[length:350px_350px] bg-no-repeat bg-bracelet max-[700px]:w-[280px] max-[700px]:bg-center max-[700px]:mt-14 max-[600px]:w-[40%] max-[600px]:bg-center max-[650px]:bg-[length:200px_230px] max-[600px]:h-[250px] max-[650px]:text-[13px] max-[450px]:text-[10px] max-[450px]:bg-[length:170px_200px]'>
+            <h3 className='w-[100%] h-[100%] text-white pt-4 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100'>
+              <span className='font-medium text-[18px] max-[500px]:text-[14px]'>Bracelet</span>: <br /><br />Embrace the magic of nature's most enchanting treasures with our exquisite gemstone bracelets. Each bracelet is a symphony of colors and energies, carefully curated to captivate your senses and elevate your style. Adorn your wrist with the alluring charm of sapphires, the passionate glow of rubies, or the calming embrace of emeralds.
             </h3>
           </div>
-          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left-bottom bg-[length:350px_350px] bg-no-repeat bg-necklace max-[700px]:w-[280px] max-[700px]:mt-6 max-[570px]:w-[40%] max-[570px]:bg-center max-[570px]:bg-[length:230px_280px]'>
-            <h3 className='w-[100%] h-[100%] text-white pt-14 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100 max-[570px]:text-[13px]'>
-            <span className='font-medium text-[18px]'>Necklace</span>: <br /><br />Indulge in the enchanting allure of our gemstone rings collection. Each ring is a masterpiece, showcasing nature's mesmerizing colors and captivating energies. Let these vibrant gems adorn your fingers, reflecting your personality and illuminating your beauty.
+          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left-bottom bg-[length:350px_350px] bg-no-repeat bg-necklace max-[700px]:w-[280px] max-[700px]:mt-6 max-[600px]:w-[40%] max-[600px]:bg-center max-[650px]:bg-[length:200px_230px] max-[600px]:h-[250px] max-[650px]:text-[13px] max-[450px]:text-[10px] max-[450px]:bg-left max-[450px]:bg-[length:160px_210px]'>
+            <h3 className='w-[100%] h-[100%] text-white pt-14 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100'>
+            <span className='font-medium text-[18px] max-[500px]:text-[14px]'>Necklace</span>: <br /><br />Indulge in the enchanting allure of our gemstone rings collection. Each ring is a masterpiece, showcasing nature's mesmerizing colors and captivating energies. Let these vibrant gems adorn your fingers, reflecting your personality and illuminating your beauty.
             </h3>
           </div>
-          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left bg-[length:350px_350px] bg-no-repeat bg-earings max-[700px]:w-[280px] max-[700px]:mt-6 max-[570px]:w-[40%] max-[570px]:bg-center max-[570px]:bg-[length:300px_350px]'>
-            <h3 className='w-[100%] h-[100%] text-white pt-14 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100 max-[570px]:text-[13px]'>
-            <span className='font-medium text-[18px]'>Earrings</span>: <br /><br />Indulge in the enchanting allure of our gemstone rings collection. Each ring is a masterpiece, showcasing nature's mesmerizing colors and captivating energies. Let these vibrant gems adorn your fingers, reflecting your personality and illuminating your beauty.
+          <div className=' flex justify-center text-center items-center w-[320px] h-[300px] m-auto mt-24 bg-left bg-[length:350px_350px] bg-no-repeat bg-earings max-[700px]:w-[280px] max-[700px]:mt-6 max-[570px]:w-[40%] max-[600px]:bg-center max-[570px]:bg-[length:280px_320px] max-[600px]:h-[250px] max-[650px]:text-[13px] max-[450px]:text-[10px] max-[450px]:bg-[length:250px_280px]'>
+            <h3 className='w-[100%] h-[100%] text-white pt-14 opacity-0 z-10 hover:opacity-100 backdrop-blur-[1px] max-[700px]:opacity-100'>
+            <span className='font-medium text-[18px] max-[500px]:text-[14px]'>Earrings</span>: <br /><br />Indulge in the enchanting allure of our gemstone rings collection. Each ring is a masterpiece, showcasing nature's mesmerizing colors and captivating energies. Let these vibrant gems adorn your fingers, reflecting your personality and illuminating your beauty.
             </h3>
           </div>
         </div>
@@ -65,9 +65,14 @@ const Home = () => {
       {/* Available things on store */}
 
       {/* Certified Section */}
-      <div className='flex mx-auto my-10'>
-        <h1 className='mx-auto text-5xl'>Certified By</h1>
-        <div className='flex'></div>
+      <div className='flex-col mx-auto my-10 bg-[#f0efea]'>
+        <h1 className='mx-auto text-center text-5xl pt-10 pb-4 text-black max-[450px]:text-4xl'>Certified By</h1>
+        <div className='flex justify-around items-center pt-6 pb-14 flex-wrap'>
+          <img className='w-52 max-[900px]:w-44 mt-2 max-[400px]:w-32' src="/static/images/GIA.png" alt="" />
+          <img className='w-52 max-[900px]:w-44 mt-2 max-[400px]:w-36' src="/static/images/GJEPC.png" alt="" />
+          <img className='w-60 h-32 max-[900px]:w-56 mt-4 max-[400px]:w-40 max-[400px]:h-16' src="/static/images/IGI-GTL.png" alt="" />
+          <img className='w-52 max-[900px]:w-44 mt-2 max-[400px]:w-36' src="/static/images/IGI.png" alt="" />
+        </div>
       </div>
       {/* Certified Section */}
 

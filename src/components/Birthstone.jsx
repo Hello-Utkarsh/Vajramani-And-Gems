@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import gemstone from '../database/db'
 import Gemcard from './Gemcard'
 
 const Birthstone = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      },[location.href])
 
     let more = Object.values(gemstone).filter((element) => {
         if (element.birthmonth) {
