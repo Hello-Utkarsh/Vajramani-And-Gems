@@ -9,8 +9,8 @@ const Home = () => {
       {/* Hero Section */}
       <div className='bg-black text-[#C07F00] bg-hero w-[100%] h-[100vh] bg-cover bg-left bg-no-repeat flex justify-start py-0 items-center max-[1000px]:bg-center max-[600px]:bg-hero2 max-[600px]:bg-left-top max-[450px]:bg-hero3'>
 
-        <div className='w-[40%] ml-10 max-[700px]:w-[50%] max-[500px]:w-[65%] max-[380px]:w-[80%]' >
-          <h1 className='text-gray-300 font-medium font-rubik text-6xl max-[380px]:text-[51px]'>
+        <div className='w-[40%] ml-8 max-[700px]:w-[50%] max-[500px]:w-[80%] max-[380px]:w-[100%]' >
+          <h1 className='text-slate-200 font-medium font-rubik text-6xl max-[380px]:text-[47px]'>
             For the high-class look you always wanted
           </h1>
           <Link to="More">

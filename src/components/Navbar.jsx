@@ -88,7 +88,7 @@ const Navbar = () => {
             </div>
             <div className='flex text-[#C07F00] item-center justify-center text-lg px-6 pb-3 max-[600px]:h-[100vh] max-[600px]:w-[50vw] max-[600px]:z-30 max-[600px]:hidden sidebar'>
 
-                <nav className='flex list-none w-[83%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
+                <nav className='flex list-none w-[83%] max-[750px]:w-[95%] justify-between h-12 items-center max-[600px]:flex-col max-[600px]:fixed max-[600px]:justify-around max-[600px]:items-start max-[600px]:w-[50vw] max-[600px]:h-fit max-[600px]:ml-10 max-[600px]:z-40 sidebar-content'>
                     <ul className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={dropdown}>
                         Chalcedony
                         <div className='rounded-xl text-[#37363d] hidden grid-cols-3 justify-around px-2 bg-[#FFD95A] -ml-32 mt-3 absolute w-fit dropdown-content max-[600px]:flex-col max-[600px]:ml-28 max-[600px]:bg-transparent max-[600px]:text-[#C07F00] max-[600px]:h-[100vh] max-[600px]:rounded-none max-[600px]:fixed max-[600px]:top-32 max-[600px]:w-36 max-[600px]:justify-start'>
