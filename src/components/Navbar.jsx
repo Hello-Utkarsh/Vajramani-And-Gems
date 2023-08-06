@@ -173,6 +173,11 @@ const Navbar = () => {
                             Birthstones
                         </h4>
                     </Link>
+                    <Link to="/Chakrastone">
+                        <h4 className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={show_more_data}>
+                            Chakrastones
+                        </h4>
+                    </Link>
                     <Link to="/More">
                         <h4 className='cursor-pointer hover-dropdown max-[600px]:my-3' onClick={show_more_data}>
                             More

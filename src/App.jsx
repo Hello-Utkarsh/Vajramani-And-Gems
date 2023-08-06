@@ -12,6 +12,7 @@ import NoPage from './components/NoPage'
 import More from './components/More'
 import GemCare from './components/GemCare'
 import Birthstone from './components/Birthstone'
+import Chakrastone from './components/Chakrastone'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' index element={<Home />} />
           <Route path={'More'} element={<More/>} />
           <Route path={'Birthstone'} element={<Birthstone/>} />
+          <Route path={'Chakrastone'} element={<Chakrastone/>} />
           <Route path={'More_on_Gemstone'} element={<GemCare/>} />
 
           {/* Chalcedony */}

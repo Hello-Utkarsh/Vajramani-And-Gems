@@ -29,7 +29,9 @@ const gemstone = {
 
         "path" : "Amethyst",
 
-        "birthmonth": "Feburary"
+        "birthmonth": "Feburary",
+
+        "chakra": "Third Eye / Ajna, Crown / Sahasrara"
     },
 
     "Aquamarine": {
@@ -45,7 +47,9 @@ const gemstone = {
 
         "path" : "Aquamarine",
 
-        "birthmonth": "March"
+        "birthmonth": "March",
+
+        "chakra": "Throat / Vishuddi"
     },
 
     "Emerald": {
@@ -77,7 +81,9 @@ const gemstone = {
 
         "path": "Moonstone",
 
-        "birthmonth": "June"
+        "birthmonth": "June",
+
+        "chakar": "Sacral/Svadisthana"
     },
 
     "Ruby": {
@@ -157,7 +163,9 @@ const gemstone = {
 
         "path" : "Citrine",
 
-        "birthmonth": "November"
+        "birthmonth": "November",
+
+        "chakar": "Sacral/Svadisthana, Solar plexus/Manipura"
     },
 
     "Topaz": {
@@ -173,7 +181,9 @@ const gemstone = {
 
         "path": "Topaz",
 
-        "birthmonth": "November"
+        "birthmonth": "November",
+
+        "chakra": "Solar plexus/Manipura"
     },
 
     "Turquoise": {
@@ -189,7 +199,9 @@ const gemstone = {
 
         "path": "Turquoise",
 
-        "birthmonth": "December"
+        "birthmonth": "December",
+
+        "chakra": "Throat / Vishuddi"
     },
 
     "Tanzanite": {
@@ -219,7 +231,9 @@ const gemstone = {
 
         "tag": "Chalcedony",
 
-        "path" : "Carnelian"
+        "path" : "Carnelian",
+
+        "chakar": "Sacral/Svadisthana"
     },
 
     "Black Chalcedony": {
@@ -275,7 +289,9 @@ const gemstone = {
 
         "tag": "Chalcedony",
 
-        "path" : "Agate"
+        "path" : "Agate",
+
+        "chakar": "Root/Muladhar"
     },
 
     "Dendritic Agate Chalcedony": {
@@ -289,7 +305,9 @@ const gemstone = {
 
         "tag": "Chalcedony",
 
-        "path" : "DendriticAgate"
+        "path" : "DendriticAgate",
+
+        "chakar": "Root/Muladhar"
     },
 
     "Moss Agate": {
@@ -303,7 +321,9 @@ const gemstone = {
 
         "tag": "Chalcedony",
 
-        "path" : "MossAgate"
+        "path" : "MossAgate",
+
+        "chakar": "Root/Muladhar"
     },
 
     "Onyx": {
@@ -401,7 +421,9 @@ const gemstone = {
 
         "tag": "Quartz",
 
-        "path" : "Rose"
+        "path" : "Rose",
+
+        "chakra": "Heart/Anahata"
     },
 
     "Smoky": {
@@ -429,7 +451,11 @@ const gemstone = {
 
         "tag": "Quartz",
 
-        "path": "Tigerseye"
+        "path": "Tigerseye",
+
+        "chakar": "Root/Muladhar",
+
+        "chakar": "Sacral/Svadisthana"
     },
 
     "Aventurine": {
@@ -443,7 +469,9 @@ const gemstone = {
 
         "tag": "Quartz",
 
-        "path" : "Aventurine"
+        "path" : "Aventurine",
+
+        "chakra": "Crown / Sahasrara"
     },
 
     "Rubellite": {
@@ -485,7 +513,9 @@ const gemstone = {
 
         "tag": "Gemstones",
 
-        "path": "Watermelon"
+        "path": "Watermelon",
+
+        "chakra": "Heart/Anahata"
     },
 
     "Labradorite": {
@@ -541,7 +571,9 @@ const gemstone = {
 
         "tag": "Gemstones",
 
-        "path": "LapisLazuli"
+        "path": "LapisLazuli",
+
+        "chakra": "Throat / Vishuddi, Third Eye / Ajna"
     },
 
     "Cats eye": {
@@ -569,7 +601,9 @@ const gemstone = {
 
         "tag": "Gemstones",
 
-        "path": "Malachite"
+        "path": "Malachite",
+
+        "chakra": "Solar plexus/Manipura"
     },
 
     "BlackOpal": {
