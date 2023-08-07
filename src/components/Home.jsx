@@ -7,27 +7,27 @@ const Home = () => {
     <div className='bg-black text-[#C07F00]'>
 
       {/* Hero Section */}
-      <div className='bg-black text-[#C07F00] bg-hero w-[100%] h-[100vh] bg-cover bg-left bg-no-repeat flex justify-start py-0 items-center max-[1000px]:bg-center max-[600px]:bg-hero2 max-[600px]:bg-left-top max-[450px]:bg-hero3'>
-
-        <div className='w-[40%] ml-8 max-[700px]:w-[50%] max-[500px]:w-[80%] max-[380px]:w-[100%]' >
-          <h1 className='text-slate-200 font-medium font-rubik text-6xl max-[380px]:text-[47px]'>
+      <div className='bg-black text-[#C07F00] bg-hero  bg-center bg-cover w-[100%]  h-[100vh] bg-no-repeat flex justify-start py-0 items-center max-[900px]:bg-[length:1000px_900px] max-[900px]:bg-left max-[700px]:bg-[length:900px_900px] max-[600px]:bg-center max-[600px]:bg-[length:800px_100%] max-[450px]:h-[80vh] '>
+        <div className='w-[45%] ml-8 max-[700px]:w-[50%] max-[600px]:w-[60%] max-[600px]:backdrop-blur-sm max-[500px]:w-[80%] max-[380px]:w-[100%]' >
+          <h1 className='text-white font-medium font-rubik text-6xl  max-[450px]:text-[47px]'>
             For the high-class look you always wanted
           </h1>
           <Link to="More">
             <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-9 w-24   max-[790px]:text-lg mt-5'>Browse</button>
           </Link>
         </div>
+        {/* <img className='w-[45%]' src="/static/images/pexels-superlens-photography-13595802.jpg" alt="" /> */}
       </div>
       {/* Hero Section */}
 
       {/* Gemstone Intro */}
       <div className='flex-col items-center w-[86%] m-auto mt-28'>
-        <h1 className='text-5xl text-center'>What so special about Gemstones</h1>
-        <div className=' flex justify-around w-[100%] m-auto mt-20 max-[800px]:flex-col max-[800px]:item-center'>
+        <h1 className='text-5xl text-center max-[450px]:text-[40px]'>What so special about Gemstones</h1>
+        <div className=' flex justify-around w-[100%] m-auto mt-20 max-[800px]:flex-col max-[800px]:item-center '>
           <div className='flex-col'>
-            <h3 className='w-[70%] text-[#BACCD1] text-lg max-[800px]:text-base max-[800px]:m-auto max-[800px]:text-center max-[800px]:w-[80%] '>Gemstones offer a range of benefits, both culturally and spiritually. They adorn jewelry and decorative items, enhancing aesthetics and personal style. Many believe gemstones possess healing properties, promoting physical and emotional well-being. Some stones are thought to balance energies and protect against negativity. Used in meditation and spiritual practices, they aid focus and intuition. Linked to zodiac signs and birth months, they bring good luck and symbolic meanings. Gemstones hold deep cultural significance, offering a source of inspiration, creativity, and spirituality to those who cherish their unique properties.<br />Know more on cleaning and keeping gemstone properly</h3>
+            <h3 className='w-[70%] text-[#BACCD1] text-lg max-[800px]:text-base max-[800px]:m-auto max-[800px]:text-center max-[800px]:w-[80%] max-[450px]:text-[15px] max-[450px]:w-[90%]'>Gemstones offer a range of benefits, both culturally and spiritually. They adorn jewelry and decorative items, enhancing aesthetics and personal style. Many believe gemstones possess healing properties, promoting physical and emotional well-being. Some stones are thought to balance energies and protect against negativity. Used in meditation and spiritual practices, they aid focus and intuition. Linked to zodiac signs and birth months, they bring good luck and symbolic meanings. Gemstones hold deep cultural significance, offering a source of inspiration, creativity, and spirituality to those who cherish their unique properties.<br />Know more on cleaning and keeping gemstone properly</h3>
             <Link to="More_on_Gemstone">
-              <button className='bg-[#e3874f] max-[800px]:ml-[40%] text-[#37363e] rounded-xl text-center text-xl h-9 w-24 max-[790px]:text-lg mt-5'>Browse</button>
+              <button className='bg-[#e3874f] max-[800px]:ml-[40%] text-[#37363e] rounded-xl text-center text-xl h-9 w-24 max-[790px]:text-lg mt-6'>Browse</button>
             </Link>
           </div>
           <img className='w-80 h-[450px] -mt-20 max-[1300px]:-mt-10 max-[800px]:mx-auto max-[800px]:-mt-0' src="/static/images/gemstone collection.png" alt="" />
