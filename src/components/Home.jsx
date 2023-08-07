@@ -8,12 +8,12 @@ const Home = () => {
 
       {/* Hero Section */}
       <div className='bg-black text-[#C07F00] bg-hero  bg-center bg-cover w-[100%]  h-[100vh] bg-no-repeat flex justify-start py-0 items-center max-[900px]:bg-[length:1000px_900px] max-[900px]:bg-left max-[700px]:bg-[length:900px_900px] max-[600px]:bg-center max-[600px]:bg-[length:800px_100%] max-[450px]:h-[80vh] '>
-        <div className='w-[45%] ml-8 max-[700px]:w-[50%] max-[600px]:w-[100%] max-[600px]:backdrop-blur-sm max-[500px]:w-[100%] max-[380px]:w-[100%] max-[450px]:mt-20' >
-          <h1 className='text-white font-medium font-rubik text-6xl  max-[450px]:text-[47px]'>
+        <div className='w-[45%] ml-8 max-[700px]:w-[50%] max-[600px]:ml-0 max-[600px]:w-[100%] max-[600px]:backdrop-blur-sm max-[500px]:w-[100%] max-[380px]:w-[100%] max-[450px]:mt-20' >
+          <h1 className='text-white font-medium font-rubik text-6xl max-[600px]:px-8 max-[450px]:text-[47px]'>
             For the high-class look you always wanted
           </h1>
           <Link to="More">
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-9 w-24   max-[790px]:text-lg mt-5'>Browse</button>
+            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-9 w-24  max-[600px]:mx-8  max-[790px]:text-lg mt-5'>Browse</button>
           </Link>
         </div>
         {/* <img className='w-[45%]' src="/static/images/pexels-superlens-photography-13595802.jpg" alt="" /> */}
