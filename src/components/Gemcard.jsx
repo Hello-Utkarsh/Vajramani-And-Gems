@@ -4,9 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 const Gemcard = (props) => {
 
   let a = useLocation()
-  console.log(a)
   let data = props.data
-  console.log(data)
 
   return (
     <Link to={`/${data.path}`}>

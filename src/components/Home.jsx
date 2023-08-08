@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[location.href])
 
   return (
     <div className='bg-black text-[#C07F00]'>
@@ -16,7 +20,6 @@ const Home = () => {
             <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-9 w-24  max-[600px]:mx-8  max-[790px]:text-lg mt-5'>Browse</button>
           </Link>
         </div>
-        {/* <img className='w-[45%]' src="/static/images/pexels-superlens-photography-13595802.jpg" alt="" /> */}
       </div>
       {/* Hero Section */}
 
@@ -27,7 +30,7 @@ const Home = () => {
           <div className='flex-col'>
             <h3 className='w-[70%] text-[#BACCD1] text-lg max-[800px]:text-base max-[800px]:m-auto max-[800px]:text-center max-[800px]:w-[80%] max-[450px]:text-[15px] max-[450px]:w-[90%]'>Gemstones offer a range of benefits, both culturally and spiritually. They adorn jewelry and decorative items, enhancing aesthetics and personal style. Many believe gemstones possess healing properties, promoting physical and emotional well-being. Some stones are thought to balance energies and protect against negativity. Used in meditation and spiritual practices, they aid focus and intuition. Linked to zodiac signs and birth months, they bring good luck and symbolic meanings. Gemstones hold deep cultural significance, offering a source of inspiration, creativity, and spirituality to those who cherish their unique properties.<br />Know more on cleaning and keeping gemstone properly</h3>
             <Link to="More_on_Gemstone">
-              <button className='bg-[#e3874f] max-[800px]:ml-[40%] text-[#37363e] rounded-xl text-center text-xl h-9 w-24 max-[790px]:text-lg mt-6'>Browse</button>
+              <button className='bg-[#e3874f] max-[800px]:ml-[40%] text-[#37363e] rounded-xl text-center text-xl h-9 w-24 max-[790px]:text-lg mt-6 max-[450px]:ml-[36%] max-[380px]:ml-[32%]'>Gemcare</button>
             </Link>
           </div>
           <img className='w-80 h-[450px] -mt-20 max-[1300px]:-mt-10 max-[800px]:mx-auto max-[800px]:-mt-0' src="/static/images/gemstone collection.png" alt="" />
@@ -75,30 +78,6 @@ const Home = () => {
         </div>
       </div>
       {/* Certified Section */}
-
-
-      {/* Categories: Birth Stones and Chakras */}
-
-      {/* <div className='flex flex-wrap h-[80vh] my-4 text-white w-[100%] justify-around items-center m-auto p-8'>
-
-        <div className='flex justify-center items-center w-[50%] cursor-pointer h-[100%] hover:opacity-80'>
-          <img className='z-0 absolute h-[75%] w-[32vw] opacity-70' src={"src/assets/birthstones3.jpg"} alt="" />
-          <div className='z-10 flex h-[42%] flex-col justify-around items-center w-[58%]'>
-            <h1 className='text-3xl text-center'>Choose your jewellery according to your birth month</h1>
-            <button className='bg-black h-14 w-28 rounded-2xl text-xl transition duration-300 hover:-translate-y-2'>Browse</button>
-          </div>
-        </div>
-
-        <div className='flex justify-center items-center w-[50%] cursor-pointer h-[100%] hover:opacity-80'>
-          <img className='z-0 absolute h-[75%] w-[32vw] opacity-70' src={"src/assets/birthstones3.jpg"} alt="" />
-          <div className='z-10 flex h-[42%] flex-col justify-around items-center w-[55%]'>
-            <h1 className='text-3xl text-center'>Choose your jewellery according to The Chakras</h1>
-            <button className='bg-black h-14 w-28 rounded-2xl text-xl transition duration-300 hover:-translate-y-2'>Browse</button>
-          </div>
-        </div>
-        
-      </div> */}
-
     </div>
   )
 }

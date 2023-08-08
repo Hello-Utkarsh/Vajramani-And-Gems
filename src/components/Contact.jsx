@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -26,10 +27,18 @@ const Contact = () => {
         <div className='mr-24 flex flex-col items-center justify-center font-semibold   max-lg:mr-20 max-[790px]:mr-0'>
           <h4 className='text-2xl mt-6 mb-2 text-center   max-lg:mt-12 max-[550px]:text-xl'>Browse our top categories</h4>
           <div className='grid grid-cols-4 w-[45vw] justify-around place-items-center    max-lg:grid-cols-2 max-lg:w-[35vw] max-[790px]:grid-cols-4 max-[790px]:w-[80vw] max-[600px]:grid-cols-2 max-[600px]:w-64'>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24  max-[550px]:text-base'>Categories</button>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24  max-[550px]:text-base'>Categories</button>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24  max-[550px]:text-base'>Categories</button>
-            <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24 max-[550px]:text-base'>Categories</button>
+            <Link to="/Birthstone">
+              <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-32   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24  max-[550px]:text-base'>Birthstones</button>
+            </Link>
+            <Link to="/Chakrastone">
+              <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-32   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24  max-[550px]:text-base'>Chakrastone</button>
+            </Link>
+            <Link to="/Citrine">
+              <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-24   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24  max-[550px]:text-base'>Cirtine</button>
+            </Link>
+            <Link to="/Aventurine">
+              <button className='bg-[#e3874f] text-[#37363e] rounded-xl text-center text-xl h-10 w-28   max-[790px]:text-lg mt-5 max-[550px]:h-9 max-[550px]:w-24 max-[550px]:text-base'>Aventurine</button>
+            </Link>
           </div>
         </div>
       </div>

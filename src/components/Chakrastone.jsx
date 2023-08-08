@@ -13,7 +13,6 @@ const Chakrastone = () => {
             return element
         }
     })
-    console.log(more)
 
     return (
         <div className='bg-black pt-48'>

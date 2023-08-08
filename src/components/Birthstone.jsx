@@ -13,8 +13,7 @@ const Birthstone = () => {
             return element
         }
     })
-    console.log(more)
-
+    
     return (
         <div className='bg-black pt-48'>
             <h1 className='text-[#e3874f] text-center m-auto text-4xl max-[600px]:text-3xl'>What are Birthstones</h1>

@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const GemCare = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      },[location.href])
+
+
     return (
         <div className='bg-black text-[#BACCD1] pt-48'>
             <div className='flex-col items-center justify-center '>
